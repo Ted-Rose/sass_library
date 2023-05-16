@@ -18,6 +18,10 @@ npm install gulp-sass gulp-cssbeautify --save-dev
 ```
 
 ```
+npm install gulp-purgecss
+```
+
+```
 gulp
 ```
 

@@ -3010,7 +3010,7 @@ img {
 
 .card {
     display: block;
-    padding: .55rem;
+    padding: 4px;
     border: 3px solid #ddd;
     box-shadow: 1px 3px 5px rgba(0,0,0,.1);
     border-radius: 5px
@@ -3018,7 +3018,7 @@ img {
 
 .card .card-title {
     font-size: 14px;
-    padding-bottom: .55rem;
+    padding-bottom: 4px;
     font-weight: bold
 }
 
@@ -3035,7 +3035,7 @@ img {
     cursor: pointer;
     display: inline-block;
     border: 0;
-    padding: .55rem 1.1rem;
+    padding: 4px 8px;
     border-radius: 20px;
     background-color: #e2e2e2
 }
@@ -3045,7 +3045,7 @@ img {
     cursor: pointer;
     display: inline-block;
     border: 0;
-    padding: .55rem 1.1rem;
+    padding: 4px 8px;
     border-radius: 20px;
     background-color: #326dee
 }
@@ -3059,7 +3059,7 @@ img {
     cursor: pointer;
     display: inline-block;
     border: 0;
-    padding: .55rem 1.1rem;
+    padding: 4px 8px;
     border-radius: 20px;
     background-color: #fff;
     border: 3px solid #326dee
@@ -3074,7 +3074,7 @@ img {
     cursor: pointer;
     display: inline-block;
     border: 0;
-    padding: .55rem 1.1rem;
+    padding: 4px 8px;
     border-radius: 20px;
     background-color: #326dee;
     color: #fae7bf
@@ -3090,7 +3090,7 @@ img {
     cursor: pointer;
     display: inline-block;
     border: 0;
-    padding: .55rem 1.1rem;
+    padding: 4px 8px;
     border-radius: 20px;
     background-color: indigo
 }
@@ -3104,7 +3104,7 @@ img {
     cursor: pointer;
     display: inline-block;
     border: 0;
-    padding: .55rem 1.1rem;
+    padding: 4px 8px;
     border-radius: 20px;
     background-color: #fff;
     border: 3px solid indigo
@@ -3119,7 +3119,7 @@ img {
     cursor: pointer;
     display: inline-block;
     border: 0;
-    padding: .55rem 1.1rem;
+    padding: 4px 8px;
     border-radius: 20px;
     background-color: indigo;
     color: #7cff1c
@@ -3135,7 +3135,7 @@ img {
     cursor: pointer;
     display: inline-block;
     border: 0;
-    padding: .55rem 1.1rem;
+    padding: 4px 8px;
     border-radius: 20px;
     background-color: #d32752
 }
@@ -3149,7 +3149,7 @@ img {
     cursor: pointer;
     display: inline-block;
     border: 0;
-    padding: .55rem 1.1rem;
+    padding: 4px 8px;
     border-radius: 20px;
     background-color: #fff;
     border: 3px solid #d32752
@@ -3164,7 +3164,7 @@ img {
     cursor: pointer;
     display: inline-block;
     border: 0;
-    padding: .55rem 1.1rem;
+    padding: 4px 8px;
     border-radius: 20px;
     background-color: #d32752;
     color: #a5eedc
@@ -3180,7 +3180,7 @@ img {
     cursor: pointer;
     display: inline-block;
     border: 0;
-    padding: .55rem 1.1rem;
+    padding: 4px 8px;
     border-radius: 20px;
     background-color: #f6c31c
 }
@@ -3194,7 +3194,7 @@ img {
     cursor: pointer;
     display: inline-block;
     border: 0;
-    padding: .55rem 1.1rem;
+    padding: 4px 8px;
     border-radius: 20px;
     background-color: #fff;
     border: 3px solid #f6c31c
@@ -3209,7 +3209,7 @@ img {
     cursor: pointer;
     display: inline-block;
     border: 0;
-    padding: .55rem 1.1rem;
+    padding: 4px 8px;
     border-radius: 20px;
     background-color: #f6c31c;
     color: #afc1fc
@@ -3225,7 +3225,7 @@ img {
     cursor: pointer;
     display: inline-block;
     border: 0;
-    padding: .55rem 1.1rem;
+    padding: 4px 8px;
     border-radius: 20px;
     background-color: #1919e6
 }
@@ -3239,7 +3239,7 @@ img {
     cursor: pointer;
     display: inline-block;
     border: 0;
-    padding: .55rem 1.1rem;
+    padding: 4px 8px;
     border-radius: 20px;
     background-color: #fff;
     border: 3px solid #1919e6
@@ -3254,7 +3254,7 @@ img {
     cursor: pointer;
     display: inline-block;
     border: 0;
-    padding: .55rem 1.1rem;
+    padding: 4px 8px;
     border-radius: 20px;
     background-color: #1919e6;
     color: #f5f5a3
@@ -3270,7 +3270,7 @@ img {
     cursor: pointer;
     display: inline-block;
     border: 0;
-    padding: .55rem 1.1rem;
+    padding: 4px 8px;
     border-radius: 20px;
     background-color: #e61919
 }
@@ -3284,7 +3284,7 @@ img {
     cursor: pointer;
     display: inline-block;
     border: 0;
-    padding: .55rem 1.1rem;
+    padding: 4px 8px;
     border-radius: 20px;
     background-color: #fff;
     border: 3px solid #e61919
@@ -3299,7 +3299,7 @@ img {
     cursor: pointer;
     display: inline-block;
     border: 0;
-    padding: .55rem 1.1rem;
+    padding: 4px 8px;
     border-radius: 20px;
     background-color: #e61919;
     color: #a3f5f5
@@ -3315,7 +3315,7 @@ img {
     cursor: pointer;
     display: inline-block;
     border: 0;
-    padding: .55rem 1.1rem;
+    padding: 4px 8px;
     border-radius: 20px;
     background-color: #e6e619
 }
@@ -3329,7 +3329,7 @@ img {
     cursor: pointer;
     display: inline-block;
     border: 0;
-    padding: .55rem 1.1rem;
+    padding: 4px 8px;
     border-radius: 20px;
     background-color: #fff;
     border: 3px solid #e6e619
@@ -3344,7 +3344,7 @@ img {
     cursor: pointer;
     display: inline-block;
     border: 0;
-    padding: .55rem 1.1rem;
+    padding: 4px 8px;
     border-radius: 20px;
     background-color: #e6e619;
     color: #a3a3f5
@@ -3360,7 +3360,7 @@ img {
     cursor: pointer;
     display: inline-block;
     border: 0;
-    padding: .55rem 1.1rem;
+    padding: 4px 8px;
     border-radius: 20px;
     background-color: #19e635
 }
@@ -3374,7 +3374,7 @@ img {
     cursor: pointer;
     display: inline-block;
     border: 0;
-    padding: .55rem 1.1rem;
+    padding: 4px 8px;
     border-radius: 20px;
     background-color: #fff;
     border: 3px solid #19e635
@@ -3389,7 +3389,7 @@ img {
     cursor: pointer;
     display: inline-block;
     border: 0;
-    padding: .55rem 1.1rem;
+    padding: 4px 8px;
     border-radius: 20px;
     background-color: #19e635;
     color: #f5a3ea
@@ -3405,7 +3405,7 @@ img {
     cursor: pointer;
     display: inline-block;
     border: 0;
-    padding: .55rem 1.1rem;
+    padding: 4px 8px;
     border-radius: 20px;
     background-color: #ffa600
 }
@@ -3419,7 +3419,7 @@ img {
     cursor: pointer;
     display: inline-block;
     border: 0;
-    padding: .55rem 1.1rem;
+    padding: 4px 8px;
     border-radius: 20px;
     background-color: #fff;
     border: 3px solid #ffa600
@@ -3434,7 +3434,7 @@ img {
     cursor: pointer;
     display: inline-block;
     border: 0;
-    padding: .55rem 1.1rem;
+    padding: 4px 8px;
     border-radius: 20px;
     background-color: #ffa600;
     color: #99bdff
@@ -3450,7 +3450,7 @@ img {
     cursor: pointer;
     display: inline-block;
     border: 0;
-    padding: .55rem 1.1rem;
+    padding: 4px 8px;
     border-radius: 20px;
     background-color: #90f
 }
@@ -3464,7 +3464,7 @@ img {
     cursor: pointer;
     display: inline-block;
     border: 0;
-    padding: .55rem 1.1rem;
+    padding: 4px 8px;
     border-radius: 20px;
     background-color: #fff;
     border: 3px solid #90f
@@ -3479,7 +3479,7 @@ img {
     cursor: pointer;
     display: inline-block;
     border: 0;
-    padding: .55rem 1.1rem;
+    padding: 4px 8px;
     border-radius: 20px;
     background-color: #90f;
     color: #c2ff99
@@ -3495,7 +3495,7 @@ img {
     cursor: pointer;
     display: inline-block;
     border: 0;
-    padding: .55rem 1.1rem;
+    padding: 4px 8px;
     border-radius: 20px;
     background-color: gray
 }
@@ -3509,7 +3509,7 @@ img {
     cursor: pointer;
     display: inline-block;
     border: 0;
-    padding: .55rem 1.1rem;
+    padding: 4px 8px;
     border-radius: 20px;
     background-color: #fff;
     border: 3px solid gray
@@ -3524,7 +3524,7 @@ img {
     cursor: pointer;
     display: inline-block;
     border: 0;
-    padding: .55rem 1.1rem;
+    padding: 4px 8px;
     border-radius: 20px;
     background-color: gray;
     color: #cdcdcd
@@ -3540,7 +3540,7 @@ img {
     cursor: pointer;
     display: inline-block;
     border: 0;
-    padding: .55rem 1.1rem;
+    padding: 4px 8px;
     border-radius: 20px;
     background-color: #000
 }
@@ -3554,7 +3554,7 @@ img {
     cursor: pointer;
     display: inline-block;
     border: 0;
-    padding: .55rem 1.1rem;
+    padding: 4px 8px;
     border-radius: 20px;
     background-color: #fff;
     border: 3px solid #000
@@ -3569,7 +3569,7 @@ img {
     cursor: pointer;
     display: inline-block;
     border: 0;
-    padding: .55rem 1.1rem;
+    padding: 4px 8px;
     border-radius: 20px;
     background-color: #000;
     color: #4d4d4d
@@ -3585,7 +3585,7 @@ img {
     cursor: pointer;
     display: inline-block;
     border: 0;
-    padding: .55rem 1.1rem;
+    padding: 4px 8px;
     border-radius: 20px;
     background-color: #fff
 }
@@ -3599,7 +3599,7 @@ img {
     cursor: pointer;
     display: inline-block;
     border: 0;
-    padding: .55rem 1.1rem;
+    padding: 4px 8px;
     border-radius: 20px;
     background-color: #fff;
     border: 3px solid #fff
@@ -3614,7 +3614,7 @@ img {
     cursor: pointer;
     display: inline-block;
     border: 0;
-    padding: .55rem 1.1rem;
+    padding: 4px 8px;
     border-radius: 20px;
     background-color: #fff;
     color: #fff
@@ -3634,7 +3634,7 @@ img {
 }
 
 .navbar,.navbar-white,.navbar-black,.navbar-gray,.navbar-purple,.navbar-orange,.navbar-green,.navbar-yellow,.navbar-red,.navbar-blue,.navbar-info,.navbar-error,.navbar-secondary,.navbar-primary {
-    padding: .55rem 1.1rem;
+    padding: 4px 8px;
     box-shadow: 1px 3px 5px rgba(0,0,0,.1)
 }
 
@@ -3697,7 +3697,7 @@ img {
 .badge {
     border-radius: 80px;
     background-color: #f6c31c;
-    padding: .1375rem .275rem;
+    padding: 1px 2px;
     font-size: 10.5px;
     font-weight: normal
 }
@@ -3705,7 +3705,7 @@ img {
 .badge-primary {
     border-radius: 80px;
     background-color: #326dee;
-    padding: .1375rem .275rem;
+    padding: 1px 2px;
     font-size: 10.5px;
     font-weight: normal
 }
@@ -3713,7 +3713,7 @@ img {
 .badge-secondary {
     border-radius: 80px;
     background-color: indigo;
-    padding: .1375rem .275rem;
+    padding: 1px 2px;
     font-size: 10.5px;
     font-weight: normal
 }
@@ -3721,7 +3721,7 @@ img {
 .badge-error {
     border-radius: 80px;
     background-color: #d32752;
-    padding: .1375rem .275rem;
+    padding: 1px 2px;
     font-size: 10.5px;
     font-weight: normal
 }
@@ -3729,7 +3729,7 @@ img {
 .badge-info {
     border-radius: 80px;
     background-color: #f6c31c;
-    padding: .1375rem .275rem;
+    padding: 1px 2px;
     font-size: 10.5px;
     font-weight: normal
 }
@@ -3737,7 +3737,7 @@ img {
 .badge-blue {
     border-radius: 80px;
     background-color: #1919e6;
-    padding: .1375rem .275rem;
+    padding: 1px 2px;
     font-size: 10.5px;
     font-weight: normal
 }
@@ -3745,7 +3745,7 @@ img {
 .badge-red {
     border-radius: 80px;
     background-color: #e61919;
-    padding: .1375rem .275rem;
+    padding: 1px 2px;
     font-size: 10.5px;
     font-weight: normal
 }
@@ -3753,7 +3753,7 @@ img {
 .badge-yellow {
     border-radius: 80px;
     background-color: #e6e619;
-    padding: .1375rem .275rem;
+    padding: 1px 2px;
     font-size: 10.5px;
     font-weight: normal
 }
@@ -3761,7 +3761,7 @@ img {
 .badge-green {
     border-radius: 80px;
     background-color: #19e635;
-    padding: .1375rem .275rem;
+    padding: 1px 2px;
     font-size: 10.5px;
     font-weight: normal
 }
@@ -3769,7 +3769,7 @@ img {
 .badge-orange {
     border-radius: 80px;
     background-color: #ffa600;
-    padding: .1375rem .275rem;
+    padding: 1px 2px;
     font-size: 10.5px;
     font-weight: normal
 }
@@ -3777,7 +3777,7 @@ img {
 .badge-purple {
     border-radius: 80px;
     background-color: #90f;
-    padding: .1375rem .275rem;
+    padding: 1px 2px;
     font-size: 10.5px;
     font-weight: normal
 }
@@ -3785,7 +3785,7 @@ img {
 .badge-gray {
     border-radius: 80px;
     background-color: gray;
-    padding: .1375rem .275rem;
+    padding: 1px 2px;
     font-size: 10.5px;
     font-weight: normal
 }
@@ -3793,7 +3793,7 @@ img {
 .badge-black {
     border-radius: 80px;
     background-color: #000;
-    padding: .1375rem .275rem;
+    padding: 1px 2px;
     font-size: 10.5px;
     font-weight: normal
 }
@@ -3801,7 +3801,7 @@ img {
 .badge-white {
     border-radius: 80px;
     background-color: #fff;
-    padding: .1375rem .275rem;
+    padding: 1px 2px;
     font-size: 10.5px;
     font-weight: normal
 }
@@ -3811,23 +3811,23 @@ img {
 }
 
 .p-1 {
-    padding: .55rem
+    padding: 4px
 }
 
 .p-2 {
-    padding: 1.1rem
+    padding: 8px
 }
 
 .p-3 {
-    padding: 2.2rem
+    padding: 12px
 }
 
 .p-4 {
-    padding: 3.3rem
+    padding: 16px
 }
 
 .p-5 {
-    padding: 4.4rem
+    padding: 20px
 }
 
 .pl-0 {
@@ -3835,23 +3835,23 @@ img {
 }
 
 .pl-1 {
-    padding-left: .55rem
+    padding-left: 4px
 }
 
 .pl-2 {
-    padding-left: 1.1rem
+    padding-left: 8px
 }
 
 .pl-3 {
-    padding-left: 2.2rem
+    padding-left: 12px
 }
 
 .pl-4 {
-    padding-left: 3.3rem
+    padding-left: 16px
 }
 
 .pl-5 {
-    padding-left: 4.4rem
+    padding-left: 20px
 }
 
 .pr-0 {
@@ -3859,23 +3859,23 @@ img {
 }
 
 .pr-1 {
-    padding-right: .55rem
+    padding-right: 4px
 }
 
 .pr-2 {
-    padding-right: 1.1rem
+    padding-right: 8px
 }
 
 .pr-3 {
-    padding-right: 2.2rem
+    padding-right: 12px
 }
 
 .pr-4 {
-    padding-right: 3.3rem
+    padding-right: 16px
 }
 
 .pr-5 {
-    padding-right: 4.4rem
+    padding-right: 20px
 }
 
 .pt-0 {
@@ -3883,23 +3883,23 @@ img {
 }
 
 .pt-1 {
-    padding-top: .55rem
+    padding-top: 4px
 }
 
 .pt-2 {
-    padding-top: 1.1rem
+    padding-top: 8px
 }
 
 .pt-3 {
-    padding-top: 2.2rem
+    padding-top: 12px
 }
 
 .pt-4 {
-    padding-top: 3.3rem
+    padding-top: 16px
 }
 
 .pt-5 {
-    padding-top: 4.4rem
+    padding-top: 20px
 }
 
 .pb-0 {
@@ -3907,23 +3907,23 @@ img {
 }
 
 .pb-1 {
-    padding-bottom: .55rem
+    padding-bottom: 4px
 }
 
 .pb-2 {
-    padding-bottom: 1.1rem
+    padding-bottom: 8px
 }
 
 .pb-3 {
-    padding-bottom: 2.2rem
+    padding-bottom: 12px
 }
 
 .pb-4 {
-    padding-bottom: 3.3rem
+    padding-bottom: 16px
 }
 
 .pb-5 {
-    padding-bottom: 4.4rem
+    padding-bottom: 20px
 }
 
 .m-0 {
@@ -3931,23 +3931,23 @@ img {
 }
 
 .m-1 {
-    margin: .75rem
+    margin: 10.5px
 }
 
 .m-2 {
-    margin: 1.5rem
+    margin: 21px
 }
 
 .m-3 {
-    margin: 3rem
+    margin: 31.5px
 }
 
 .m-4 {
-    margin: 4.5rem
+    margin: 42px
 }
 
 .m-5 {
-    margin: 6rem
+    margin: 52.5px
 }
 
 .ml-0 {
@@ -3955,23 +3955,23 @@ img {
 }
 
 .ml-1 {
-    margin-left: .75rem
+    margin-left: 10.5px
 }
 
 .ml-2 {
-    margin-left: 1.5rem
+    margin-left: 21px
 }
 
 .ml-3 {
-    margin-left: 3rem
+    margin-left: 31.5px
 }
 
 .ml-4 {
-    margin-left: 4.5rem
+    margin-left: 42px
 }
 
 .ml-5 {
-    margin-left: 6rem
+    margin-left: 52.5px
 }
 
 .mr-0 {
@@ -3979,23 +3979,23 @@ img {
 }
 
 .mr-1 {
-    margin-right: .75rem
+    margin-right: 10.5px
 }
 
 .mr-2 {
-    margin-right: 1.5rem
+    margin-right: 21px
 }
 
 .mr-3 {
-    margin-right: 3rem
+    margin-right: 31.5px
 }
 
 .mr-4 {
-    margin-right: 4.5rem
+    margin-right: 42px
 }
 
 .mr-5 {
-    margin-right: 6rem
+    margin-right: 52.5px
 }
 
 .mt-0 {
@@ -4003,23 +4003,23 @@ img {
 }
 
 .mt-1 {
-    margin-top: .75rem
+    margin-top: 10.5px
 }
 
 .mt-2 {
-    margin-top: 1.5rem
+    margin-top: 21px
 }
 
 .mt-3 {
-    margin-top: 3rem
+    margin-top: 31.5px
 }
 
 .mt-4 {
-    margin-top: 4.5rem
+    margin-top: 42px
 }
 
 .mt-5 {
-    margin-top: 6rem
+    margin-top: 52.5px
 }
 
 .mb-0 {
@@ -4027,23 +4027,23 @@ img {
 }
 
 .mb-1 {
-    margin-bottom: .75rem
+    margin-bottom: 10.5px
 }
 
 .mb-2 {
-    margin-bottom: 1.5rem
+    margin-bottom: 21px
 }
 
 .mb-3 {
-    margin-bottom: 3rem
+    margin-bottom: 31.5px
 }
 
 .mb-4 {
-    margin-bottom: 4.5rem
+    margin-bottom: 42px
 }
 
 .mb-5 {
-    margin-bottom: 6rem
+    margin-bottom: 52.5px
 }
 
 .o-10 {

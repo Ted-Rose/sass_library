@@ -1,11 +1,12 @@
 const Header = (/* { links } */) => {
   return (
-    <div className="navbar pl-0 pr-1 mb-0 pb-2">
+    <div className="navbar pl-0 pr-0 pt-0 pb-0 ">
       <div className="container pr-0">
         <svg
           width="25"
           height="40"
           viewBox="0 0 25 40"
+          className="mb-1"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
         >
@@ -71,14 +72,14 @@ const Header = (/* { links } */) => {
             fill="#131821"
           />
         </svg>
-        <ul class="display-f mr-1 pt-1">
-        <li class="font-md mr-2 text-hover-secondary">
+        <ul class="display-f pr-5 mb-2 mt-2">
+        <li class="font-md mr-2 pt-1 pb-1 text-hover-secondary">
           <a href="#">About</a>
         </li>
-        <li class="font-md mr-2 text-hover-secondary">
+        <li class="font-md mr-2 pt-1 pb-1 text-hover-secondary">
           <a href="#">How it works</a>
         </li>
-        <li class="font-md text-hover-secondary">
+        <li class="font-md pt-1 pb-1 text-hover-secondary">
           <a href="#">Contact</a>
         </li>
       </ul>

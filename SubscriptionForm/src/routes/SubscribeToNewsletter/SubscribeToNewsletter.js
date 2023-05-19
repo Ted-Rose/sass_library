@@ -4,12 +4,12 @@ import Content from "./Content";
 
 export default function SubscribeToNewsletter() {
   return (
-    <div className="">
-      <div className="container vh100 row p-0">
+    <div>
+      <div className="container vh100 row p-0 ">
         <Header />
         <Content />
       </div>
-      <div className="desktop-image"></div>
+      {/* <div className="desktop-image"></div> */}
     </div>
   );
 }

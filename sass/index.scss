@@ -16,10 +16,17 @@ $flex-flow: column wrap;
 }
 
 .desktop-image {
-    flex: auto;
-    height: 100%;
+    // display: flex;
+    // flex: auto;
+    // height: 100%;
     background-image: url("./Images/image_summer-desktop.png");
     background-repeat: no-repeat;
 }
+
+.flex-auto {
+    flex: auto;
+}
+
+
 
 @import 'sass_library';

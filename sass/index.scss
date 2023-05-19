@@ -1,6 +1,12 @@
 // customize theme variables
 $secondary: indigo;
-$base-padding: 1rem;
+$base-padding: 0.55rem;
 $base-border-thickness: 3px;
+
+@media(max-width: 480px) {
+    .sm-hide {
+        display: none;
+    }
+}
 
 @import 'sass_library';

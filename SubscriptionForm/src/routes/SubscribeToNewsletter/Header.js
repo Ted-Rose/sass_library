@@ -1,14 +1,8 @@
-import "./Header.scss";
-import { useNavigate } from "react-router-dom";
-
 const Header = (/* { links } */) => {
-  let navigate = useNavigate();
-
   return (
-    <div className="subscription-header">
-      <div className="subscription-header__logo">
+    <div className="navbar pl-0 pr-1 mb-0 pb-2">
+      <div className="container pr-0">
         <svg
-          className="subscription-logo__svg"
           width="25"
           height="40"
           viewBox="0 0 25 40"
@@ -28,10 +22,8 @@ const Header = (/* { links } */) => {
             fill="#4066A5"
           />
         </svg>
-
-        <img className="subscription-logo__text"></img>
         <svg
-          className="subscription-logo__text"
+          className="sm-hide"
           width="78"
           height="16"
           viewBox="0 0 78 16"
@@ -79,34 +71,19 @@ const Header = (/* { links } */) => {
             fill="#131821"
           />
         </svg>
+        <ul class="display-f mr-1 pt-1">
+        <li class="font-sm mr-2 text-hover-secondary">
+          <a href="#">About</a>
+        </li>
+        <li class="font-sm mr-2 text-hover-secondary">
+          <a href="#">How it works</a>
+        </li>
+        <li class="font-sm text-hover-secondary">
+          <a href="#">Contact</a>
+        </li>
+      </ul>
       </div>
 
-      <div className="subscription-header__links">
-        <button
-          className="subscribe-btn"
-          onClick={() => {
-            navigate("/#");
-          }}
-        >
-          Contact
-        </button>
-        <button
-          className="subscribe-btn"
-          onClick={() => {
-            navigate("/#");
-          }}
-        >
-          How it works
-        </button>
-        <button
-          className="subscribe-btn"
-          onClick={() => {
-            navigate("/#");
-          }}
-        >
-          About
-        </button>
-      </div>
     </div>
   );
 };

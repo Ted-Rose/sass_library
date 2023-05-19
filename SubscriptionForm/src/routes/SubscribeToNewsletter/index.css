@@ -6,6 +6,17 @@
     }
 }
 
+.vh100 {
+    height: 100vh
+}
+
+.desktop-image {
+    flex: auto;
+    height: 100%;
+    background-image: url("./Images/image_summer-desktop.png");
+    background-repeat: no-repeat
+}
+
 * {
     color: inherit;
     margin: 0

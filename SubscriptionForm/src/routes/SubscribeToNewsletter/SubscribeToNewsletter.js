@@ -2,12 +2,10 @@ import Header from "./Header";
 
 import Content from "./Content";
 
-import "./SubscribeToNewsletter.scss";
-
 export default function SubscribeToNewsletter() {
   return (
-    <div className="subscribe-box-wrapper">
-      <div className="subscribe-box">
+    <div className="">
+      <div className="container vh100 row p-0">
         <Header />
         <Content />
       </div>

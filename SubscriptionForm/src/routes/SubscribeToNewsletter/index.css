@@ -12,7 +12,7 @@
 }
 
 body {
-    font-family: Poppins
+    font-family: Arial
 }
 
 ul {
@@ -3017,13 +3017,13 @@ img {
 }
 
 .card .card-title {
-    font-size: 1rem;
+    font-size: 14px;
     padding-bottom: .55rem;
     font-weight: bold
 }
 
 .card .card-body {
-    font-size: 1rem
+    font-size: 14px
 }
 
 .card .card-body a {
@@ -3639,7 +3639,7 @@ img {
 }
 
 .navbar .site-title,.navbar-white .site-title,.navbar-black .site-title,.navbar-gray .site-title,.navbar-purple .site-title,.navbar-orange .site-title,.navbar-green .site-title,.navbar-yellow .site-title,.navbar-red .site-title,.navbar-blue .site-title,.navbar-info .site-title,.navbar-error .site-title,.navbar-secondary .site-title,.navbar-primary .site-title {
-    font-size: 1.5rem
+    font-size: 21px
 }
 
 .navbar-primary {
@@ -3698,7 +3698,7 @@ img {
     border-radius: 80px;
     background-color: #f6c31c;
     padding: .1375rem .275rem;
-    font-size: .75rem;
+    font-size: 10.5px;
     font-weight: normal
 }
 
@@ -3706,7 +3706,7 @@ img {
     border-radius: 80px;
     background-color: #326dee;
     padding: .1375rem .275rem;
-    font-size: .75rem;
+    font-size: 10.5px;
     font-weight: normal
 }
 
@@ -3714,7 +3714,7 @@ img {
     border-radius: 80px;
     background-color: indigo;
     padding: .1375rem .275rem;
-    font-size: .75rem;
+    font-size: 10.5px;
     font-weight: normal
 }
 
@@ -3722,7 +3722,7 @@ img {
     border-radius: 80px;
     background-color: #d32752;
     padding: .1375rem .275rem;
-    font-size: .75rem;
+    font-size: 10.5px;
     font-weight: normal
 }
 
@@ -3730,7 +3730,7 @@ img {
     border-radius: 80px;
     background-color: #f6c31c;
     padding: .1375rem .275rem;
-    font-size: .75rem;
+    font-size: 10.5px;
     font-weight: normal
 }
 
@@ -3738,7 +3738,7 @@ img {
     border-radius: 80px;
     background-color: #1919e6;
     padding: .1375rem .275rem;
-    font-size: .75rem;
+    font-size: 10.5px;
     font-weight: normal
 }
 
@@ -3746,7 +3746,7 @@ img {
     border-radius: 80px;
     background-color: #e61919;
     padding: .1375rem .275rem;
-    font-size: .75rem;
+    font-size: 10.5px;
     font-weight: normal
 }
 
@@ -3754,7 +3754,7 @@ img {
     border-radius: 80px;
     background-color: #e6e619;
     padding: .1375rem .275rem;
-    font-size: .75rem;
+    font-size: 10.5px;
     font-weight: normal
 }
 
@@ -3762,7 +3762,7 @@ img {
     border-radius: 80px;
     background-color: #19e635;
     padding: .1375rem .275rem;
-    font-size: .75rem;
+    font-size: 10.5px;
     font-weight: normal
 }
 
@@ -3770,7 +3770,7 @@ img {
     border-radius: 80px;
     background-color: #ffa600;
     padding: .1375rem .275rem;
-    font-size: .75rem;
+    font-size: 10.5px;
     font-weight: normal
 }
 
@@ -3778,7 +3778,7 @@ img {
     border-radius: 80px;
     background-color: #90f;
     padding: .1375rem .275rem;
-    font-size: .75rem;
+    font-size: 10.5px;
     font-weight: normal
 }
 
@@ -3786,7 +3786,7 @@ img {
     border-radius: 80px;
     background-color: gray;
     padding: .1375rem .275rem;
-    font-size: .75rem;
+    font-size: 10.5px;
     font-weight: normal
 }
 
@@ -3794,7 +3794,7 @@ img {
     border-radius: 80px;
     background-color: #000;
     padding: .1375rem .275rem;
-    font-size: .75rem;
+    font-size: 10.5px;
     font-weight: normal
 }
 
@@ -3802,7 +3802,7 @@ img {
     border-radius: 80px;
     background-color: #fff;
     padding: .1375rem .275rem;
-    font-size: .75rem;
+    font-size: 10.5px;
     font-weight: normal
 }
 
@@ -4131,21 +4131,21 @@ img {
 }
 
 .font-sm {
-    font-size: .75rem
+    font-size: 10.5px
 }
 
 .font-md {
-    font-size: 1rem
+    font-size: 14px
 }
 
 .font-lg {
-    font-size: 1.5rem
+    font-size: 21px
 }
 
 .font-xl {
-    font-size: 2rem
+    font-size: 28px
 }
 
 .font-xxl {
-    font-size: 3rem
+    font-size: 42px
 }

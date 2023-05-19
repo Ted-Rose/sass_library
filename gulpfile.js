@@ -13,6 +13,7 @@ function buildStyles() {
 
 function watchTask() {
   watch(['sass/**/*.scss', '*.html'], series(buildStyles));
+  watch(['sass_library/**/*.scss', '*.html'], series(buildStyles));
 }
 
 exports.default = watchTask;

@@ -8,7 +8,7 @@ function buildStyles() {
     .pipe(sass({ outputStyle: 'compressed' }))
     .pipe(purgecss({ content: ['*.html'] }))
     .pipe(cssbeautify()) // Add this line to format the CSS
-    .pipe(dest('css'));
+    .pipe(dest('SubscriptionForm/src/routes/SubscribeToNewsletter'));
 }
 
 function watchTask() {

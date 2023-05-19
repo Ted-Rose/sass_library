@@ -88,7 +88,7 @@ const Header = (/* { links } */) => {
             navigate("/#");
           }}
         >
-          Product List
+          Contact
         </button>
         <button
           className="subscribe-btn"
@@ -96,7 +96,15 @@ const Header = (/* { links } */) => {
             navigate("/#");
           }}
         >
-          Add Product
+          How it works
+        </button>
+        <button
+          className="subscribe-btn"
+          onClick={() => {
+            navigate("/#");
+          }}
+        >
+          About
         </button>
       </div>
     </div>

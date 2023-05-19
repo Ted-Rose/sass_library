@@ -7,9 +7,11 @@ $utilities: (
       "0": 0,
       "1": $base-padding,
       "2": $base-padding * 2,
+      "2-5": $base-padding * 2.5,
       "3": $base-padding * 3,
       "4": $base-padding * 4,
-      "5": $base-padding * 5
+      "5": $base-padding * 5,
+      "7-5": $base-padding *7.5
     ),
   ),
   "padding-left": (
@@ -18,9 +20,11 @@ $utilities: (
       "0": 0,
       "1": $base-padding,
       "2": $base-padding * 2,
+      "2-5": $base-padding * 2.5,
       "3": $base-padding * 3,
       "4": $base-padding * 4,
-      "5": $base-padding * 5
+      "5": $base-padding * 5,
+      "7-5": $base-padding *7.5
     ),
   ),
   "padding-right": (
@@ -29,9 +33,11 @@ $utilities: (
       "0": 0,
       "1": $base-padding,
       "2": $base-padding * 2,
+      "2-5": $base-padding * 2.5,
       "3": $base-padding * 3,
       "4": $base-padding * 4,
-      "5": $base-padding * 5
+      "5": $base-padding * 5,
+      "7-5": $base-padding *7.5
     ),
   ),
   "padding-top": (
@@ -40,9 +46,11 @@ $utilities: (
       "0": 0,
       "1": $base-padding,
       "2": $base-padding * 2,
+      "2-5": $base-padding * 2.5,
       "3": $base-padding * 3,
       "4": $base-padding * 4,
-      "5": $base-padding * 5
+      "5": $base-padding * 5,
+      "7-5": $base-padding *7.5
     ),
   ),
   "padding-bottom": (
@@ -51,9 +59,11 @@ $utilities: (
       "0": 0,
       "1": $base-padding,
       "2": $base-padding * 2,
+      "2-5": $base-padding * 2.5,
       "3": $base-padding * 3,
       "4": $base-padding * 4,
-      "5": $base-padding * 5
+      "5": $base-padding * 5,
+      "7-5": $base-padding *7.5
     ),
   ),
   "margin": (
@@ -125,6 +135,50 @@ $utilities: (
       "80": 0.8,
       "90": 0.9,
       "100": 1,
+    ),
+  ),
+  "border-left": (
+    "prefix": "bl",
+    "values": (
+      "0": 0,
+      "1": $base-border-thickness,
+      "2": $base-border-thickness * 2,
+      "3": $base-border-thickness * 3,
+      "4": $base-border-thickness * 4,
+      "5": $base-border-thickness * 5
+    ),
+  ),
+  "border-right": (
+    "prefix": "br",
+    "values": (
+      "0": 0,
+      "1": $base-border-thickness,
+      "2": $base-border-thickness * 2,
+      "3": $base-border-thickness * 3,
+      "4": $base-border-thickness * 4,
+      "5": $base-border-thickness * 5
+    ),
+  ),
+  "border-top": (
+    "prefix": "bt",
+    "values": (
+      "0": 0,
+      "1": $base-border-thickness,
+      "2": $base-border-thickness * 2,
+      "3": $base-border-thickness * 3,
+      "4": $base-border-thickness * 4,
+      "5": $base-border-thickness * 5
+    ),
+  ),
+  "border-bottom": (
+    "prefix": "bb",
+    "values": (
+      "0": 0,
+      "1": $base-border-thickness,
+      "2": $base-border-thickness * 2,
+      "3": $base-border-thickness * 3,
+      "4": $base-border-thickness * 4,
+      "5": $base-border-thickness * 5
     ),
   ),
   "border-radius": (

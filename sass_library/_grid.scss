@@ -19,7 +19,7 @@ $layout-values: flex-start, flex-end, center, space-between, space-around;
 }
 .row {
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: $flex-flow;
 }
 
 // grid gaps

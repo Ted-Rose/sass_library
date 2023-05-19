@@ -15,7 +15,6 @@ const Content = () => (
       </h2>
       <EmailForm />
       <Terms />
-      <div className="subscribe-frame__line"></div>
       <Icons />
     </div>
   </div>

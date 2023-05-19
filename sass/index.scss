@@ -1,10 +1,9 @@
 // customize theme variables
-$secondary: indigo;
-$base-padding: 0.55rem;
-$base-border-thickness: 3px;
+$primary: #F2F5FA;
 $base-font-size: 14px;
 $base-margin: 10.5px;
 $base-padding: 4px;
+$flex-flow: column wrap;
 
 @media(max-width: 480px) {
     .sm-hide {

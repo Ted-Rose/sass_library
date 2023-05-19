@@ -13,7 +13,7 @@ const Terms = () => {
   };
 
   return (
-    <div className="subscription-terms">
+    <div className="subscription-terms bb-5">
       <Checkbox value={checked} onChange={handleChange} />
       <p>
         I agree to <span>terms of service</span>

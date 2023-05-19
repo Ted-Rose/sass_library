@@ -34,7 +34,7 @@ img {
 }
 
 .test {
-    color: #326dee
+    color: #f2f5fa
 }
 
 .container {
@@ -47,7 +47,7 @@ img {
 
 .row {
     display: flex;
-    flex-flow: row wrap
+    flex-flow: column wrap
 }
 
 .gap-0>* {
@@ -477,459 +477,459 @@ img {
 }
 
 .text-primary {
-    color: #326dee
+    color: #f2f5fa
 }
 
 .text-hover-primary:hover {
-    color: #326dee
+    color: #f2f5fa
 }
 
 .bg-primary {
-    background-color: #326dee
+    background-color: #f2f5fa
 }
 
 .text-primary-light-1 {
-    color: #477cf0
+    color: #f3f6fb
 }
 
 .text-hover-primary-light-1:hover {
-    color: #477cf0
+    color: #f3f6fb
 }
 
 .bg-primary-light-1 {
-    background-color: #477cf0
+    background-color: #f3f6fb
 }
 
 .text-primary-light-2 {
-    color: #5b8af1
+    color: #f5f7fb
 }
 
 .text-hover-primary-light-2:hover {
-    color: #5b8af1
+    color: #f5f7fb
 }
 
 .bg-primary-light-2 {
-    background-color: #5b8af1
+    background-color: #f5f7fb
 }
 
 .text-primary-light-3 {
-    color: #7099f3
+    color: #f6f8fc
 }
 
 .text-hover-primary-light-3:hover {
-    color: #7099f3
+    color: #f6f8fc
 }
 
 .bg-primary-light-3 {
-    background-color: #7099f3
+    background-color: #f6f8fc
 }
 
 .text-primary-light-4 {
-    color: #84a7f5
+    color: #f7f9fc
 }
 
 .text-hover-primary-light-4:hover {
-    color: #84a7f5
+    color: #f7f9fc
 }
 
 .bg-primary-light-4 {
-    background-color: #84a7f5
+    background-color: #f7f9fc
 }
 
 .text-primary-light-5 {
-    color: #99b6f7
+    color: #f9fafd
 }
 
 .text-hover-primary-light-5:hover {
-    color: #99b6f7
+    color: #f9fafd
 }
 
 .bg-primary-light-5 {
-    background-color: #99b6f7
+    background-color: #f9fafd
 }
 
 .text-primary-light-6 {
-    color: #adc5f8
+    color: #fafbfd
 }
 
 .text-hover-primary-light-6:hover {
-    color: #adc5f8
+    color: #fafbfd
 }
 
 .bg-primary-light-6 {
-    background-color: #adc5f8
+    background-color: #fafbfd
 }
 
 .text-primary-light-7 {
-    color: #c2d3fa
+    color: #fbfcfe
 }
 
 .text-hover-primary-light-7:hover {
-    color: #c2d3fa
+    color: #fbfcfe
 }
 
 .bg-primary-light-7 {
-    background-color: #c2d3fa
+    background-color: #fbfcfe
 }
 
 .text-primary-light-8 {
-    color: #d6e2fc
+    color: #fcfdfe
 }
 
 .text-hover-primary-light-8:hover {
-    color: #d6e2fc
+    color: #fcfdfe
 }
 
 .bg-primary-light-8 {
-    background-color: #d6e2fc
+    background-color: #fcfdfe
 }
 
 .text-primary-light-9 {
-    color: #ebf0fd
+    color: #fefeff
 }
 
 .text-hover-primary-light-9:hover {
-    color: #ebf0fd
+    color: #fefeff
 }
 
 .bg-primary-light-9 {
-    background-color: #ebf0fd
+    background-color: #fefeff
 }
 
 .text-primary-dark-1 {
-    color: #2d62d6
+    color: #dadde1
 }
 
 .text-hover-primary-dark-1:hover {
-    color: #2d62d6
+    color: #dadde1
 }
 
 .bg-primary-dark-1 {
-    background-color: #2d62d6
+    background-color: #dadde1
 }
 
 .text-primary-dark-2 {
-    color: #2857be
+    color: #c2c4c8
 }
 
 .text-hover-primary-dark-2:hover {
-    color: #2857be
+    color: #c2c4c8
 }
 
 .bg-primary-dark-2 {
-    background-color: #2857be
+    background-color: #c2c4c8
 }
 
 .text-primary-dark-3 {
-    color: #234ca7
+    color: #a9acaf
 }
 
 .text-hover-primary-dark-3:hover {
-    color: #234ca7
+    color: #a9acaf
 }
 
 .bg-primary-dark-3 {
-    background-color: #234ca7
+    background-color: #a9acaf
 }
 
 .text-primary-dark-4 {
-    color: #1e418f
+    color: #919396
 }
 
 .text-hover-primary-dark-4:hover {
-    color: #1e418f
+    color: #919396
 }
 
 .bg-primary-dark-4 {
-    background-color: #1e418f
+    background-color: #919396
 }
 
 .text-primary-dark-5 {
-    color: #193777
+    color: #797b7d
 }
 
 .text-hover-primary-dark-5:hover {
-    color: #193777
+    color: #797b7d
 }
 
 .bg-primary-dark-5 {
-    background-color: #193777
+    background-color: #797b7d
 }
 
 .text-primary-dark-6 {
-    color: #142c5f
+    color: #616264
 }
 
 .text-hover-primary-dark-6:hover {
-    color: #142c5f
+    color: #616264
 }
 
 .bg-primary-dark-6 {
-    background-color: #142c5f
+    background-color: #616264
 }
 
 .text-primary-dark-7 {
-    color: #0f2147
+    color: #494a4b
 }
 
 .text-hover-primary-dark-7:hover {
-    color: #0f2147
+    color: #494a4b
 }
 
 .bg-primary-dark-7 {
-    background-color: #0f2147
+    background-color: #494a4b
 }
 
 .text-primary-dark-8 {
-    color: #0a1630
+    color: #303132
 }
 
 .text-hover-primary-dark-8:hover {
-    color: #0a1630
+    color: #303132
 }
 
 .bg-primary-dark-8 {
-    background-color: #0a1630
+    background-color: #303132
 }
 
 .text-primary-dark-9 {
-    color: #050b18
+    color: #181919
 }
 
 .text-hover-primary-dark-9:hover {
-    color: #050b18
+    color: #181919
 }
 
 .bg-primary-dark-9 {
-    background-color: #050b18
+    background-color: #181919
 }
 
 .text-secondary {
-    color: indigo
+    color: #1ac886
 }
 
 .text-hover-secondary:hover {
-    color: indigo
+    color: #1ac886
 }
 
 .bg-secondary {
-    background-color: indigo
+    background-color: #1ac886
 }
 
 .text-secondary-light-1 {
-    color: #5d1a8f
+    color: #31ce92
 }
 
 .text-hover-secondary-light-1:hover {
-    color: #5d1a8f
+    color: #31ce92
 }
 
 .bg-secondary-light-1 {
-    background-color: #5d1a8f
+    background-color: #31ce92
 }
 
 .text-secondary-light-2 {
-    color: #6f339b
+    color: #48d39e
 }
 
 .text-hover-secondary-light-2:hover {
-    color: #6f339b
+    color: #48d39e
 }
 
 .bg-secondary-light-2 {
-    background-color: #6f339b
+    background-color: #48d39e
 }
 
 .text-secondary-light-3 {
-    color: #814da8
+    color: #5fd9aa
 }
 
 .text-hover-secondary-light-3:hover {
-    color: #814da8
+    color: #5fd9aa
 }
 
 .bg-secondary-light-3 {
-    background-color: #814da8
+    background-color: #5fd9aa
 }
 
 .text-secondary-light-4 {
-    color: #9366b4
+    color: #76deb6
 }
 
 .text-hover-secondary-light-4:hover {
-    color: #9366b4
+    color: #76deb6
 }
 
 .bg-secondary-light-4 {
-    background-color: #9366b4
+    background-color: #76deb6
 }
 
 .text-secondary-light-5 {
-    color: #a580c1
+    color: #8de4c3
 }
 
 .text-hover-secondary-light-5:hover {
-    color: #a580c1
+    color: #8de4c3
 }
 
 .bg-secondary-light-5 {
-    background-color: #a580c1
+    background-color: #8de4c3
 }
 
 .text-secondary-light-6 {
-    color: #b799cd
+    color: #a3e9cf
 }
 
 .text-hover-secondary-light-6:hover {
-    color: #b799cd
+    color: #a3e9cf
 }
 
 .bg-secondary-light-6 {
-    background-color: #b799cd
+    background-color: #a3e9cf
 }
 
 .text-secondary-light-7 {
-    color: #c9b3da
+    color: #baefdb
 }
 
 .text-hover-secondary-light-7:hover {
-    color: #c9b3da
+    color: #baefdb
 }
 
 .bg-secondary-light-7 {
-    background-color: #c9b3da
+    background-color: #baefdb
 }
 
 .text-secondary-light-8 {
-    color: #dbcce6
+    color: #d1f4e7
 }
 
 .text-hover-secondary-light-8:hover {
-    color: #dbcce6
+    color: #d1f4e7
 }
 
 .bg-secondary-light-8 {
-    background-color: #dbcce6
+    background-color: #d1f4e7
 }
 
 .text-secondary-light-9 {
-    color: #ede6f3
+    color: #e8faf3
 }
 
 .text-hover-secondary-light-9:hover {
-    color: #ede6f3
+    color: #e8faf3
 }
 
 .bg-secondary-light-9 {
-    background-color: #ede6f3
+    background-color: #e8faf3
 }
 
 .text-secondary-dark-1 {
-    color: #440075
+    color: #17b479
 }
 
 .text-hover-secondary-dark-1:hover {
-    color: #440075
+    color: #17b479
 }
 
 .bg-secondary-dark-1 {
-    background-color: #440075
+    background-color: #17b479
 }
 
 .text-secondary-dark-2 {
-    color: #3c0068
+    color: #15a06b
 }
 
 .text-hover-secondary-dark-2:hover {
-    color: #3c0068
+    color: #15a06b
 }
 
 .bg-secondary-dark-2 {
-    background-color: #3c0068
+    background-color: #15a06b
 }
 
 .text-secondary-dark-3 {
-    color: #35005b
+    color: #128c5e
 }
 
 .text-hover-secondary-dark-3:hover {
-    color: #35005b
+    color: #128c5e
 }
 
 .bg-secondary-dark-3 {
-    background-color: #35005b
+    background-color: #128c5e
 }
 
 .text-secondary-dark-4 {
-    color: #2d004e
+    color: #107850
 }
 
 .text-hover-secondary-dark-4:hover {
-    color: #2d004e
+    color: #107850
 }
 
 .bg-secondary-dark-4 {
-    background-color: #2d004e
+    background-color: #107850
 }
 
 .text-secondary-dark-5 {
-    color: #260041
+    color: #0d6443
 }
 
 .text-hover-secondary-dark-5:hover {
-    color: #260041
+    color: #0d6443
 }
 
 .bg-secondary-dark-5 {
-    background-color: #260041
+    background-color: #0d6443
 }
 
 .text-secondary-dark-6 {
-    color: #1e0034
+    color: #0a5036
 }
 
 .text-hover-secondary-dark-6:hover {
-    color: #1e0034
+    color: #0a5036
 }
 
 .bg-secondary-dark-6 {
-    background-color: #1e0034
+    background-color: #0a5036
 }
 
 .text-secondary-dark-7 {
-    color: #170027
+    color: #083c28
 }
 
 .text-hover-secondary-dark-7:hover {
-    color: #170027
+    color: #083c28
 }
 
 .bg-secondary-dark-7 {
-    background-color: #170027
+    background-color: #083c28
 }
 
 .text-secondary-dark-8 {
-    color: #0f001a
+    color: #05281b
 }
 
 .text-hover-secondary-dark-8:hover {
-    color: #0f001a
+    color: #05281b
 }
 
 .bg-secondary-dark-8 {
-    background-color: #0f001a
+    background-color: #05281b
 }
 
 .text-secondary-dark-9 {
-    color: #08000d
+    color: #03140d
 }
 
 .text-hover-secondary-dark-9:hover {
-    color: #08000d
+    color: #03140d
 }
 
 .bg-secondary-dark-9 {
-    background-color: #08000d
+    background-color: #03140d
 }
 
 .text-error {
@@ -3011,7 +3011,7 @@ img {
 .card {
     display: block;
     padding: 4px;
-    border: 3px solid #ddd;
+    border: 1px solid #ddd;
     box-shadow: 1px 3px 5px rgba(0,0,0,.1);
     border-radius: 5px
 }
@@ -3047,11 +3047,11 @@ img {
     border: 0;
     padding: 4px 8px;
     border-radius: 20px;
-    background-color: #326dee
+    background-color: #f2f5fa
 }
 
 .btn-primary:hover {
-    background-color: #4a7ef0
+    background-color: #fff
 }
 
 .btn-outlined-primary {
@@ -3062,11 +3062,11 @@ img {
     padding: 4px 8px;
     border-radius: 20px;
     background-color: #fff;
-    border: 3px solid #326dee
+    border: 1px solid #f2f5fa
 }
 
 .btn-outlined-primary:hover {
-    background-color: #326dee
+    background-color: #f2f5fa
 }
 
 .btn-complement-primary {
@@ -3076,13 +3076,13 @@ img {
     border: 0;
     padding: 4px 8px;
     border-radius: 20px;
-    background-color: #326dee;
-    color: #fae7bf
+    background-color: #f2f5fa;
+    color: #fff
 }
 
 .btn-complement-primary:hover {
-    color: #326dee;
-    background-color: #fae7bf
+    color: #f2f5fa;
+    background-color: #fff
 }
 
 .btn-secondary {
@@ -3092,11 +3092,11 @@ img {
     border: 0;
     padding: 4px 8px;
     border-radius: 20px;
-    background-color: indigo
+    background-color: #1ac886
 }
 
 .btn-secondary:hover {
-    background-color: #5a009c
+    background-color: #1ddf95
 }
 
 .btn-outlined-secondary {
@@ -3107,11 +3107,11 @@ img {
     padding: 4px 8px;
     border-radius: 20px;
     background-color: #fff;
-    border: 3px solid indigo
+    border: 1px solid #1ac886
 }
 
 .btn-outlined-secondary:hover {
-    background-color: indigo
+    background-color: #1ac886
 }
 
 .btn-complement-secondary {
@@ -3121,13 +3121,13 @@ img {
     border: 0;
     padding: 4px 8px;
     border-radius: 20px;
-    background-color: indigo;
-    color: #7cff1c
+    background-color: #1ac886;
+    color: #f08bb1
 }
 
 .btn-complement-secondary:hover {
-    color: indigo;
-    background-color: #7cff1c
+    color: #1ac886;
+    background-color: #f08bb1
 }
 
 .btn-error {
@@ -3152,7 +3152,7 @@ img {
     padding: 4px 8px;
     border-radius: 20px;
     background-color: #fff;
-    border: 3px solid #d32752
+    border: 1px solid #d32752
 }
 
 .btn-outlined-error:hover {
@@ -3197,7 +3197,7 @@ img {
     padding: 4px 8px;
     border-radius: 20px;
     background-color: #fff;
-    border: 3px solid #f6c31c
+    border: 1px solid #f6c31c
 }
 
 .btn-outlined-info:hover {
@@ -3242,7 +3242,7 @@ img {
     padding: 4px 8px;
     border-radius: 20px;
     background-color: #fff;
-    border: 3px solid #1919e6
+    border: 1px solid #1919e6
 }
 
 .btn-outlined-blue:hover {
@@ -3287,7 +3287,7 @@ img {
     padding: 4px 8px;
     border-radius: 20px;
     background-color: #fff;
-    border: 3px solid #e61919
+    border: 1px solid #e61919
 }
 
 .btn-outlined-red:hover {
@@ -3332,7 +3332,7 @@ img {
     padding: 4px 8px;
     border-radius: 20px;
     background-color: #fff;
-    border: 3px solid #e6e619
+    border: 1px solid #e6e619
 }
 
 .btn-outlined-yellow:hover {
@@ -3377,7 +3377,7 @@ img {
     padding: 4px 8px;
     border-radius: 20px;
     background-color: #fff;
-    border: 3px solid #19e635
+    border: 1px solid #19e635
 }
 
 .btn-outlined-green:hover {
@@ -3422,7 +3422,7 @@ img {
     padding: 4px 8px;
     border-radius: 20px;
     background-color: #fff;
-    border: 3px solid #ffa600
+    border: 1px solid #ffa600
 }
 
 .btn-outlined-orange:hover {
@@ -3467,7 +3467,7 @@ img {
     padding: 4px 8px;
     border-radius: 20px;
     background-color: #fff;
-    border: 3px solid #90f
+    border: 1px solid #90f
 }
 
 .btn-outlined-purple:hover {
@@ -3512,7 +3512,7 @@ img {
     padding: 4px 8px;
     border-radius: 20px;
     background-color: #fff;
-    border: 3px solid gray
+    border: 1px solid gray
 }
 
 .btn-outlined-gray:hover {
@@ -3557,7 +3557,7 @@ img {
     padding: 4px 8px;
     border-radius: 20px;
     background-color: #fff;
-    border: 3px solid #000
+    border: 1px solid #000
 }
 
 .btn-outlined-black:hover {
@@ -3602,7 +3602,7 @@ img {
     padding: 4px 8px;
     border-radius: 20px;
     background-color: #fff;
-    border: 3px solid #fff
+    border: 1px solid #fff
 }
 
 .btn-outlined-white:hover {
@@ -3643,11 +3643,11 @@ img {
 }
 
 .navbar-primary {
-    background-color: #326dee
+    background-color: #f2f5fa
 }
 
 .navbar-secondary {
-    background-color: indigo
+    background-color: #1ac886
 }
 
 .navbar-error {
@@ -3704,7 +3704,7 @@ img {
 
 .badge-primary {
     border-radius: 80px;
-    background-color: #326dee;
+    background-color: #f2f5fa;
     padding: 1px 2px;
     font-size: 10.5px;
     font-weight: normal
@@ -3712,7 +3712,7 @@ img {
 
 .badge-secondary {
     border-radius: 80px;
-    background-color: indigo;
+    background-color: #1ac886;
     padding: 1px 2px;
     font-size: 10.5px;
     font-weight: normal
@@ -3818,6 +3818,10 @@ img {
     padding: 8px
 }
 
+.p-2-5 {
+    padding: 10px
+}
+
 .p-3 {
     padding: 12px
 }
@@ -3828,6 +3832,10 @@ img {
 
 .p-5 {
     padding: 20px
+}
+
+.p-7-5 {
+    padding: 30px
 }
 
 .pl-0 {
@@ -3842,6 +3850,10 @@ img {
     padding-left: 8px
 }
 
+.pl-2-5 {
+    padding-left: 10px
+}
+
 .pl-3 {
     padding-left: 12px
 }
@@ -3852,6 +3864,10 @@ img {
 
 .pl-5 {
     padding-left: 20px
+}
+
+.pl-7-5 {
+    padding-left: 30px
 }
 
 .pr-0 {
@@ -3866,6 +3882,10 @@ img {
     padding-right: 8px
 }
 
+.pr-2-5 {
+    padding-right: 10px
+}
+
 .pr-3 {
     padding-right: 12px
 }
@@ -3876,6 +3896,10 @@ img {
 
 .pr-5 {
     padding-right: 20px
+}
+
+.pr-7-5 {
+    padding-right: 30px
 }
 
 .pt-0 {
@@ -3890,6 +3914,10 @@ img {
     padding-top: 8px
 }
 
+.pt-2-5 {
+    padding-top: 10px
+}
+
 .pt-3 {
     padding-top: 12px
 }
@@ -3900,6 +3928,10 @@ img {
 
 .pt-5 {
     padding-top: 20px
+}
+
+.pt-7-5 {
+    padding-top: 30px
 }
 
 .pb-0 {
@@ -3914,6 +3946,10 @@ img {
     padding-bottom: 8px
 }
 
+.pb-2-5 {
+    padding-bottom: 10px
+}
+
 .pb-3 {
     padding-bottom: 12px
 }
@@ -3924,6 +3960,10 @@ img {
 
 .pb-5 {
     padding-bottom: 20px
+}
+
+.pb-7-5 {
+    padding-bottom: 30px
 }
 
 .m-0 {
@@ -4084,6 +4124,102 @@ img {
 
 .o-100 {
     opacity: 1
+}
+
+.bl-0 {
+    border-left: 0
+}
+
+.bl-1 {
+    border-left: 1px
+}
+
+.bl-2 {
+    border-left: 2px
+}
+
+.bl-3 {
+    border-left: 3px
+}
+
+.bl-4 {
+    border-left: 4px
+}
+
+.bl-5 {
+    border-left: 5px
+}
+
+.br-0 {
+    border-right: 0
+}
+
+.br-1 {
+    border-right: 1px
+}
+
+.br-2 {
+    border-right: 2px
+}
+
+.br-3 {
+    border-right: 3px
+}
+
+.br-4 {
+    border-right: 4px
+}
+
+.br-5 {
+    border-right: 5px
+}
+
+.bt-0 {
+    border-top: 0
+}
+
+.bt-1 {
+    border-top: 1px
+}
+
+.bt-2 {
+    border-top: 2px
+}
+
+.bt-3 {
+    border-top: 3px
+}
+
+.bt-4 {
+    border-top: 4px
+}
+
+.bt-5 {
+    border-top: 5px
+}
+
+.bb-0 {
+    border-bottom: 0
+}
+
+.bb-1 {
+    border-bottom: 1px
+}
+
+.bb-2 {
+    border-bottom: 2px
+}
+
+.bb-3 {
+    border-bottom: 3px
+}
+
+.bb-4 {
+    border-bottom: 4px
+}
+
+.bb-5 {
+    border-bottom: 5px
 }
 
 .br {

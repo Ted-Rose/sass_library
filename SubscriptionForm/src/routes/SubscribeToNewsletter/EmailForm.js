@@ -54,7 +54,7 @@ const EmailForm = () => {
   const showMessage = hideErrorMessage ? "hide" : "show";
 
   return (
-    <div className="subscribe-form-box">
+    <div className="container pr-0 pl-0 pt-5">
       <form
         className="subscribe-form-box__form"
         onSubmit={preventDefault}

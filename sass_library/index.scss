@@ -2,6 +2,9 @@
 @import 'functions';
 @import 'variables';
 
+// clear default styles
+@import 'clear_default';
+
 // base & layout
 @import 'base';
 @import 'breakpoints';
@@ -15,7 +18,6 @@
 @import 'components/button';
 @import 'components/navbar';
 @import 'components/badge';
-// Don't forget to import badge file!
 
 // utilities (margin, padding, opacity, etc)
 @import 'utilities';

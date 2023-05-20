@@ -1,5 +1,3 @@
-import "./Content.scss";
-
 import EmailForm from "./EmailForm";
 
 import Icons from "./Icons";
@@ -8,11 +6,11 @@ import Terms from "./Terms";
 
 const Content = () => (
   <div className="container row flex-auto justify-center align-center p-0 desktop-image">
-    <div className="container row bg-primary">
+    <div className="bg-primary sm-w-295 pr-5 pl-5">
     {/* <div className="container flex-auto p-0">
     <div className="container justify-center row"> */}
-      <h1>Subscribe to newsletter</h1>
-      <h2>
+      <h1 className="pt-5">Subscribe to newsletter</h1>
+      <h2 className="pt-5">
         Subscribe to our newsletter and get 10% discount on pineapple glasses.
       </h2>
       <EmailForm />

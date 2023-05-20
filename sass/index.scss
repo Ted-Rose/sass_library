@@ -9,6 +9,10 @@ $flex-flow: column wrap;
     .sm-hide {
         display: none;
     }
+    // Set width for elements on small screens
+    .sm-w-295 {
+        width: 295px;
+    }
 }
 
 .vh100 {
@@ -26,6 +30,7 @@ $flex-flow: column wrap;
 .flex-auto {
     flex: auto;
 }
+
 
 
 

@@ -3,7 +3,17 @@ $primary: #326dee !default;
 $secondary: #1ac886 !default;
 $error: #d32752 !default;
 $info: #f6c31c !default;
-$font-family: Arial;
+$body-font-family: Arial;
+$heading-font-family: Georgia;
+
+// breakpoints for responsive design
+$breakpoints: (
+  "xs": 0,
+  "sm": 480px,
+  "md": 720px,
+  "lg": 960px,
+  "xl": 1200px,
+);
 
 // color palette
 $colors: (

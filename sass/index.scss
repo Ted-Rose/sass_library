@@ -1,37 +1,35 @@
 // customize theme variables
-$primary: #F2F5FA;
+$primary: #f2f5fa;
 $base-font-size: 14px;
 $base-margin: 10.5px;
 $base-padding: 4px;
 $flex-flow: column wrap;
+$black: #131821;
 
-@media(max-width: 480px) {
-    .sm-hide {
-        display: none;
-    }
-    // Set width for elements on small screens
-    .sm-w-295 {
-        width: 295px;
-    }
+@media (max-width: 480px) {
+  .sm-hide {
+    display: none;
+  }
+  // Set width for elements on small screens
+  .sm-w-295 {
+    width: 295px;
+  }
 }
 
 .vh100 {
-    height: 100vh
+  height: 100vh;
 }
 
 .desktop-image {
-    // display: flex;
-    // flex: auto;
-    // height: 100%;
-    background-image: url("./Images/image_summer-desktop.png");
-    background-repeat: no-repeat;
+  // display: flex;
+  // flex: auto;
+  // height: 100%;
+  background-image: url("./Images/image_summer-desktop.png");
+  background-repeat: no-repeat;
 }
 
 .flex-auto {
-    flex: auto;
+  flex: auto;
 }
 
-
-
-
-@import 'sass_library';
+@import "sass_library";

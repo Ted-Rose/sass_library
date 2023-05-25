@@ -3,6 +3,7 @@ $primary: #326dee !default;
 $secondary: #1ac886 !default;
 $error: #d32752 !default;
 $info: #f6c31c !default;
+$black: #0000 !default;
 $body-font-family: Arial;
 $heading-font-family: Georgia;
 
@@ -27,8 +28,9 @@ $colors: (
   "green": #19e635,
   "orange": #ffa600,
   "purple": #9900ff,
-  "gray": #808080,
-  "black": black,
+  "gray1": #808080,
+  "gray2": #6a707b,
+  "black": $black,
   "white": white,
 ) !default;
 
@@ -41,7 +43,7 @@ $base-border-thickness: 1px !default;
 $base-border-radius: 20px !default;
 
 // box-shadow
-$base-box-shadow: 1px 3px 5px rgba(0,0,0,0.1) !default;
+$base-box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1) !default;
 
 // font sizes
 $base-font-size: 1rem !default;

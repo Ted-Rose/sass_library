@@ -13,15 +13,14 @@ const Terms = () => {
   };
 
   return (
-    <div className="container pt-5">
+    <div className="container flex-auto justify-center align-center pt-5">
       <Checkbox value={checked} onChange={handleChange} />
-      <p>
-        I agree to <span>terms of service</span>
+      <p className="text-gray2">
+        I agree to{" "}
+        <span className="text-black underline">terms of service</span>
       </p>
     </div>
   );
 };
-
-
 
 export default Terms;

@@ -1,7 +1,4 @@
 import React from "react";
-
-import "./Terms.scss";
-
 import Checkbox from "./Checkbox";
 import "./index.css";
 
@@ -13,9 +10,9 @@ const Terms = () => {
   };
 
   return (
-    <div className="container flex-auto justify-center align-center pt-5">
+    <div className="col-12-xs pt-5">
       <Checkbox value={checked} onChange={handleChange} />
-      <p className="text-gray2">
+      <p className="ml-4 text-gray">
         I agree to{" "}
         <span className="text-black underline">terms of service</span>
       </p>

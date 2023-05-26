@@ -22,6 +22,9 @@ $align-values: flex-start, flex-end, center, stretch, baseline;
   display: flex;
   flex-flow: $flex-flow;
 }
+.float-right {
+  float: right;
+}
 
 // grid gaps
 @each $key, $val in $grid-gaps {

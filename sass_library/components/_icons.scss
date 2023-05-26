@@ -1,3 +1,4 @@
+// normal class for icons (not pressed or hovered)
 .ic {
   fill: $black;
 }
@@ -6,6 +7,7 @@
   fill: $white;
 }
 
+// base (frame) for icons
 .base {
   box-sizing: border-box;
   border-radius: 50%;
@@ -21,50 +23,19 @@
   box-shadow: 0px 20px 40px rgba(19, 24, 33, 0.3);
 }
 
-$icons-hover: (
+// list of icon background colors when hover
+$icons: (
   "fb": $dark-blue,
   "ig": $purple,
   "twt": $light-blue,
   "yt": $red,
 );
 
-// grid gaps
+// icon classes
 @each $key, $val in $icons {
   .#{$key}:hover {
     background: $val;
   }
-}
-
-.base.facebook:hover {
-  background: #4267b2;
-}
-
-.base.instagram:hover {
-  background: #c13584;
-}
-
-.base.twitter:hover {
-  background: #1da1f2;
-}
-
-.base.youtube:hover {
-  background: #ff0000;
-}
-
-.base.facebook:active {
-  background: #2f4a80;
-}
-
-.base.instagram:active {
-  background: #8f2762;
-}
-
-.base.twitter:active {
-  background: #177fbf;
-}
-
-.base.youtube:active {
-  background: #cc0000;
 }
 
 @media only screen and (min-width: 768px) {

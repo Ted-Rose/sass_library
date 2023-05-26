@@ -4632,7 +4632,7 @@ img {
     display: block;
     padding: 4px;
     border: 1px solid #ddd;
-    box-shadow: 1px 3px 5px rgba(0,0,0,.1);
+    box-shadow: none;
     border-radius: 5px
 }
 
@@ -5525,7 +5525,7 @@ img {
 
 .navbar,.navbar-white,.navbar-black,.navbar-gray-2,.navbar-gray-1,.navbar-dark-purple,.navbar-purple,.navbar-orange,.navbar-green,.navbar-yellow,.navbar-dark-red,.navbar-red,.navbar-dark-blue-2,.navbar-dark-blue,.navbar-blue,.navbar-light-blue,.navbar-info,.navbar-error,.navbar-secondary,.navbar-primary {
     padding: 4px 8px;
-    box-shadow: 1px 3px 5px rgba(0,0,0,.1)
+    box-shadow: none
 }
 
 .navbar .site-title,.navbar-white .site-title,.navbar-black .site-title,.navbar-gray-2 .site-title,.navbar-gray-1 .site-title,.navbar-dark-purple .site-title,.navbar-purple .site-title,.navbar-orange .site-title,.navbar-green .site-title,.navbar-yellow .site-title,.navbar-dark-red .site-title,.navbar-red .site-title,.navbar-dark-blue-2 .site-title,.navbar-dark-blue .site-title,.navbar-blue .site-title,.navbar-light-blue .site-title,.navbar-info .site-title,.navbar-error .site-title,.navbar-secondary .site-title,.navbar-primary .site-title {
@@ -5766,6 +5766,54 @@ img {
     padding: 1px 2px;
     font-size: 10.5px;
     font-weight: normal
+}
+
+.ic {
+    fill: #131821
+}
+
+.ic:hover {
+    fill: #fff
+}
+
+.base {
+    box-sizing: border-box;
+    border-radius: 50%;
+    width: 46px;
+    height: 46px;
+    border: 2px solid #e3e3e4;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.base:hover {
+    box-shadow: 0px 20px 40px rgba(19,24,33,.3)
+}
+
+.fb:hover {
+    background: #4267b2
+}
+
+.ig:hover {
+    background: #c13584
+}
+
+.twt:hover {
+    background: #1da1f2
+}
+
+.yt:hover {
+    background: red
+}
+
+@media only screen and (min-width: 768px) {
+    .subscribe-icons {
+        width: 244px;
+        height: 46px;
+        margin-right: 91px;
+        margin-top: 50px
+    }
 }
 
 .p-0 {

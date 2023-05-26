@@ -1,10 +1,8 @@
-import "./Icons.scss";
-
 const Icons = () => (
-  <div className="navbar bt-1 pt-5">
-    <div className="base facebook">
+  <div className="navbar bt-1 pt-5 mb-3">
+    <div className="base fb ">
       <svg
-        className="ic facebook"
+        className="ic facebook ic:hover"
         width="8"
         height="16"
         viewBox="0 0 8 16"

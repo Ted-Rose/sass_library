@@ -3,9 +3,23 @@ $primary: #326dee !default;
 $secondary: #1ac886 !default;
 $error: #d32752 !default;
 $info: #f6c31c !default;
+$light-blue: #1da1f2 !default;
+$blue: #177fbf !default;
+$dark-blue: #4267b2 !default;
+$dark-blue-2: #2f4a80 !default;
+$red: #ff0000 !default;
+$dark-red: #cc0000 !default;
+$yellow: #e6e619 !default;
+$green: #19e635 !default;
+$orange: #ffa600 !default;
+$purple: #c13584 !default;
+$dark-purple: #c13584 !default;
+$gray-1: #808080 !default;
+$gray-2: #6a707b !default;
 $black: #0000 !default;
-$body-font-family: Arial;
-$heading-font-family: Georgia;
+$white: #ffffff !default;
+$body-font-family: Arial !default;
+$heading-font-family: Georgia !default;
 
 // breakpoints for responsive design
 $breakpoints: (
@@ -22,21 +36,21 @@ $colors: (
   "secondary": $secondary,
   "error": $error,
   "info": $info,
-  "light-blue": #1da1f2,
-  "blue": #177fbf,
-  "dark-blue": #4267b2,
-  "dark-blue-2": #2f4a80,
-  "red": #ff0000,
-  "dark-red": #cc0000,
-  "yellow": #e6e619,
-  "green": #19e635,
-  "orange": #ffa600,
-  "purple": #c13584,
-  "dark-purple": #c13584,
-  "gray-1": #808080,
-  "gray-2": #6a707b,
+  "light-blue": $light-blue,
+  "blue": $blue,
+  "dark-blue": $dark-blue,
+  "dark-blue-2": $dark-blue-2,
+  "red": $red,
+  "dark-red": $dark-red,
+  "yellow": $yellow,
+  "green": $green,
+  "orange": $orange,
+  "purple": $purple,
+  "dark-purple": $dark-purple,
+  "gray-1": $gray-1,
+  "gray-2": $gray-2,
   "black": $black,
-  "white": #ffffff,
+  "white": $white,
 ) !default;
 
 // spacing

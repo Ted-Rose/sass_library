@@ -1,7 +1,7 @@
 import "./Icons.scss";
 
 const Icons = () => (
-  <div className="subscribe-icons">
+  <div className="navbar bt-1 pt-5">
     <div className="base facebook">
       <svg
         className="ic facebook"

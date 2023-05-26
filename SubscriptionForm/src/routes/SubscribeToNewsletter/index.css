@@ -5,8 +5,8 @@
         display: none
     }
 
-    .sm-w-295 {
-        width: 295px
+    .sm-w-335333333 {
+        width: 335px33px33px33px33
     }
 }
 
@@ -4630,7 +4630,7 @@ img {
 
 .card {
     display: block;
-    padding: 4px;
+    padding: 10px;
     border: 1px solid #ddd;
     box-shadow: none;
     border-radius: 5px
@@ -4638,7 +4638,7 @@ img {
 
 .card .card-title {
     font-size: 14px;
-    padding-bottom: 4px;
+    padding-bottom: 10px;
     font-weight: bold
 }
 
@@ -4655,7 +4655,7 @@ img {
     cursor: pointer;
     display: inline-block;
     border: 0;
-    padding: 4px 8px;
+    padding: 10px 20px;
     border-radius: 20px;
     background-color: #e2e2e2
 }
@@ -4665,7 +4665,7 @@ img {
     cursor: pointer;
     display: inline-block;
     border: 0;
-    padding: 4px 8px;
+    padding: 10px 20px;
     border-radius: 20px;
     background-color: #f2f5fa
 }
@@ -4679,7 +4679,7 @@ img {
     cursor: pointer;
     display: inline-block;
     border: 0;
-    padding: 4px 8px;
+    padding: 10px 20px;
     border-radius: 20px;
     background-color: #fff;
     border: 1px solid #f2f5fa
@@ -4694,7 +4694,7 @@ img {
     cursor: pointer;
     display: inline-block;
     border: 0;
-    padding: 4px 8px;
+    padding: 10px 20px;
     border-radius: 20px;
     background-color: #f2f5fa;
     color: #fff
@@ -4710,7 +4710,7 @@ img {
     cursor: pointer;
     display: inline-block;
     border: 0;
-    padding: 4px 8px;
+    padding: 10px 20px;
     border-radius: 20px;
     background-color: #1ac886
 }
@@ -4724,7 +4724,7 @@ img {
     cursor: pointer;
     display: inline-block;
     border: 0;
-    padding: 4px 8px;
+    padding: 10px 20px;
     border-radius: 20px;
     background-color: #fff;
     border: 1px solid #1ac886
@@ -4739,7 +4739,7 @@ img {
     cursor: pointer;
     display: inline-block;
     border: 0;
-    padding: 4px 8px;
+    padding: 10px 20px;
     border-radius: 20px;
     background-color: #1ac886;
     color: #f08bb1
@@ -4755,7 +4755,7 @@ img {
     cursor: pointer;
     display: inline-block;
     border: 0;
-    padding: 4px 8px;
+    padding: 10px 20px;
     border-radius: 20px;
     background-color: #d32752
 }
@@ -4769,7 +4769,7 @@ img {
     cursor: pointer;
     display: inline-block;
     border: 0;
-    padding: 4px 8px;
+    padding: 10px 20px;
     border-radius: 20px;
     background-color: #fff;
     border: 1px solid #d32752
@@ -4784,7 +4784,7 @@ img {
     cursor: pointer;
     display: inline-block;
     border: 0;
-    padding: 4px 8px;
+    padding: 10px 20px;
     border-radius: 20px;
     background-color: #d32752;
     color: #a5eedc
@@ -4800,7 +4800,7 @@ img {
     cursor: pointer;
     display: inline-block;
     border: 0;
-    padding: 4px 8px;
+    padding: 10px 20px;
     border-radius: 20px;
     background-color: #f6c31c
 }
@@ -4814,7 +4814,7 @@ img {
     cursor: pointer;
     display: inline-block;
     border: 0;
-    padding: 4px 8px;
+    padding: 10px 20px;
     border-radius: 20px;
     background-color: #fff;
     border: 1px solid #f6c31c
@@ -4829,7 +4829,7 @@ img {
     cursor: pointer;
     display: inline-block;
     border: 0;
-    padding: 4px 8px;
+    padding: 10px 20px;
     border-radius: 20px;
     background-color: #f6c31c;
     color: #afc1fc
@@ -4845,7 +4845,7 @@ img {
     cursor: pointer;
     display: inline-block;
     border: 0;
-    padding: 4px 8px;
+    padding: 10px 20px;
     border-radius: 20px;
     background-color: #1da1f2
 }
@@ -4859,7 +4859,7 @@ img {
     cursor: pointer;
     display: inline-block;
     border: 0;
-    padding: 4px 8px;
+    padding: 10px 20px;
     border-radius: 20px;
     background-color: #fff;
     border: 1px solid #1da1f2
@@ -4874,7 +4874,7 @@ img {
     cursor: pointer;
     display: inline-block;
     border: 0;
-    padding: 4px 8px;
+    padding: 10px 20px;
     border-radius: 20px;
     background-color: #1da1f2;
     color: #facbae
@@ -4890,7 +4890,7 @@ img {
     cursor: pointer;
     display: inline-block;
     border: 0;
-    padding: 4px 8px;
+    padding: 10px 20px;
     border-radius: 20px;
     background-color: #177fbf
 }
@@ -4904,7 +4904,7 @@ img {
     cursor: pointer;
     display: inline-block;
     border: 0;
-    padding: 4px 8px;
+    padding: 10px 20px;
     border-radius: 20px;
     background-color: #fff;
     border: 1px solid #177fbf
@@ -4919,7 +4919,7 @@ img {
     cursor: pointer;
     display: inline-block;
     border: 0;
-    padding: 4px 8px;
+    padding: 10px 20px;
     border-radius: 20px;
     background-color: #177fbf;
     color: #f0aa7f
@@ -4935,7 +4935,7 @@ img {
     cursor: pointer;
     display: inline-block;
     border: 0;
-    padding: 4px 8px;
+    padding: 10px 20px;
     border-radius: 20px;
     background-color: #4267b2
 }
@@ -4949,7 +4949,7 @@ img {
     cursor: pointer;
     display: inline-block;
     border: 0;
-    padding: 4px 8px;
+    padding: 10px 20px;
     border-radius: 20px;
     background-color: #fff;
     border: 1px solid #4267b2
@@ -4964,7 +4964,7 @@ img {
     cursor: pointer;
     display: inline-block;
     border: 0;
-    padding: 4px 8px;
+    padding: 10px 20px;
     border-radius: 20px;
     background-color: #4267b2;
     color: #e0cfad
@@ -4980,7 +4980,7 @@ img {
     cursor: pointer;
     display: inline-block;
     border: 0;
-    padding: 4px 8px;
+    padding: 10px 20px;
     border-radius: 20px;
     background-color: #2f4a80
 }
@@ -4994,7 +4994,7 @@ img {
     cursor: pointer;
     display: inline-block;
     border: 0;
-    padding: 4px 8px;
+    padding: 10px 20px;
     border-radius: 20px;
     background-color: #fff;
     border: 1px solid #2f4a80
@@ -5009,7 +5009,7 @@ img {
     cursor: pointer;
     display: inline-block;
     border: 0;
-    padding: 4px 8px;
+    padding: 10px 20px;
     border-radius: 20px;
     background-color: #2f4a80;
     color: #ceb27a
@@ -5025,7 +5025,7 @@ img {
     cursor: pointer;
     display: inline-block;
     border: 0;
-    padding: 4px 8px;
+    padding: 10px 20px;
     border-radius: 20px;
     background-color: red
 }
@@ -5039,7 +5039,7 @@ img {
     cursor: pointer;
     display: inline-block;
     border: 0;
-    padding: 4px 8px;
+    padding: 10px 20px;
     border-radius: 20px;
     background-color: #fff;
     border: 1px solid red
@@ -5054,7 +5054,7 @@ img {
     cursor: pointer;
     display: inline-block;
     border: 0;
-    padding: 4px 8px;
+    padding: 10px 20px;
     border-radius: 20px;
     background-color: red;
     color: #9ff
@@ -5070,7 +5070,7 @@ img {
     cursor: pointer;
     display: inline-block;
     border: 0;
-    padding: 4px 8px;
+    padding: 10px 20px;
     border-radius: 20px;
     background-color: #c00
 }
@@ -5084,7 +5084,7 @@ img {
     cursor: pointer;
     display: inline-block;
     border: 0;
-    padding: 4px 8px;
+    padding: 10px 20px;
     border-radius: 20px;
     background-color: #fff;
     border: 1px solid #c00
@@ -5099,7 +5099,7 @@ img {
     cursor: pointer;
     display: inline-block;
     border: 0;
-    padding: 4px 8px;
+    padding: 10px 20px;
     border-radius: 20px;
     background-color: #c00;
     color: #6ff
@@ -5115,7 +5115,7 @@ img {
     cursor: pointer;
     display: inline-block;
     border: 0;
-    padding: 4px 8px;
+    padding: 10px 20px;
     border-radius: 20px;
     background-color: #e6e619
 }
@@ -5129,7 +5129,7 @@ img {
     cursor: pointer;
     display: inline-block;
     border: 0;
-    padding: 4px 8px;
+    padding: 10px 20px;
     border-radius: 20px;
     background-color: #fff;
     border: 1px solid #e6e619
@@ -5144,7 +5144,7 @@ img {
     cursor: pointer;
     display: inline-block;
     border: 0;
-    padding: 4px 8px;
+    padding: 10px 20px;
     border-radius: 20px;
     background-color: #e6e619;
     color: #a3a3f5
@@ -5160,7 +5160,7 @@ img {
     cursor: pointer;
     display: inline-block;
     border: 0;
-    padding: 4px 8px;
+    padding: 10px 20px;
     border-radius: 20px;
     background-color: #19e635
 }
@@ -5174,7 +5174,7 @@ img {
     cursor: pointer;
     display: inline-block;
     border: 0;
-    padding: 4px 8px;
+    padding: 10px 20px;
     border-radius: 20px;
     background-color: #fff;
     border: 1px solid #19e635
@@ -5189,7 +5189,7 @@ img {
     cursor: pointer;
     display: inline-block;
     border: 0;
-    padding: 4px 8px;
+    padding: 10px 20px;
     border-radius: 20px;
     background-color: #19e635;
     color: #f5a3ea
@@ -5205,7 +5205,7 @@ img {
     cursor: pointer;
     display: inline-block;
     border: 0;
-    padding: 4px 8px;
+    padding: 10px 20px;
     border-radius: 20px;
     background-color: #ffa600
 }
@@ -5219,7 +5219,7 @@ img {
     cursor: pointer;
     display: inline-block;
     border: 0;
-    padding: 4px 8px;
+    padding: 10px 20px;
     border-radius: 20px;
     background-color: #fff;
     border: 1px solid #ffa600
@@ -5234,7 +5234,7 @@ img {
     cursor: pointer;
     display: inline-block;
     border: 0;
-    padding: 4px 8px;
+    padding: 10px 20px;
     border-radius: 20px;
     background-color: #ffa600;
     color: #99bdff
@@ -5250,7 +5250,7 @@ img {
     cursor: pointer;
     display: inline-block;
     border: 0;
-    padding: 4px 8px;
+    padding: 10px 20px;
     border-radius: 20px;
     background-color: #c13584
 }
@@ -5264,7 +5264,7 @@ img {
     cursor: pointer;
     display: inline-block;
     border: 0;
-    padding: 4px 8px;
+    padding: 10px 20px;
     border-radius: 20px;
     background-color: #fff;
     border: 1px solid #c13584
@@ -5279,7 +5279,7 @@ img {
     cursor: pointer;
     display: inline-block;
     border: 0;
-    padding: 4px 8px;
+    padding: 10px 20px;
     border-radius: 20px;
     background-color: #c13584;
     color: #a8e7c3
@@ -5295,7 +5295,7 @@ img {
     cursor: pointer;
     display: inline-block;
     border: 0;
-    padding: 4px 8px;
+    padding: 10px 20px;
     border-radius: 20px;
     background-color: #c13584
 }
@@ -5309,7 +5309,7 @@ img {
     cursor: pointer;
     display: inline-block;
     border: 0;
-    padding: 4px 8px;
+    padding: 10px 20px;
     border-radius: 20px;
     background-color: #fff;
     border: 1px solid #c13584
@@ -5324,7 +5324,7 @@ img {
     cursor: pointer;
     display: inline-block;
     border: 0;
-    padding: 4px 8px;
+    padding: 10px 20px;
     border-radius: 20px;
     background-color: #c13584;
     color: #a8e7c3
@@ -5340,7 +5340,7 @@ img {
     cursor: pointer;
     display: inline-block;
     border: 0;
-    padding: 4px 8px;
+    padding: 10px 20px;
     border-radius: 20px;
     background-color: gray
 }
@@ -5354,7 +5354,7 @@ img {
     cursor: pointer;
     display: inline-block;
     border: 0;
-    padding: 4px 8px;
+    padding: 10px 20px;
     border-radius: 20px;
     background-color: #fff;
     border: 1px solid gray
@@ -5369,7 +5369,7 @@ img {
     cursor: pointer;
     display: inline-block;
     border: 0;
-    padding: 4px 8px;
+    padding: 10px 20px;
     border-radius: 20px;
     background-color: gray;
     color: #cdcdcd
@@ -5385,7 +5385,7 @@ img {
     cursor: pointer;
     display: inline-block;
     border: 0;
-    padding: 4px 8px;
+    padding: 10px 20px;
     border-radius: 20px;
     background-color: #6a707b
 }
@@ -5399,7 +5399,7 @@ img {
     cursor: pointer;
     display: inline-block;
     border: 0;
-    padding: 4px 8px;
+    padding: 10px 20px;
     border-radius: 20px;
     background-color: #fff;
     border: 1px solid #6a707b
@@ -5414,7 +5414,7 @@ img {
     cursor: pointer;
     display: inline-block;
     border: 0;
-    padding: 4px 8px;
+    padding: 10px 20px;
     border-radius: 20px;
     background-color: #6a707b;
     color: #c4c0ba
@@ -5430,7 +5430,7 @@ img {
     cursor: pointer;
     display: inline-block;
     border: 0;
-    padding: 4px 8px;
+    padding: 10px 20px;
     border-radius: 20px;
     background-color: #131821
 }
@@ -5444,7 +5444,7 @@ img {
     cursor: pointer;
     display: inline-block;
     border: 0;
-    padding: 4px 8px;
+    padding: 10px 20px;
     border-radius: 20px;
     background-color: #fff;
     border: 1px solid #131821
@@ -5459,7 +5459,7 @@ img {
     cursor: pointer;
     display: inline-block;
     border: 0;
-    padding: 4px 8px;
+    padding: 10px 20px;
     border-radius: 20px;
     background-color: #131821;
     color: #826e4b
@@ -5475,7 +5475,7 @@ img {
     cursor: pointer;
     display: inline-block;
     border: 0;
-    padding: 4px 8px;
+    padding: 10px 20px;
     border-radius: 20px;
     background-color: #fff
 }
@@ -5489,7 +5489,7 @@ img {
     cursor: pointer;
     display: inline-block;
     border: 0;
-    padding: 4px 8px;
+    padding: 10px 20px;
     border-radius: 20px;
     background-color: #fff;
     border: 1px solid #fff
@@ -5504,7 +5504,7 @@ img {
     cursor: pointer;
     display: inline-block;
     border: 0;
-    padding: 4px 8px;
+    padding: 10px 20px;
     border-radius: 20px;
     background-color: #fff;
     color: #fff
@@ -5524,7 +5524,6 @@ img {
 }
 
 .navbar,.navbar-white,.navbar-black,.navbar-gray-2,.navbar-gray-1,.navbar-dark-purple,.navbar-purple,.navbar-orange,.navbar-green,.navbar-yellow,.navbar-dark-red,.navbar-red,.navbar-dark-blue-2,.navbar-dark-blue,.navbar-blue,.navbar-light-blue,.navbar-info,.navbar-error,.navbar-secondary,.navbar-primary {
-    padding: 4px 8px;
     box-shadow: none
 }
 
@@ -5611,7 +5610,7 @@ img {
 .badge {
     border-radius: 80px;
     background-color: #f6c31c;
-    padding: 1px 2px;
+    padding: 2.5px 5px;
     font-size: 10.5px;
     font-weight: normal
 }
@@ -5619,7 +5618,7 @@ img {
 .badge-primary {
     border-radius: 80px;
     background-color: #f2f5fa;
-    padding: 1px 2px;
+    padding: 2.5px 5px;
     font-size: 10.5px;
     font-weight: normal
 }
@@ -5627,7 +5626,7 @@ img {
 .badge-secondary {
     border-radius: 80px;
     background-color: #1ac886;
-    padding: 1px 2px;
+    padding: 2.5px 5px;
     font-size: 10.5px;
     font-weight: normal
 }
@@ -5635,7 +5634,7 @@ img {
 .badge-error {
     border-radius: 80px;
     background-color: #d32752;
-    padding: 1px 2px;
+    padding: 2.5px 5px;
     font-size: 10.5px;
     font-weight: normal
 }
@@ -5643,7 +5642,7 @@ img {
 .badge-info {
     border-radius: 80px;
     background-color: #f6c31c;
-    padding: 1px 2px;
+    padding: 2.5px 5px;
     font-size: 10.5px;
     font-weight: normal
 }
@@ -5651,7 +5650,7 @@ img {
 .badge-light-blue {
     border-radius: 80px;
     background-color: #1da1f2;
-    padding: 1px 2px;
+    padding: 2.5px 5px;
     font-size: 10.5px;
     font-weight: normal
 }
@@ -5659,7 +5658,7 @@ img {
 .badge-blue {
     border-radius: 80px;
     background-color: #177fbf;
-    padding: 1px 2px;
+    padding: 2.5px 5px;
     font-size: 10.5px;
     font-weight: normal
 }
@@ -5667,7 +5666,7 @@ img {
 .badge-dark-blue {
     border-radius: 80px;
     background-color: #4267b2;
-    padding: 1px 2px;
+    padding: 2.5px 5px;
     font-size: 10.5px;
     font-weight: normal
 }
@@ -5675,7 +5674,7 @@ img {
 .badge-dark-blue-2 {
     border-radius: 80px;
     background-color: #2f4a80;
-    padding: 1px 2px;
+    padding: 2.5px 5px;
     font-size: 10.5px;
     font-weight: normal
 }
@@ -5683,7 +5682,7 @@ img {
 .badge-red {
     border-radius: 80px;
     background-color: red;
-    padding: 1px 2px;
+    padding: 2.5px 5px;
     font-size: 10.5px;
     font-weight: normal
 }
@@ -5691,7 +5690,7 @@ img {
 .badge-dark-red {
     border-radius: 80px;
     background-color: #c00;
-    padding: 1px 2px;
+    padding: 2.5px 5px;
     font-size: 10.5px;
     font-weight: normal
 }
@@ -5699,7 +5698,7 @@ img {
 .badge-yellow {
     border-radius: 80px;
     background-color: #e6e619;
-    padding: 1px 2px;
+    padding: 2.5px 5px;
     font-size: 10.5px;
     font-weight: normal
 }
@@ -5707,7 +5706,7 @@ img {
 .badge-green {
     border-radius: 80px;
     background-color: #19e635;
-    padding: 1px 2px;
+    padding: 2.5px 5px;
     font-size: 10.5px;
     font-weight: normal
 }
@@ -5715,7 +5714,7 @@ img {
 .badge-orange {
     border-radius: 80px;
     background-color: #ffa600;
-    padding: 1px 2px;
+    padding: 2.5px 5px;
     font-size: 10.5px;
     font-weight: normal
 }
@@ -5723,7 +5722,7 @@ img {
 .badge-purple {
     border-radius: 80px;
     background-color: #c13584;
-    padding: 1px 2px;
+    padding: 2.5px 5px;
     font-size: 10.5px;
     font-weight: normal
 }
@@ -5731,7 +5730,7 @@ img {
 .badge-dark-purple {
     border-radius: 80px;
     background-color: #c13584;
-    padding: 1px 2px;
+    padding: 2.5px 5px;
     font-size: 10.5px;
     font-weight: normal
 }
@@ -5739,7 +5738,7 @@ img {
 .badge-gray-1 {
     border-radius: 80px;
     background-color: gray;
-    padding: 1px 2px;
+    padding: 2.5px 5px;
     font-size: 10.5px;
     font-weight: normal
 }
@@ -5747,7 +5746,7 @@ img {
 .badge-gray-2 {
     border-radius: 80px;
     background-color: #6a707b;
-    padding: 1px 2px;
+    padding: 2.5px 5px;
     font-size: 10.5px;
     font-weight: normal
 }
@@ -5755,7 +5754,7 @@ img {
 .badge-black {
     border-radius: 80px;
     background-color: #131821;
-    padding: 1px 2px;
+    padding: 2.5px 5px;
     font-size: 10.5px;
     font-weight: normal
 }
@@ -5763,7 +5762,7 @@ img {
 .badge-white {
     border-radius: 80px;
     background-color: #fff;
-    padding: 1px 2px;
+    padding: 2.5px 5px;
     font-size: 10.5px;
     font-weight: normal
 }
@@ -5821,31 +5820,31 @@ img {
 }
 
 .p-1 {
-    padding: 4px
-}
-
-.p-2 {
-    padding: 8px
-}
-
-.p-2-5 {
     padding: 10px
 }
 
-.p-3 {
-    padding: 12px
-}
-
-.p-4 {
-    padding: 16px
-}
-
-.p-5 {
+.p-2 {
     padding: 20px
 }
 
-.p-7-5 {
+.p-2-5 {
+    padding: 25px
+}
+
+.p-3 {
     padding: 30px
+}
+
+.p-4 {
+    padding: 40px
+}
+
+.p-5 {
+    padding: 50px
+}
+
+.p-7-5 {
+    padding: 75px
 }
 
 .pl-0 {
@@ -5853,31 +5852,31 @@ img {
 }
 
 .pl-1 {
-    padding-left: 4px
-}
-
-.pl-2 {
-    padding-left: 8px
-}
-
-.pl-2-5 {
     padding-left: 10px
 }
 
-.pl-3 {
-    padding-left: 12px
-}
-
-.pl-4 {
-    padding-left: 16px
-}
-
-.pl-5 {
+.pl-2 {
     padding-left: 20px
 }
 
-.pl-7-5 {
+.pl-2-5 {
+    padding-left: 25px
+}
+
+.pl-3 {
     padding-left: 30px
+}
+
+.pl-4 {
+    padding-left: 40px
+}
+
+.pl-5 {
+    padding-left: 50px
+}
+
+.pl-7-5 {
+    padding-left: 75px
 }
 
 .pr-0 {
@@ -5885,31 +5884,31 @@ img {
 }
 
 .pr-1 {
-    padding-right: 4px
-}
-
-.pr-2 {
-    padding-right: 8px
-}
-
-.pr-2-5 {
     padding-right: 10px
 }
 
-.pr-3 {
-    padding-right: 12px
-}
-
-.pr-4 {
-    padding-right: 16px
-}
-
-.pr-5 {
+.pr-2 {
     padding-right: 20px
 }
 
-.pr-7-5 {
+.pr-2-5 {
+    padding-right: 25px
+}
+
+.pr-3 {
     padding-right: 30px
+}
+
+.pr-4 {
+    padding-right: 40px
+}
+
+.pr-5 {
+    padding-right: 50px
+}
+
+.pr-7-5 {
+    padding-right: 75px
 }
 
 .pt-0 {
@@ -5917,31 +5916,31 @@ img {
 }
 
 .pt-1 {
-    padding-top: 4px
-}
-
-.pt-2 {
-    padding-top: 8px
-}
-
-.pt-2-5 {
     padding-top: 10px
 }
 
-.pt-3 {
-    padding-top: 12px
-}
-
-.pt-4 {
-    padding-top: 16px
-}
-
-.pt-5 {
+.pt-2 {
     padding-top: 20px
 }
 
-.pt-7-5 {
+.pt-2-5 {
+    padding-top: 25px
+}
+
+.pt-3 {
     padding-top: 30px
+}
+
+.pt-4 {
+    padding-top: 40px
+}
+
+.pt-5 {
+    padding-top: 50px
+}
+
+.pt-7-5 {
+    padding-top: 75px
 }
 
 .pb-0 {
@@ -5949,31 +5948,31 @@ img {
 }
 
 .pb-1 {
-    padding-bottom: 4px
-}
-
-.pb-2 {
-    padding-bottom: 8px
-}
-
-.pb-2-5 {
     padding-bottom: 10px
 }
 
-.pb-3 {
-    padding-bottom: 12px
-}
-
-.pb-4 {
-    padding-bottom: 16px
-}
-
-.pb-5 {
+.pb-2 {
     padding-bottom: 20px
 }
 
-.pb-7-5 {
+.pb-2-5 {
+    padding-bottom: 25px
+}
+
+.pb-3 {
     padding-bottom: 30px
+}
+
+.pb-4 {
+    padding-bottom: 40px
+}
+
+.pb-5 {
+    padding-bottom: 50px
+}
+
+.pb-7-5 {
+    padding-bottom: 75px
 }
 
 .m-0 {
@@ -5981,43 +5980,43 @@ img {
 }
 
 .m-1 {
-    margin: 10.5px
+    margin: 10px
 }
 
 .m-2 {
-    margin: 21px
+    margin: 20px
 }
 
 .m-3 {
-    margin: 31.5px
+    margin: 30px
 }
 
 .m-4 {
-    margin: 42px
+    margin: 40px
 }
 
 .m-5 {
-    margin: 52.5px
+    margin: 50px
 }
 
 .m-6 {
-    margin: 63px
+    margin: 60px
 }
 
 .m-7 {
-    margin: 73.5px
+    margin: 70px
 }
 
 .m-8 {
-    margin: 84px
+    margin: 80px
 }
 
 .m-9 {
-    margin: 94.5px
+    margin: 90px
 }
 
 .m-10 {
-    margin: 105px
+    margin: 100px
 }
 
 .ml-0 {
@@ -6025,43 +6024,43 @@ img {
 }
 
 .ml-1 {
-    margin-left: 10.5px
+    margin-left: 10px
 }
 
 .ml-2 {
-    margin-left: 21px
+    margin-left: 20px
 }
 
 .ml-3 {
-    margin-left: 31.5px
+    margin-left: 30px
 }
 
 .ml-4 {
-    margin-left: 42px
+    margin-left: 40px
 }
 
 .ml-5 {
-    margin-left: 52.5px
+    margin-left: 50px
 }
 
 .ml-6 {
-    margin-left: 63px
+    margin-left: 60px
 }
 
 .ml-7 {
-    margin-left: 73.5px
+    margin-left: 70px
 }
 
 .ml-8 {
-    margin-left: 84px
+    margin-left: 80px
 }
 
 .ml-9 {
-    margin-left: 94.5px
+    margin-left: 90px
 }
 
 .ml-10 {
-    margin-left: 105px
+    margin-left: 100px
 }
 
 .mr-0 {
@@ -6069,43 +6068,43 @@ img {
 }
 
 .mr-1 {
-    margin-right: 10.5px
+    margin-right: 10px
 }
 
 .mr-2 {
-    margin-right: 21px
+    margin-right: 20px
 }
 
 .mr-3 {
-    margin-right: 31.5px
+    margin-right: 30px
 }
 
 .mr-4 {
-    margin-right: 42px
+    margin-right: 40px
 }
 
 .mr-5 {
-    margin-right: 52.5px
+    margin-right: 50px
 }
 
 .mr-6 {
-    margin-right: 63px
+    margin-right: 60px
 }
 
 .mr-7 {
-    margin-right: 73.5px
+    margin-right: 70px
 }
 
 .mr-8 {
-    margin-right: 84px
+    margin-right: 80px
 }
 
 .mr-9 {
-    margin-right: 94.5px
+    margin-right: 90px
 }
 
 .mr-10 {
-    margin-right: 105px
+    margin-right: 100px
 }
 
 .mt-0 {
@@ -6113,43 +6112,43 @@ img {
 }
 
 .mt-1 {
-    margin-top: 10.5px
+    margin-top: 10px
 }
 
 .mt-2 {
-    margin-top: 21px
+    margin-top: 20px
 }
 
 .mt-3 {
-    margin-top: 31.5px
+    margin-top: 30px
 }
 
 .mt-4 {
-    margin-top: 42px
+    margin-top: 40px
 }
 
 .mt-5 {
-    margin-top: 52.5px
+    margin-top: 50px
 }
 
 .mt-6 {
-    margin-top: 63px
+    margin-top: 60px
 }
 
 .mt-7 {
-    margin-top: 73.5px
+    margin-top: 70px
 }
 
 .mt-8 {
-    margin-top: 84px
+    margin-top: 80px
 }
 
 .mt-9 {
-    margin-top: 94.5px
+    margin-top: 90px
 }
 
 .mt-10 {
-    margin-top: 105px
+    margin-top: 100px
 }
 
 .mb-0 {
@@ -6157,43 +6156,43 @@ img {
 }
 
 .mb-1 {
-    margin-bottom: 10.5px
+    margin-bottom: 10px
 }
 
 .mb-2 {
-    margin-bottom: 21px
+    margin-bottom: 20px
 }
 
 .mb-3 {
-    margin-bottom: 31.5px
+    margin-bottom: 30px
 }
 
 .mb-4 {
-    margin-bottom: 42px
+    margin-bottom: 40px
 }
 
 .mb-5 {
-    margin-bottom: 52.5px
+    margin-bottom: 50px
 }
 
 .mb-6 {
-    margin-bottom: 63px
+    margin-bottom: 60px
 }
 
 .mb-7 {
-    margin-bottom: 73.5px
+    margin-bottom: 70px
 }
 
 .mb-8 {
-    margin-bottom: 84px
+    margin-bottom: 80px
 }
 
 .mb-9 {
-    margin-bottom: 94.5px
+    margin-bottom: 90px
 }
 
 .mb-10 {
-    margin-bottom: 105px
+    margin-bottom: 100px
 }
 
 .o-10 {

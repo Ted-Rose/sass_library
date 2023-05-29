@@ -72,14 +72,14 @@ const Header = (/* { links } */) => {
             fill="#131821"
           />
         </svg>
-        <ul class="display-f pl-5 pr-2 mb-1 mt-1">
-          <li class="font-md mr-2 pt-1 pb-1 text-hover-secondary">
+        <ul class="display-f pl-5 pr-2 pt-2-5 pb-2-5 mt-n-4 mb-n-4">
+          <li class="font-md mr-2 btn-1">
             <a href="#">About</a>
           </li>
-          <li class="font-md mr-2 pt-1 pb-1 text-hover-secondary">
+          <li class="font-md mr-2 btn-1">
             <a href="#">How it works</a>
           </li>
-          <li class="font-md pt-1 pb-1 text-hover-secondary">
+          <li class="font-md btn-1">
             <a href="#">Contact</a>
           </li>
         </ul>

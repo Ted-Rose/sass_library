@@ -1,4 +1,21 @@
-@mixin btn($bg-color: #e2e2e2) {
+.btn-1 {
+  line-height: 24px;
+  color: #6a707b;
+  background-color: transparent;
+  border: none;
+}
+
+.btn-1:hover {
+  text-decoration-line: underline;
+  color: #4066a5;
+}
+
+.btn-1:active {
+  text-decoration-line: underline;
+  color: #233759;
+}
+
+@mixin btn-2($bg-color: #e2e2e2) {
   text-decoration: none;
   cursor: pointer;
   display: inline-block;
@@ -8,26 +25,26 @@
   background-color: $bg-color;
 }
 
-.btn {
-  @include btn;
+.btn-2 {
+  @include btn-2;
 }
 
 @each $key, $val in $colors {
-  .btn-#{$key} {
-    @include btn($val);
+  .btn-2-#{$key} {
+    @include btn-2($val);
     &:hover {
       background-color: lighten($val, 5);
     }
   }
-  .btn-outlined-#{$key} {
-    @include btn(#fff);
+  .btn-2-outlined-#{$key} {
+    @include btn-2(#fff);
     border: $base-border-thickness solid $val;
     &:hover {
       background-color: $val;
     }
   }
-  .btn-complement-#{$key} {
-    @include btn($val);
+  .btn-2-complement-#{$key} {
+    @include btn-2($val);
     color: light-comp($val);
     &:hover {
       color: $val;

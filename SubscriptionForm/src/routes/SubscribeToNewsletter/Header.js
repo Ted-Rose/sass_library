@@ -73,13 +73,13 @@ const Header = (/* { links } */) => {
           />
         </svg>
         <ul class="display-f pl-5 pr-2 pt-2-5 pb-2-5 mt-n-4 mb-n-4">
-          <li class="font-md mr-2 btn-1">
+          <li class="font-md mr-2 btn-gray-2">
             <a href="#">About</a>
           </li>
-          <li class="font-md mr-2 btn-1">
+          <li class="font-md mr-2 btn-gray-2">
             <a href="#">How it works</a>
           </li>
-          <li class="font-md btn-1">
+          <li class="font-md btn-gray-2">
             <a href="#">Contact</a>
           </li>
         </ul>

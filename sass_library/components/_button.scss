@@ -1,18 +1,24 @@
-.btn-1 {
+@mixin btn($color: $primary) {
   line-height: 24px;
-  color: #6a707b;
   background-color: transparent;
   border: none;
+  color: $color;
 }
 
-.btn-1:hover {
-  text-decoration-line: underline;
-  color: #4066a5;
+.btn {
+  @include btn;
 }
 
-.btn-1:active {
-  text-decoration-line: underline;
-  color: #233759;
+@each $key, $val in $colors {
+  .btn-#{$key} {
+    @include btn($val);
+    &:hover {
+      background-color: $hover;
+    }
+    &:active {
+      background-color: $pressed;
+    }
+  }
 }
 
 @mixin btn-2($bg-color: #e2e2e2) {

@@ -14,7 +14,7 @@ const Terms = () => {
       <Checkbox value={checked} onChange={handleChange} />
       <p className="ml-4 text-gray">
         I agree to{" "}
-        <span className="text-black underline">terms of service</span>
+        <span className="btn-1 text-black underline ">terms of service</span>
       </p>
     </div>
   );

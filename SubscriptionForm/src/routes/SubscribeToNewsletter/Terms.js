@@ -12,9 +12,9 @@ const Terms = () => {
   return (
     <div className="col-12-xs pt-5">
       <Checkbox value={checked} onChange={handleChange} />
-      <p className="ml-4 text-gray">
+      <p className="ml-4 text-gray-1">
         I agree to{" "}
-        <span className="btn-1 text-black underline ">terms of service</span>
+        <span className="btn-black underline ">terms of service</span>
       </p>
     </div>
   );

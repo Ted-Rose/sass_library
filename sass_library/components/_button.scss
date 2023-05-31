@@ -1,8 +1,7 @@
-@mixin btn($color: $primary) {
+@mixin btn {
   line-height: 24px;
   background-color: transparent;
   border: none;
-  color: $color;
 }
 
 .btn {
@@ -11,7 +10,8 @@
 
 @each $key, $val in $colors {
   .btn-#{$key} {
-    @include btn($val);
+    color: #{$val};
+    line-height: 24px;
     &:hover {
       background-color: $hover;
     }

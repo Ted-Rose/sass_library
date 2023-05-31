@@ -4653,15 +4653,12 @@ img {
 .btn {
     line-height: 24px;
     background-color: rgba(0,0,0,0);
-    border: none;
-    color: #f2f5fa
+    border: none
 }
 
 .btn-primary {
-    line-height: 24px;
-    background-color: rgba(0,0,0,0);
-    border: none;
-    color: #f2f5fa
+    color: #f2f5fa;
+    line-height: 24px
 }
 
 .btn-primary:hover {
@@ -4673,10 +4670,8 @@ img {
 }
 
 .btn-secondary {
-    line-height: 24px;
-    background-color: rgba(0,0,0,0);
-    border: none;
-    color: #1ac886
+    color: #1ac886;
+    line-height: 24px
 }
 
 .btn-secondary:hover {
@@ -4688,10 +4683,8 @@ img {
 }
 
 .btn-error {
-    line-height: 24px;
-    background-color: rgba(0,0,0,0);
-    border: none;
-    color: #d32752
+    color: #d32752;
+    line-height: 24px
 }
 
 .btn-error:hover {
@@ -4703,10 +4696,8 @@ img {
 }
 
 .btn-info {
-    line-height: 24px;
-    background-color: rgba(0,0,0,0);
-    border: none;
-    color: #f6c31c
+    color: #f6c31c;
+    line-height: 24px
 }
 
 .btn-info:hover {
@@ -4718,10 +4709,8 @@ img {
 }
 
 .btn-light-blue {
-    line-height: 24px;
-    background-color: rgba(0,0,0,0);
-    border: none;
-    color: #1da1f2
+    color: #1da1f2;
+    line-height: 24px
 }
 
 .btn-light-blue:hover {
@@ -4733,10 +4722,8 @@ img {
 }
 
 .btn-blue {
-    line-height: 24px;
-    background-color: rgba(0,0,0,0);
-    border: none;
-    color: #177fbf
+    color: #177fbf;
+    line-height: 24px
 }
 
 .btn-blue:hover {
@@ -4748,10 +4735,8 @@ img {
 }
 
 .btn-dark-blue {
-    line-height: 24px;
-    background-color: rgba(0,0,0,0);
-    border: none;
-    color: #4267b2
+    color: #4267b2;
+    line-height: 24px
 }
 
 .btn-dark-blue:hover {
@@ -4763,10 +4748,8 @@ img {
 }
 
 .btn-dark-blue-2 {
-    line-height: 24px;
-    background-color: rgba(0,0,0,0);
-    border: none;
-    color: #2f4a80
+    color: #2f4a80;
+    line-height: 24px
 }
 
 .btn-dark-blue-2:hover {
@@ -4778,10 +4761,8 @@ img {
 }
 
 .btn-red {
-    line-height: 24px;
-    background-color: rgba(0,0,0,0);
-    border: none;
-    color: red
+    color: #ff0000;
+    line-height: 24px
 }
 
 .btn-red:hover {
@@ -4793,10 +4774,8 @@ img {
 }
 
 .btn-dark-red {
-    line-height: 24px;
-    background-color: rgba(0,0,0,0);
-    border: none;
-    color: #c00
+    color: #cc0000;
+    line-height: 24px
 }
 
 .btn-dark-red:hover {
@@ -4808,10 +4787,8 @@ img {
 }
 
 .btn-yellow {
-    line-height: 24px;
-    background-color: rgba(0,0,0,0);
-    border: none;
-    color: #e6e619
+    color: #e6e619;
+    line-height: 24px
 }
 
 .btn-yellow:hover {
@@ -4823,10 +4800,8 @@ img {
 }
 
 .btn-green {
-    line-height: 24px;
-    background-color: rgba(0,0,0,0);
-    border: none;
-    color: #19e635
+    color: #19e635;
+    line-height: 24px
 }
 
 .btn-green:hover {
@@ -4838,10 +4813,8 @@ img {
 }
 
 .btn-orange {
-    line-height: 24px;
-    background-color: rgba(0,0,0,0);
-    border: none;
-    color: #ffa600
+    color: #ffa600;
+    line-height: 24px
 }
 
 .btn-orange:hover {
@@ -4853,10 +4826,8 @@ img {
 }
 
 .btn-purple {
-    line-height: 24px;
-    background-color: rgba(0,0,0,0);
-    border: none;
-    color: #c13584
+    color: #c13584;
+    line-height: 24px
 }
 
 .btn-purple:hover {
@@ -4868,10 +4839,8 @@ img {
 }
 
 .btn-dark-purple {
-    line-height: 24px;
-    background-color: rgba(0,0,0,0);
-    border: none;
-    color: #c13584
+    color: #c13584;
+    line-height: 24px
 }
 
 .btn-dark-purple:hover {
@@ -4883,10 +4852,8 @@ img {
 }
 
 .btn-gray-1 {
-    line-height: 24px;
-    background-color: rgba(0,0,0,0);
-    border: none;
-    color: gray
+    color: #808080;
+    line-height: 24px
 }
 
 .btn-gray-1:hover {
@@ -4898,10 +4865,8 @@ img {
 }
 
 .btn-gray-2 {
-    line-height: 24px;
-    background-color: rgba(0,0,0,0);
-    border: none;
-    color: #6a707b
+    color: #6a707b;
+    line-height: 24px
 }
 
 .btn-gray-2:hover {
@@ -4913,10 +4878,8 @@ img {
 }
 
 .btn-black {
-    line-height: 24px;
-    background-color: rgba(0,0,0,0);
-    border: none;
-    color: #131821
+    color: #131821;
+    line-height: 24px
 }
 
 .btn-black:hover {
@@ -4928,10 +4891,8 @@ img {
 }
 
 .btn-white {
-    line-height: 24px;
-    background-color: rgba(0,0,0,0);
-    border: none;
-    color: #fff
+    color: #ffffff;
+    line-height: 24px
 }
 
 .btn-white:hover {

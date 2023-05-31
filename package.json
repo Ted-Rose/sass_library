@@ -23,6 +23,6 @@
     "sass": "^1.62.1"
   },
   "dependencies": {
-    "gulp-purgecss": "^4.0.3"
+    "gulp-purgecss": "^4.1.3"
   }
 }

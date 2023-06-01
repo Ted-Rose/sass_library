@@ -1,11 +1,4 @@
 // normal class for icons (not pressed or hovered)
-.ic {
-  fill: $black;
-}
-
-.ic:hover {
-  fill: $white;
-}
 
 // base (frame) for icons
 .base {
@@ -25,16 +18,48 @@
 
 // list of icon background colors when hover
 $icons: (
-  "fb": $dark-blue,
-  "ig": $purple,
-  "twt": $light-blue,
-  "yt": $red,
+  "fb": (
+    "default": $dark-blue,
+    "active": $dark-blue-2,
+  ),
+  "ig": (
+    "default": $purple,
+    "active": $dark-purple,
+  ),
+  "twt": (
+    "default": $light-blue,
+    "active": $blue,
+  ),
+  "yt": (
+    "default": $red,
+    "active": $dark-red,
+  ),
 );
 
 // icon classes
 @each $key, $val in $icons {
-  .#{$key}:hover {
-    background: $val;
+  .#{$key} {
+    &:hover {
+      background: map-get($val, "default");
+    }
+    svg {
+      opacity: 1;
+    }
+
+    &:active {
+      background: map-get($val, "active");
+    }
+    svg {
+      opacity: 1;
+    }
+    .ic {
+      fill: $black;
+    }
+
+    &:hover .ic,
+    &:active .ic {
+      fill: $white;
+    }
   }
 }
 

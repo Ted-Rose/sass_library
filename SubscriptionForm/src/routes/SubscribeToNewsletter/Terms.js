@@ -10,7 +10,7 @@ const Terms = () => {
   };
 
   return (
-    <div className="col-12-xs pt-5">
+    <div className="col-12-xs pt-2">
       <Checkbox value={checked} onChange={handleChange} />
       <p className="ml-4 text-gray-1">
         I agree to{" "}

@@ -2,7 +2,7 @@ const Icons = () => (
   <div className="navbar bt-1 pt-5 mb-3">
     <div className="base fb ">
       <svg
-        className="ic facebook ic:hover"
+        className="ic"
         width="8"
         height="16"
         viewBox="0 0 8 16"
@@ -16,7 +16,7 @@ const Icons = () => (
       </svg>
     </div>
 
-    <div className="base instagram">
+    <div className="base ig">
       <svg
         className="ic instagram"
         width="16"
@@ -32,7 +32,7 @@ const Icons = () => (
       </svg>
     </div>
 
-    <div className="base twitter">
+    <div className="base twt">
       <svg
         className="ic twitter"
         width="16"
@@ -48,7 +48,7 @@ const Icons = () => (
       </svg>
     </div>
 
-    <div className="base youtube">
+    <div className="base yt">
       <svg
         className="ic youtube"
         width="16"

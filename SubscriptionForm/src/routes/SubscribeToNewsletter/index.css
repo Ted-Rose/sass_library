@@ -78,6 +78,11 @@ h1 {
         line-height: 26px
     }
 
+    span {
+        font-size: 16px;
+        line-height: 26px
+    }
+
     .sm-hide {
         display: none
     }
@@ -3705,231 +3710,231 @@ img {
 }
 
 .text-dark-purple {
-    color: #c13584
+    color: #8f2762
 }
 
 .text-hover-dark-purple:hover {
-    color: #c13584
+    color: #8f2762
 }
 
 .bg-dark-purple {
-    background-color: #c13584
+    background-color: #8f2762
 }
 
 .text-dark-purple-light-1 {
-    color: #c74990
+    color: #9a3d72
 }
 
 .text-hover-dark-purple-light-1:hover {
-    color: #c74990
+    color: #9a3d72
 }
 
 .bg-dark-purple-light-1 {
-    background-color: #c74990
+    background-color: #9a3d72
 }
 
 .text-dark-purple-light-2 {
-    color: #cd5d9d
+    color: #a55281
 }
 
 .text-hover-dark-purple-light-2:hover {
-    color: #cd5d9d
+    color: #a55281
 }
 
 .bg-dark-purple-light-2 {
-    background-color: #cd5d9d
+    background-color: #a55281
 }
 
 .text-dark-purple-light-3 {
-    color: #d472a9
+    color: #b16891
 }
 
 .text-hover-dark-purple-light-3:hover {
-    color: #d472a9
+    color: #b16891
 }
 
 .bg-dark-purple-light-3 {
-    background-color: #d472a9
+    background-color: #b16891
 }
 
 .text-dark-purple-light-4 {
-    color: #da86b5
+    color: #bc7da1
 }
 
 .text-hover-dark-purple-light-4:hover {
-    color: #da86b5
+    color: #bc7da1
 }
 
 .bg-dark-purple-light-4 {
-    background-color: #da86b5
+    background-color: #bc7da1
 }
 
 .text-dark-purple-light-5 {
-    color: #e09ac2
+    color: #c793b1
 }
 
 .text-hover-dark-purple-light-5:hover {
-    color: #e09ac2
+    color: #c793b1
 }
 
 .bg-dark-purple-light-5 {
-    background-color: #e09ac2
+    background-color: #c793b1
 }
 
 .text-dark-purple-light-6 {
-    color: #e6aece
+    color: #d2a9c0
 }
 
 .text-hover-dark-purple-light-6:hover {
-    color: #e6aece
+    color: #d2a9c0
 }
 
 .bg-dark-purple-light-6 {
-    background-color: #e6aece
+    background-color: #d2a9c0
 }
 
 .text-dark-purple-light-7 {
-    color: #ecc2da
+    color: #ddbed0
 }
 
 .text-hover-dark-purple-light-7:hover {
-    color: #ecc2da
+    color: #ddbed0
 }
 
 .bg-dark-purple-light-7 {
-    background-color: #ecc2da
+    background-color: #ddbed0
 }
 
 .text-dark-purple-light-8 {
-    color: #f3d7e6
+    color: #e9d4e0
 }
 
 .text-hover-dark-purple-light-8:hover {
-    color: #f3d7e6
+    color: #e9d4e0
 }
 
 .bg-dark-purple-light-8 {
-    background-color: #f3d7e6
+    background-color: #e9d4e0
 }
 
 .text-dark-purple-light-9 {
-    color: #f9ebf3
+    color: #f4e9ef
 }
 
 .text-hover-dark-purple-light-9:hover {
-    color: #f9ebf3
+    color: #f4e9ef
 }
 
 .bg-dark-purple-light-9 {
-    background-color: #f9ebf3
+    background-color: #f4e9ef
 }
 
 .text-dark-purple-dark-1 {
-    color: #ae3077
+    color: #812358
 }
 
 .text-hover-dark-purple-dark-1:hover {
-    color: #ae3077
+    color: #812358
 }
 
 .bg-dark-purple-dark-1 {
-    background-color: #ae3077
+    background-color: #812358
 }
 
 .text-dark-purple-dark-2 {
-    color: #9a2a6a
+    color: #721f4e
 }
 
 .text-hover-dark-purple-dark-2:hover {
-    color: #9a2a6a
+    color: #721f4e
 }
 
 .bg-dark-purple-dark-2 {
-    background-color: #9a2a6a
+    background-color: #721f4e
 }
 
 .text-dark-purple-dark-3 {
-    color: #87255c
+    color: #641b45
 }
 
 .text-hover-dark-purple-dark-3:hover {
-    color: #87255c
+    color: #641b45
 }
 
 .bg-dark-purple-dark-3 {
-    background-color: #87255c
+    background-color: #641b45
 }
 
 .text-dark-purple-dark-4 {
-    color: #74204f
+    color: #56173b
 }
 
 .text-hover-dark-purple-dark-4:hover {
-    color: #74204f
+    color: #56173b
 }
 
 .bg-dark-purple-dark-4 {
-    background-color: #74204f
+    background-color: #56173b
 }
 
 .text-dark-purple-dark-5 {
-    color: #611b42
+    color: #481431
 }
 
 .text-hover-dark-purple-dark-5:hover {
-    color: #611b42
+    color: #481431
 }
 
 .bg-dark-purple-dark-5 {
-    background-color: #611b42
+    background-color: #481431
 }
 
 .text-dark-purple-dark-6 {
-    color: #4d1535
+    color: #391027
 }
 
 .text-hover-dark-purple-dark-6:hover {
-    color: #4d1535
+    color: #391027
 }
 
 .bg-dark-purple-dark-6 {
-    background-color: #4d1535
+    background-color: #391027
 }
 
 .text-dark-purple-dark-7 {
-    color: #3a1028
+    color: #2b0c1d
 }
 
 .text-hover-dark-purple-dark-7:hover {
-    color: #3a1028
+    color: #2b0c1d
 }
 
 .bg-dark-purple-dark-7 {
-    background-color: #3a1028
+    background-color: #2b0c1d
 }
 
 .text-dark-purple-dark-8 {
-    color: #270b1a
+    color: #1d0814
 }
 
 .text-hover-dark-purple-dark-8:hover {
-    color: #270b1a
+    color: #1d0814
 }
 
 .bg-dark-purple-dark-8 {
-    background-color: #270b1a
+    background-color: #1d0814
 }
 
 .text-dark-purple-dark-9 {
-    color: #13050d
+    color: #0e040a
 }
 
 .text-hover-dark-purple-dark-9:hover {
-    color: #13050d
+    color: #0e040a
 }
 
 .bg-dark-purple-dark-9 {
-    background-color: #13050d
+    background-color: #0e040a
 }
 
 .text-gray-1 {
@@ -4839,7 +4844,7 @@ img {
 }
 
 .btn-dark-purple {
-    color: #c13584;
+    color: #8f2762;
     line-height: 24px
 }
 
@@ -5550,11 +5555,11 @@ img {
     border: 0;
     padding: 10px 20px;
     border-radius: 20px;
-    background-color: #c13584
+    background-color: #8f2762
 }
 
 .btn-2-dark-purple:hover {
-    background-color: #cc4490
+    background-color: #a32c70
 }
 
 .btn-2-outlined-dark-purple {
@@ -5565,11 +5570,11 @@ img {
     padding: 10px 20px;
     border-radius: 20px;
     background-color: #fff;
-    border: 1px solid #c13584
+    border: 1px solid #8f2762
 }
 
 .btn-2-outlined-dark-purple:hover {
-    background-color: #c13584
+    background-color: #8f2762
 }
 
 .btn-2-complement-dark-purple {
@@ -5579,13 +5584,13 @@ img {
     border: 0;
     padding: 10px 20px;
     border-radius: 20px;
-    background-color: #c13584;
-    color: #a8e7c3
+    background-color: #8f2762;
+    color: #76daa1
 }
 
 .btn-2-complement-dark-purple:hover {
-    color: #c13584;
-    background-color: #a8e7c3
+    color: #8f2762;
+    background-color: #76daa1
 }
 
 .btn-2-gray-1 {
@@ -5841,7 +5846,7 @@ img {
 }
 
 .navbar-dark-purple {
-    background-color: #c13584
+    background-color: #8f2762
 }
 
 .navbar-gray-1 {
@@ -5982,7 +5987,7 @@ img {
 
 .badge-dark-purple {
     border-radius: 80px;
-    background-color: #c13584;
+    background-color: #8f2762;
     padding: 2.5px 5px;
     font-size: 10.5px;
     font-weight: normal
@@ -6020,14 +6025,6 @@ img {
     font-weight: normal
 }
 
-.ic {
-    fill: #131821
-}
-
-.ic:hover {
-    fill: #fff
-}
-
 .base {
     box-sizing: border-box;
     border-radius: 50%;
@@ -6047,16 +6044,96 @@ img {
     background: #4267b2
 }
 
+.fb svg {
+    opacity: 1
+}
+
+.fb:active {
+    background: #2f4a80
+}
+
+.fb svg {
+    opacity: 1
+}
+
+.fb .ic {
+    fill: #131821
+}
+
+.fb:hover .ic,.fb:active .ic {
+    fill: #fff
+}
+
 .ig:hover {
     background: #c13584
+}
+
+.ig svg {
+    opacity: 1
+}
+
+.ig:active {
+    background: #8f2762
+}
+
+.ig svg {
+    opacity: 1
+}
+
+.ig .ic {
+    fill: #131821
+}
+
+.ig:hover .ic,.ig:active .ic {
+    fill: #fff
 }
 
 .twt:hover {
     background: #1da1f2
 }
 
+.twt svg {
+    opacity: 1
+}
+
+.twt:active {
+    background: #177fbf
+}
+
+.twt svg {
+    opacity: 1
+}
+
+.twt .ic {
+    fill: #131821
+}
+
+.twt:hover .ic,.twt:active .ic {
+    fill: #fff
+}
+
 .yt:hover {
     background: red
+}
+
+.yt svg {
+    opacity: 1
+}
+
+.yt:active {
+    background: #c00
+}
+
+.yt svg {
+    opacity: 1
+}
+
+.yt .ic {
+    fill: #131821
+}
+
+.yt:hover .ic,.yt:active .ic {
+    fill: #fff
 }
 
 @media only screen and (min-width: 768px) {

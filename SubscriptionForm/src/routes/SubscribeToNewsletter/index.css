@@ -10,13 +10,19 @@
     }
 }
 
+.bg-gradient {
+    background: linear-gradient(to bottom, #FFFFFF 0%, #F2F5FA 100%)
+}
+
 .vh100 {
     height: 100vh
 }
 
 .desktop-image {
+    background-size: auto 100%;
     background-image: url("./Images/image_summer-desktop.png");
-    background-repeat: no-repeat
+    background-repeat: no-repeat;
+    background-position: calc(100% + 338px) center
 }
 
 .flex-auto {

@@ -40,4 +40,80 @@ $black: #131821;
   background: #4066a5;
 }
 
+// .container {
+//   position: relative;
+//   width: 279px;
+// }
+
+// .subscribe-form-box__form__vl {
+//   position: absolute;
+//   height: 100%;
+//   width: 4px;
+//   height: 60px;
+//   background: #4066a5;
+// }
+
+// .subscribe-form-box__form__vl.error {
+//   background: #b80808;
+// }
+
+// .email-input {
+//   padding-left: 20px;
+//   width: calc(100% - 24px);
+//   height: 56px;
+//   background: #ffffff;
+//   border: 1px solid #e3e3e4;
+//   font-family: "Arial";
+//   font-style: normal;
+//   font-weight: 400;
+//   font-size: 16px;
+//   line-height: 24px;
+//   color: #6a707b;
+//   text-indent: -2px;
+// }
+
+// .email-input:focus {
+//   box-shadow: 0px 30px 40px rgba(19, 24, 33, 0.06);
+// }
+
+// .email-input:hover {
+//   box-shadow: 0px 30px 40px rgba(19, 24, 33, 0.06);
+//   border-color: #4066a5;
+// }
+
+// .email-input.error {
+//   border: 1px solid #b80808;
+//   box-shadow: 0px 30px 40px rgba(19, 24, 33, 0.06);
+// }
+
+// .subscribe-submit-button {
+//   position: absolute;
+//   height: 60px;
+//   width: 62px;
+//   right: -5px;
+//   border: none;
+//   background: center no-repeat url("./Images/ic_arrow.svg");
+// }
+
+// .message.hide {
+//   display: none;
+// }
+
+// .approved.message {
+//   display: unset;
+//   padding-top: 6px;
+//   font-family: "Arial";
+//   font-style: normal;
+//   font-weight: 700;
+//   font-size: 12px;
+//   line-height: 18px;
+//   /* identical to box height, or 150% */
+//   color: rgb(33, 172, 51);
+// }
+
+// .message.error {
+//   display: unset;
+//   color: #b80808;
+// }
+
 @import "sass_library";

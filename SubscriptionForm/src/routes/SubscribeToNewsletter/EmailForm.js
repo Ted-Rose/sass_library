@@ -1,7 +1,5 @@
 import React from "react";
 
-import "./EmailForm.scss";
-
 import AddEmailToDatabase from "./AddEmailToDatabase";
 
 const EmailForm = () => {
@@ -54,7 +52,7 @@ const EmailForm = () => {
   const showMessage = hideErrorMessage ? "hide" : "show";
 
   return (
-    <div className="container pr-0 pl-0 pt-2">
+    <div className="input-container mt-2">
       <form
         className="subscribe-form-box__form"
         onSubmit={preventDefault}

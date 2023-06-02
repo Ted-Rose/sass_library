@@ -59,7 +59,8 @@ h1 {
 }
 
 .underline {
-    text-decoration: underline
+    border-bottom: 1.5px solid #131821;
+    padding-bottom: .3x
 }
 
 @media(max-width: 480px) {
@@ -974,231 +975,231 @@ img {
 }
 
 .text-error {
-    color: #d32752
+    color: #b80808
 }
 
 .text-hover-error:hover {
-    color: #d32752
+    color: #b80808
 }
 
 .bg-error {
-    background-color: #d32752
+    background-color: #b80808
 }
 
 .text-error-light-1 {
-    color: #d73d63
+    color: #bf2121
 }
 
 .text-hover-error-light-1:hover {
-    color: #d73d63
+    color: #bf2121
 }
 
 .bg-error-light-1 {
-    background-color: #d73d63
+    background-color: #bf2121
 }
 
 .text-error-light-2 {
-    color: #dc5275
+    color: #c63939
 }
 
 .text-hover-error-light-2:hover {
-    color: #dc5275
+    color: #c63939
 }
 
 .bg-error-light-2 {
-    background-color: #dc5275
+    background-color: #c63939
 }
 
 .text-error-light-3 {
-    color: #e06886
+    color: #cd5252
 }
 
 .text-hover-error-light-3:hover {
-    color: #e06886
+    color: #cd5252
 }
 
 .bg-error-light-3 {
-    background-color: #e06886
+    background-color: #cd5252
 }
 
 .text-error-light-4 {
-    color: #e57d97
+    color: #d46b6b
 }
 
 .text-hover-error-light-4:hover {
-    color: #e57d97
+    color: #d46b6b
 }
 
 .bg-error-light-4 {
-    background-color: #e57d97
+    background-color: #d46b6b
 }
 
 .text-error-light-5 {
-    color: #e993a9
+    color: #dc8484
 }
 
 .text-hover-error-light-5:hover {
-    color: #e993a9
+    color: #dc8484
 }
 
 .bg-error-light-5 {
-    background-color: #e993a9
+    background-color: #dc8484
 }
 
 .text-error-light-6 {
-    color: #eda9ba
+    color: #e39c9c
 }
 
 .text-hover-error-light-6:hover {
-    color: #eda9ba
+    color: #e39c9c
 }
 
 .bg-error-light-6 {
-    background-color: #eda9ba
+    background-color: #e39c9c
 }
 
 .text-error-light-7 {
-    color: #f2becb
+    color: #eab5b5
 }
 
 .text-hover-error-light-7:hover {
-    color: #f2becb
+    color: #eab5b5
 }
 
 .bg-error-light-7 {
-    background-color: #f2becb
+    background-color: #eab5b5
 }
 
 .text-error-light-8 {
-    color: #f6d4dc
+    color: #f1cece
 }
 
 .text-hover-error-light-8:hover {
-    color: #f6d4dc
+    color: #f1cece
 }
 
 .bg-error-light-8 {
-    background-color: #f6d4dc
+    background-color: #f1cece
 }
 
 .text-error-light-9 {
-    color: #fbe9ee
+    color: #f8e6e6
 }
 
 .text-hover-error-light-9:hover {
-    color: #fbe9ee
+    color: #f8e6e6
 }
 
 .bg-error-light-9 {
-    background-color: #fbe9ee
+    background-color: #f8e6e6
 }
 
 .text-error-dark-1 {
-    color: #be234a
+    color: #a60707
 }
 
 .text-hover-error-dark-1:hover {
-    color: #be234a
+    color: #a60707
 }
 
 .bg-error-dark-1 {
-    background-color: #be234a
+    background-color: #a60707
 }
 
 .text-error-dark-2 {
-    color: #a91f42
+    color: #930606
 }
 
 .text-hover-error-dark-2:hover {
-    color: #a91f42
+    color: #930606
 }
 
 .bg-error-dark-2 {
-    background-color: #a91f42
+    background-color: #930606
 }
 
 .text-error-dark-3 {
-    color: #941b39
+    color: #810606
 }
 
 .text-hover-error-dark-3:hover {
-    color: #941b39
+    color: #810606
 }
 
 .bg-error-dark-3 {
-    background-color: #941b39
+    background-color: #810606
 }
 
 .text-error-dark-4 {
-    color: #7f1731
+    color: #6e0505
 }
 
 .text-hover-error-dark-4:hover {
-    color: #7f1731
+    color: #6e0505
 }
 
 .bg-error-dark-4 {
-    background-color: #7f1731
+    background-color: #6e0505
 }
 
 .text-error-dark-5 {
-    color: #6a1429
+    color: #5c0404
 }
 
 .text-hover-error-dark-5:hover {
-    color: #6a1429
+    color: #5c0404
 }
 
 .bg-error-dark-5 {
-    background-color: #6a1429
+    background-color: #5c0404
 }
 
 .text-error-dark-6 {
-    color: #541021
+    color: #4a0303
 }
 
 .text-hover-error-dark-6:hover {
-    color: #541021
+    color: #4a0303
 }
 
 .bg-error-dark-6 {
-    background-color: #541021
+    background-color: #4a0303
 }
 
 .text-error-dark-7 {
-    color: #3f0c19
+    color: #370202
 }
 
 .text-hover-error-dark-7:hover {
-    color: #3f0c19
+    color: #370202
 }
 
 .bg-error-dark-7 {
-    background-color: #3f0c19
+    background-color: #370202
 }
 
 .text-error-dark-8 {
-    color: #2a0810
+    color: #250202
 }
 
 .text-hover-error-dark-8:hover {
-    color: #2a0810
+    color: #250202
 }
 
 .bg-error-dark-8 {
-    background-color: #2a0810
+    background-color: #250202
 }
 
 .text-error-dark-9 {
-    color: #150408
+    color: #120101
 }
 
 .text-hover-error-dark-9:hover {
-    color: #150408
+    color: #120101
 }
 
 .bg-error-dark-9 {
-    background-color: #150408
+    background-color: #120101
 }
 
 .text-info {
@@ -4688,7 +4689,7 @@ img {
 }
 
 .btn-error {
-    color: #d32752;
+    color: #B80808;
     line-height: 24px
 }
 
@@ -5015,11 +5016,11 @@ img {
     border: 0;
     padding: 10px 20px;
     border-radius: 20px;
-    background-color: #d32752
+    background-color: #b80808
 }
 
 .btn-2-error:hover {
-    background-color: #da3961
+    background-color: #d00909
 }
 
 .btn-2-outlined-error {
@@ -5030,11 +5031,11 @@ img {
     padding: 10px 20px;
     border-radius: 20px;
     background-color: #fff;
-    border: 1px solid #d32752
+    border: 1px solid #b80808
 }
 
 .btn-2-outlined-error:hover {
-    background-color: #d32752
+    background-color: #b80808
 }
 
 .btn-2-complement-error {
@@ -5044,13 +5045,13 @@ img {
     border: 0;
     padding: 10px 20px;
     border-radius: 20px;
-    background-color: #d32752;
-    color: #a5eedc
+    background-color: #b80808;
+    color: #61f8f8
 }
 
 .btn-2-complement-error:hover {
-    color: #d32752;
-    background-color: #a5eedc
+    color: #b80808;
+    background-color: #61f8f8
 }
 
 .btn-2-info {
@@ -5798,7 +5799,7 @@ img {
 }
 
 .navbar-error {
-    background-color: #d32752
+    background-color: #b80808
 }
 
 .navbar-info {
@@ -5891,7 +5892,7 @@ img {
 
 .badge-error {
     border-radius: 80px;
-    background-color: #d32752;
+    background-color: #b80808;
     padding: 2.5px 5px;
     font-size: 10.5px;
     font-weight: normal
@@ -6183,6 +6184,75 @@ img {
         margin-right: 91px;
         margin-top: 50px
     }
+}
+
+.input-container {
+    position: relative
+}
+
+.input-container .subscribe-form-box__form__vl {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 60px;
+    width: 4px;
+    background: #4066a5
+}
+
+.input-container .subscribe-form-box__form__vl.error {
+    background: #b80808
+}
+
+.input-container .email-input {
+    padding-left: 20px;
+    width: calc(100% - 24px);
+    height: 56px;
+    background: #fff;
+    border: 1px solid #e3e3e4;
+    font-family: "Arial";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #6a707b;
+    text-indent: -2px
+}
+
+.input-container .email-input:focus,.input-container .email-input:hover {
+    box-shadow: 0px 30px 40px rgba(19,24,33,.06)
+}
+
+.input-container .email-input.error {
+    border: 1px solid #b80808
+}
+
+.input-container .subscribe-submit-button {
+    position: absolute;
+    height: 60px;
+    width: 62px;
+    right: -5px;
+    border: none;
+    background: center no-repeat url("./Images/ic_arrow.svg")
+}
+
+.input-container .message.hide {
+    display: none
+}
+
+.input-container .message.approved {
+    display: unset;
+    padding-top: 6px;
+    font-family: "Arial";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 18px;
+    color: #21ac33
+}
+
+.input-container .message.error {
+    display: unset;
+    color: #b80808
 }
 
 .p-0 {

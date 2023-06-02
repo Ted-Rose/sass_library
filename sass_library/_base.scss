@@ -16,7 +16,8 @@ h1 {
 }
 
 .underline {
-  text-decoration: underline;
+  border-bottom: 1.5px solid $black;
+  padding-bottom: 0.3x;
 }
 
 @media (max-width: map-get($breakpoints, "sm")) {

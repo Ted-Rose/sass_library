@@ -39,27 +39,34 @@ $icons: (
 // icon classes
 @each $key, $val in $icons {
   .#{$key} {
+    fill: $black;
+    opacity: 0.4;
+}
+  .base-#{$key} {
+    box-sizing: border-box;
+    border-radius: 50%;
+    width: 46px;
+    height: 46px;
+    border: 2px solid #e3e3e4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
     &:hover {
       background: map-get($val, "default");
+      svg {
+        opacity: 1;
+        fill: $white;
+      }
     }
-    svg {
-      opacity: 1;
-    }
-
     &:active {
       background: map-get($val, "active");
-    }
-    svg {
-      opacity: 1;
-    }
-    .ic {
-      fill: $black;
+      svg {
+        opacity: 1;
+        fill: $white;
+      }
     }
 
-    &:hover .ic,
-    &:active .ic {
-      fill: $white;
-    }
   }
 }
 

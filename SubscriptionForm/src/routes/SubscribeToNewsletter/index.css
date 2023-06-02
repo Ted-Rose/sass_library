@@ -6040,99 +6040,139 @@ img {
     box-shadow: 0px 20px 40px rgba(19,24,33,.3)
 }
 
-.fb:hover {
+.fb {
+    fill: #131821;
+    opacity: .4
+}
+
+.base-fb {
+    box-sizing: border-box;
+    border-radius: 50%;
+    width: 46px;
+    height: 46px;
+    border: 2px solid #e3e3e4;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.base-fb:hover {
     background: #4267b2
 }
 
-.fb svg {
-    opacity: 1
+.base-fb:hover svg {
+    opacity: 1;
+    fill: #fff
 }
 
-.fb:active {
+.base-fb:active {
     background: #2f4a80
 }
 
-.fb svg {
-    opacity: 1
-}
-
-.fb .ic {
-    fill: #131821
-}
-
-.fb:hover .ic,.fb:active .ic {
+.base-fb:active svg {
+    opacity: 1;
     fill: #fff
 }
 
-.ig:hover {
+.ig {
+    fill: #131821;
+    opacity: .4
+}
+
+.base-ig {
+    box-sizing: border-box;
+    border-radius: 50%;
+    width: 46px;
+    height: 46px;
+    border: 2px solid #e3e3e4;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.base-ig:hover {
     background: #c13584
 }
 
-.ig svg {
-    opacity: 1
+.base-ig:hover svg {
+    opacity: 1;
+    fill: #fff
 }
 
-.ig:active {
+.base-ig:active {
     background: #8f2762
 }
 
-.ig svg {
-    opacity: 1
-}
-
-.ig .ic {
-    fill: #131821
-}
-
-.ig:hover .ic,.ig:active .ic {
+.base-ig:active svg {
+    opacity: 1;
     fill: #fff
 }
 
-.twt:hover {
+.twt {
+    fill: #131821;
+    opacity: .4
+}
+
+.base-twt {
+    box-sizing: border-box;
+    border-radius: 50%;
+    width: 46px;
+    height: 46px;
+    border: 2px solid #e3e3e4;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.base-twt:hover {
     background: #1da1f2
 }
 
-.twt svg {
-    opacity: 1
-}
-
-.twt:active {
-    background: #177fbf
-}
-
-.twt svg {
-    opacity: 1
-}
-
-.twt .ic {
-    fill: #131821
-}
-
-.twt:hover .ic,.twt:active .ic {
+.base-twt:hover svg {
+    opacity: 1;
     fill: #fff
 }
 
-.yt:hover {
+.base-twt:active {
+    background: #177fbf
+}
+
+.base-twt:active svg {
+    opacity: 1;
+    fill: #fff
+}
+
+.yt {
+    fill: #131821;
+    opacity: .4
+}
+
+.base-yt {
+    box-sizing: border-box;
+    border-radius: 50%;
+    width: 46px;
+    height: 46px;
+    border: 2px solid #e3e3e4;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.base-yt:hover {
     background: red
 }
 
-.yt svg {
-    opacity: 1
+.base-yt:hover svg {
+    opacity: 1;
+    fill: #fff
 }
 
-.yt:active {
+.base-yt:active {
     background: #c00
 }
 
-.yt svg {
-    opacity: 1
-}
-
-.yt .ic {
-    fill: #131821
-}
-
-.yt:hover .ic,.yt:active .ic {
+.base-yt:active svg {
+    opacity: 1;
     fill: #fff
 }
 

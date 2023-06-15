@@ -12,6 +12,7 @@ $align-values: flex-start, flex-end, center, stretch, baseline;
 
 // base layout classes
 .container {
+  position: relative;
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;

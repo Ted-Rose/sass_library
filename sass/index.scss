@@ -25,11 +25,16 @@ $black: #131821;
   height: 100vh;
 }
 
-.desktop-image {
+.background-image {
   background-size: auto 100%;
+  width: 100%;
+  height: 100vh;
+  position: absolute;
   background-image: url("./Images/image_summer-desktop.png");
   background-repeat: no-repeat;
-  background-position: calc(100% + 338px) center;;
+  z-index: -1;
+  // left: -170px;
+  background-position: calc(100% - 170px) left;;
 }
 
 .flex-auto {

@@ -1,4 +1,4 @@
-import Links from "../../Links";
+import Links from "../Links";
 
 async function AddEmailToDatabase(emailInput) {
   const response = await fetch(Links["clients"],

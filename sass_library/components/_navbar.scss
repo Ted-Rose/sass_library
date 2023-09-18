@@ -1,27 +1,41 @@
 %flex-layout {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  box-sizing: border-box;
+    width: 100%;
+    max-width: 680px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
 }
 
 .navbar {
-  @extend %flex-layout;
-  // apply padding if needed:
-  // padding: $base-padding $base-padding * 2;
-  box-shadow: $base-box-shadow;
-  .site-title {
-    font-size: $font-size-lg;
-  }
-  .container {
     @extend %flex-layout;
-  }
+    // apply padding if needed:
+    // padding: $base-padding $base-padding * 2;
+    box-shadow: $base-box-shadow;
+    .site-title {
+        font-size: $font-size-lg;
+    }
+    .container {
+        @extend %flex-layout;
+    }
 }
 
 @each $key, $val in $colors {
-  .navbar-#{$key} {
-    @extend .navbar;
-    background-color: $val;
-  }
+    .navbar-#{$key} {
+        @extend .navbar;
+        background-color: $val;
+    }
+}
+
+@include md {
+    .navbar-md {
+        box-sizing: border-box;
+        flex-grow: 0;
+    }
+}
+@include xl {
+    .navbar-xl {
+        box-sizing: border-box;
+        flex-grow: 0;
+    }
 }

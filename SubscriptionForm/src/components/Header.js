@@ -3,7 +3,7 @@ import PineappleText from "./Images/pineapple-text.svg";
 
 const Header = (/* { links } */) => {
     return (
-        <div className="navbar pl-0 pr-0 pt-0 pb-0 bg-white">
+        <div className="navbar-white navbar-md navbar-xl">
             <div className="container pr-0">
                 <svg
                     width="25"

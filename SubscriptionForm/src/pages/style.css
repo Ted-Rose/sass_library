@@ -187,7 +187,7 @@
 }
 
 .mobile .social-icons {
-  height: 46px;
+  height: 43px;
   left: 40px;
   position: absolute;
   top: 20px;
@@ -198,11 +198,11 @@
   border: 2px solid;
   border-color: #e3e3e4;
   border-radius: 23px;
-  height: 46px;
+  height: 43px;
   left: 168px;
   position: absolute;
   top: 0;
-  width: 46px;
+  width: 43px;
 }
 
 .mobile .ic-youtube {
@@ -217,11 +217,11 @@
   border: 2px solid;
   border-color: #e3e3e4;
   border-radius: 23px;
-  height: 46px;
+  height: 43px;
   left: 112px;
   position: absolute;
   top: 0;
-  width: 46px;
+  width: 43px;
 }
 
 .mobile .ic-twitter {
@@ -236,11 +236,11 @@
   border: 2px solid;
   border-color: #e3e3e4;
   border-radius: 23px;
-  height: 46px;
+  height: 43px;
   left: 56px;
   position: absolute;
   top: 0;
-  width: 46px;
+  width: 43px;
 }
 
 .mobile .ic-instagram {
@@ -255,11 +255,11 @@
   border: 2px solid;
   border-color: #e3e3e4;
   border-radius: 23px;
-  height: 46px;
+  height: 43px;
   left: 0;
   position: absolute;
   top: 0;
-  width: 46px;
+  width: 43px;
 }
 
 .mobile .ic-facebook {

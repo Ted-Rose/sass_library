@@ -1,5 +1,5 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import SubscribeToNewsletter from "./pages/SubscribeToNewsletter.js";
+import {SubscribeToNewsletter} from "./pages/SubscribeToNewsletter.js";
 import RootLayout from "./pages/Root";
 
 const router = createBrowserRouter([

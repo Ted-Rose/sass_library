@@ -71,7 +71,7 @@ h1 {
     padding-bottom: .3x
 }
 
-@media(max-width: 480px) {
+@media(max-width: 375px) {
     h1 {
         font-size: 24px;
         line-height: 34px
@@ -279,7 +279,7 @@ img {
     }
 }
 
-@media(min-width: 480px) {
+@media(min-width: 375px) {
     .col-1-sm {
         box-sizing: border-box;
         flex-grow: 0;
@@ -341,7 +341,7 @@ img {
     }
 }
 
-@media(min-width: 720px) {
+@media(min-width: 834px) {
     .col-1-md {
         box-sizing: border-box;
         flex-grow: 0;
@@ -403,7 +403,7 @@ img {
     }
 }
 
-@media(min-width: 960px) {
+@media(min-width: 1200px) {
     .col-1-lg {
         box-sizing: border-box;
         flex-grow: 0;
@@ -465,7 +465,7 @@ img {
     }
 }
 
-@media(min-width: 1200px) {
+@media(min-width: 1920px) {
     .col-1-xl {
         box-sizing: border-box;
         flex-grow: 0;
@@ -6185,6 +6185,7 @@ img {
 
 .navbar .container,.navbar-white .container,.navbar-black .container,.navbar-gray-2 .container,.navbar-gray-1 .container,.navbar-dark-purple .container,.navbar-purple .container,.navbar-orange .container,.navbar-green .container,.navbar-yellow .container,.navbar-dark-red .container,.navbar-red .container,.navbar-dark-blue-2 .container,.navbar-dark-blue .container,.navbar-blue .container,.navbar-light-blue .container,.navbar-info .container,.navbar-error .container,.navbar-secondary .container,.navbar-primary .container,.navbar,.navbar-white,.navbar-black,.navbar-gray-2,.navbar-gray-1,.navbar-dark-purple,.navbar-purple,.navbar-orange,.navbar-green,.navbar-yellow,.navbar-dark-red,.navbar-red,.navbar-dark-blue-2,.navbar-dark-blue,.navbar-blue,.navbar-light-blue,.navbar-info,.navbar-error,.navbar-secondary,.navbar-primary {
     width: 100%;
+    max-width: 680px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -6273,6 +6274,20 @@ img {
 
 .navbar-white {
     background-color: #fff
+}
+
+@media(min-width: 834px) {
+    .navbar-md {
+        box-sizing: border-box;
+        flex-grow: 0
+    }
+}
+
+@media(min-width: 1920px) {
+    .navbar-xl {
+        box-sizing: border-box;
+        flex-grow: 0
+    }
 }
 
 .p-0 {

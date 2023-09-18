@@ -52,26 +52,37 @@ const EmailForm = () => {
   const showMessage = hideErrorMessage ? "hide" : "show";
 
   return (
-    <div className="input-container mt-2">
+    <div className="input">
       <form
-        className="subscribe-form-box__form"
+        className="overlap-group"
         onSubmit={preventDefault}
         action="#"
         id="subscriptionForm"
       >
-        <div
-          className={`${"subscribe-form-box__form__vl"} ${messageClass}`}
-        ></div>
-        <input
-          id="emailInput"
-          type="text"
-          className={`${"email-input"} ${messageClass}`}
-          value={emailInput}
-          onChange={inputChangeHandler}
-          name="email_input"
-          placeholder="Type your email address here…"
+        <img
+          className="line"
+          alt="Line"
+          src="https://c.animaapp.com/YWiHxtUl/img/line.svg"
         />
-        <button className="subscribe-submit-button" onClick={onSubmit}></button>
+        <div className="div">
+          <input
+            id="emailInput"
+            type="text"
+            className={`${"placeholder"} ${messageClass}`}
+            value={emailInput}
+            onChange={inputChangeHandler}
+            name="email_input"
+          />
+          <p className="placeholder">Type your email address here…</p>
+
+          <div className="ic-arrow">
+            <img
+              className="img"
+              alt="Ic arrow"
+              src="https://c.animaapp.com/YWiHxtUl/img/ic-arrow.svg"
+            />
+          </div>
+        </div>
       </form>
       <div className={`${"message"} ${messageClass} ${showMessage}`}>
         {message}

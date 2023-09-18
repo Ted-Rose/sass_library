@@ -1,11 +1,13 @@
 import "./Checkbox.scss";
 
 const Checkbox = ({ value, onChange }) => (
+  <div className="checkmark">
     <input
-      className="checkbox"
+      className="ic-checkmark"
       type="checkbox"
       checked={value}
       onChange={onChange}
     />
+  </div>
 );
 export default Checkbox;

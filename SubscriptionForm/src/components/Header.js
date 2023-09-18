@@ -1,3 +1,6 @@
+import React from "react";
+import PineappleText from "./Images/pineapple-text.svg";
+
 const Header = (/* { links } */) => {
     return (
         <div className="navbar pl-0 pr-0 pt-0 pb-0 bg-white">
@@ -23,6 +26,11 @@ const Header = (/* { links } */) => {
                         fill="#4066A5"
                     />
                 </svg>
+                <img
+                    src={PineappleText}
+                    alt="SVG pineapple text"
+                    className="sm-hide"
+                />
                 <ul class="display-f pl-5 pr-2 pt-2-5 pb-2-5 mt-n-4 mb-n-4">
                     <li class="font-md mr-2 btn-gray-2">
                         <a href="#">About</a>

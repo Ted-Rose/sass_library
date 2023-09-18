@@ -18,17 +18,6 @@
     height: 100vh
 }
 
-.background-image {
-    background-size: auto 100%;
-    width: 100%;
-    height: 100vh;
-    position: absolute;
-    background-image: url("./components/Images/image_summer-desktop.png");
-    background-repeat: no-repeat;
-    z-index: -1;
-    background-position: calc(100% - 170px) left
-}
-
 .flex-auto {
     flex: auto
 }
@@ -4654,26 +4643,175 @@ img {
     background-color: #fff
 }
 
-.card {
-    display: block;
-    padding: 10px;
-    border: 1px solid #ddd;
-    box-shadow: none;
-    border-radius: 5px
+.background-image {
+    background-size: auto 100%;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    background-image: url("./components/Images/image_summer.png");
+    background-repeat: no-repeat;
+    z-index: -1;
+    background-position: calc(100% - 170px) left
 }
 
-.card .card-title {
-    font-size: 14px;
-    padding-bottom: 10px;
-    font-weight: bold
+.badge {
+    border-radius: 80px;
+    background-color: #f6c31c;
+    padding: 2.5px 5px;
+    font-size: 10.5px;
+    font-weight: normal
 }
 
-.card .card-body {
-    font-size: 14px
+.badge-primary {
+    border-radius: 80px;
+    background-color: #f2f5fa;
+    padding: 2.5px 5px;
+    font-size: 10.5px;
+    font-weight: normal
 }
 
-.card .card-body a {
-    text-decoration: underline
+.badge-secondary {
+    border-radius: 80px;
+    background-color: #1ac886;
+    padding: 2.5px 5px;
+    font-size: 10.5px;
+    font-weight: normal
+}
+
+.badge-error {
+    border-radius: 80px;
+    background-color: #b80808;
+    padding: 2.5px 5px;
+    font-size: 10.5px;
+    font-weight: normal
+}
+
+.badge-info {
+    border-radius: 80px;
+    background-color: #f6c31c;
+    padding: 2.5px 5px;
+    font-size: 10.5px;
+    font-weight: normal
+}
+
+.badge-light-blue {
+    border-radius: 80px;
+    background-color: #1da1f2;
+    padding: 2.5px 5px;
+    font-size: 10.5px;
+    font-weight: normal
+}
+
+.badge-blue {
+    border-radius: 80px;
+    background-color: #177fbf;
+    padding: 2.5px 5px;
+    font-size: 10.5px;
+    font-weight: normal
+}
+
+.badge-dark-blue {
+    border-radius: 80px;
+    background-color: #4267b2;
+    padding: 2.5px 5px;
+    font-size: 10.5px;
+    font-weight: normal
+}
+
+.badge-dark-blue-2 {
+    border-radius: 80px;
+    background-color: #2f4a80;
+    padding: 2.5px 5px;
+    font-size: 10.5px;
+    font-weight: normal
+}
+
+.badge-red {
+    border-radius: 80px;
+    background-color: red;
+    padding: 2.5px 5px;
+    font-size: 10.5px;
+    font-weight: normal
+}
+
+.badge-dark-red {
+    border-radius: 80px;
+    background-color: #c00;
+    padding: 2.5px 5px;
+    font-size: 10.5px;
+    font-weight: normal
+}
+
+.badge-yellow {
+    border-radius: 80px;
+    background-color: #e6e619;
+    padding: 2.5px 5px;
+    font-size: 10.5px;
+    font-weight: normal
+}
+
+.badge-green {
+    border-radius: 80px;
+    background-color: #19e635;
+    padding: 2.5px 5px;
+    font-size: 10.5px;
+    font-weight: normal
+}
+
+.badge-orange {
+    border-radius: 80px;
+    background-color: #ffa600;
+    padding: 2.5px 5px;
+    font-size: 10.5px;
+    font-weight: normal
+}
+
+.badge-purple {
+    border-radius: 80px;
+    background-color: #c13584;
+    padding: 2.5px 5px;
+    font-size: 10.5px;
+    font-weight: normal
+}
+
+.badge-dark-purple {
+    border-radius: 80px;
+    background-color: #8f2762;
+    padding: 2.5px 5px;
+    font-size: 10.5px;
+    font-weight: normal
+}
+
+.badge-gray-1 {
+    border-radius: 80px;
+    background-color: gray;
+    padding: 2.5px 5px;
+    font-size: 10.5px;
+    font-weight: normal
+}
+
+.badge-gray-2 {
+    border-radius: 80px;
+    background-color: #6a707b;
+    padding: 2.5px 5px;
+    font-size: 10.5px;
+    font-weight: normal
+}
+
+.badge-black {
+    border-radius: 80px;
+    background-color: #131821;
+    padding: 2.5px 5px;
+    font-size: 10.5px;
+    font-weight: normal
+}
+
+.badge-white {
+    border-radius: 80px;
+    background-color: #fff;
+    padding: 2.5px 5px;
+    font-size: 10.5px;
+    font-weight: normal
 }
 
 .btn {
@@ -5794,256 +5932,26 @@ img {
     background-color: #fff
 }
 
-.navbar .container,.navbar-white .container,.navbar-black .container,.navbar-gray-2 .container,.navbar-gray-1 .container,.navbar-dark-purple .container,.navbar-purple .container,.navbar-orange .container,.navbar-green .container,.navbar-yellow .container,.navbar-dark-red .container,.navbar-red .container,.navbar-dark-blue-2 .container,.navbar-dark-blue .container,.navbar-blue .container,.navbar-light-blue .container,.navbar-info .container,.navbar-error .container,.navbar-secondary .container,.navbar-primary .container,.navbar,.navbar-white,.navbar-black,.navbar-gray-2,.navbar-gray-1,.navbar-dark-purple,.navbar-purple,.navbar-orange,.navbar-green,.navbar-yellow,.navbar-dark-red,.navbar-red,.navbar-dark-blue-2,.navbar-dark-blue,.navbar-blue,.navbar-light-blue,.navbar-info,.navbar-error,.navbar-secondary,.navbar-primary {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    box-sizing: border-box
+.card {
+    display: block;
+    padding: 10px;
+    border: 1px solid #ddd;
+    box-shadow: none;
+    border-radius: 5px
 }
 
-.navbar,.navbar-white,.navbar-black,.navbar-gray-2,.navbar-gray-1,.navbar-dark-purple,.navbar-purple,.navbar-orange,.navbar-green,.navbar-yellow,.navbar-dark-red,.navbar-red,.navbar-dark-blue-2,.navbar-dark-blue,.navbar-blue,.navbar-light-blue,.navbar-info,.navbar-error,.navbar-secondary,.navbar-primary {
-    box-shadow: none
+.card .card-title {
+    font-size: 14px;
+    padding-bottom: 10px;
+    font-weight: bold
 }
 
-.navbar .site-title,.navbar-white .site-title,.navbar-black .site-title,.navbar-gray-2 .site-title,.navbar-gray-1 .site-title,.navbar-dark-purple .site-title,.navbar-purple .site-title,.navbar-orange .site-title,.navbar-green .site-title,.navbar-yellow .site-title,.navbar-dark-red .site-title,.navbar-red .site-title,.navbar-dark-blue-2 .site-title,.navbar-dark-blue .site-title,.navbar-blue .site-title,.navbar-light-blue .site-title,.navbar-info .site-title,.navbar-error .site-title,.navbar-secondary .site-title,.navbar-primary .site-title {
-    font-size: 21px
+.card .card-body {
+    font-size: 14px
 }
 
-.navbar-primary {
-    background-color: #f2f5fa
-}
-
-.navbar-secondary {
-    background-color: #1ac886
-}
-
-.navbar-error {
-    background-color: #b80808
-}
-
-.navbar-info {
-    background-color: #f6c31c
-}
-
-.navbar-light-blue {
-    background-color: #1da1f2
-}
-
-.navbar-blue {
-    background-color: #177fbf
-}
-
-.navbar-dark-blue {
-    background-color: #4267b2
-}
-
-.navbar-dark-blue-2 {
-    background-color: #2f4a80
-}
-
-.navbar-red {
-    background-color: red
-}
-
-.navbar-dark-red {
-    background-color: #c00
-}
-
-.navbar-yellow {
-    background-color: #e6e619
-}
-
-.navbar-green {
-    background-color: #19e635
-}
-
-.navbar-orange {
-    background-color: #ffa600
-}
-
-.navbar-purple {
-    background-color: #c13584
-}
-
-.navbar-dark-purple {
-    background-color: #8f2762
-}
-
-.navbar-gray-1 {
-    background-color: gray
-}
-
-.navbar-gray-2 {
-    background-color: #6a707b
-}
-
-.navbar-black {
-    background-color: #131821
-}
-
-.navbar-white {
-    background-color: #fff
-}
-
-.badge {
-    border-radius: 80px;
-    background-color: #f6c31c;
-    padding: 2.5px 5px;
-    font-size: 10.5px;
-    font-weight: normal
-}
-
-.badge-primary {
-    border-radius: 80px;
-    background-color: #f2f5fa;
-    padding: 2.5px 5px;
-    font-size: 10.5px;
-    font-weight: normal
-}
-
-.badge-secondary {
-    border-radius: 80px;
-    background-color: #1ac886;
-    padding: 2.5px 5px;
-    font-size: 10.5px;
-    font-weight: normal
-}
-
-.badge-error {
-    border-radius: 80px;
-    background-color: #b80808;
-    padding: 2.5px 5px;
-    font-size: 10.5px;
-    font-weight: normal
-}
-
-.badge-info {
-    border-radius: 80px;
-    background-color: #f6c31c;
-    padding: 2.5px 5px;
-    font-size: 10.5px;
-    font-weight: normal
-}
-
-.badge-light-blue {
-    border-radius: 80px;
-    background-color: #1da1f2;
-    padding: 2.5px 5px;
-    font-size: 10.5px;
-    font-weight: normal
-}
-
-.badge-blue {
-    border-radius: 80px;
-    background-color: #177fbf;
-    padding: 2.5px 5px;
-    font-size: 10.5px;
-    font-weight: normal
-}
-
-.badge-dark-blue {
-    border-radius: 80px;
-    background-color: #4267b2;
-    padding: 2.5px 5px;
-    font-size: 10.5px;
-    font-weight: normal
-}
-
-.badge-dark-blue-2 {
-    border-radius: 80px;
-    background-color: #2f4a80;
-    padding: 2.5px 5px;
-    font-size: 10.5px;
-    font-weight: normal
-}
-
-.badge-red {
-    border-radius: 80px;
-    background-color: red;
-    padding: 2.5px 5px;
-    font-size: 10.5px;
-    font-weight: normal
-}
-
-.badge-dark-red {
-    border-radius: 80px;
-    background-color: #c00;
-    padding: 2.5px 5px;
-    font-size: 10.5px;
-    font-weight: normal
-}
-
-.badge-yellow {
-    border-radius: 80px;
-    background-color: #e6e619;
-    padding: 2.5px 5px;
-    font-size: 10.5px;
-    font-weight: normal
-}
-
-.badge-green {
-    border-radius: 80px;
-    background-color: #19e635;
-    padding: 2.5px 5px;
-    font-size: 10.5px;
-    font-weight: normal
-}
-
-.badge-orange {
-    border-radius: 80px;
-    background-color: #ffa600;
-    padding: 2.5px 5px;
-    font-size: 10.5px;
-    font-weight: normal
-}
-
-.badge-purple {
-    border-radius: 80px;
-    background-color: #c13584;
-    padding: 2.5px 5px;
-    font-size: 10.5px;
-    font-weight: normal
-}
-
-.badge-dark-purple {
-    border-radius: 80px;
-    background-color: #8f2762;
-    padding: 2.5px 5px;
-    font-size: 10.5px;
-    font-weight: normal
-}
-
-.badge-gray-1 {
-    border-radius: 80px;
-    background-color: gray;
-    padding: 2.5px 5px;
-    font-size: 10.5px;
-    font-weight: normal
-}
-
-.badge-gray-2 {
-    border-radius: 80px;
-    background-color: #6a707b;
-    padding: 2.5px 5px;
-    font-size: 10.5px;
-    font-weight: normal
-}
-
-.badge-black {
-    border-radius: 80px;
-    background-color: #131821;
-    padding: 2.5px 5px;
-    font-size: 10.5px;
-    font-weight: normal
-}
-
-.badge-white {
-    border-radius: 80px;
-    background-color: #fff;
-    padding: 2.5px 5px;
-    font-size: 10.5px;
-    font-weight: normal
+.card .card-body a {
+    text-decoration: underline
 }
 
 .base {
@@ -6273,6 +6181,98 @@ img {
 .input-container .message.error {
     display: unset;
     color: #b80808
+}
+
+.navbar .container,.navbar-white .container,.navbar-black .container,.navbar-gray-2 .container,.navbar-gray-1 .container,.navbar-dark-purple .container,.navbar-purple .container,.navbar-orange .container,.navbar-green .container,.navbar-yellow .container,.navbar-dark-red .container,.navbar-red .container,.navbar-dark-blue-2 .container,.navbar-dark-blue .container,.navbar-blue .container,.navbar-light-blue .container,.navbar-info .container,.navbar-error .container,.navbar-secondary .container,.navbar-primary .container,.navbar,.navbar-white,.navbar-black,.navbar-gray-2,.navbar-gray-1,.navbar-dark-purple,.navbar-purple,.navbar-orange,.navbar-green,.navbar-yellow,.navbar-dark-red,.navbar-red,.navbar-dark-blue-2,.navbar-dark-blue,.navbar-blue,.navbar-light-blue,.navbar-info,.navbar-error,.navbar-secondary,.navbar-primary {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box
+}
+
+.navbar,.navbar-white,.navbar-black,.navbar-gray-2,.navbar-gray-1,.navbar-dark-purple,.navbar-purple,.navbar-orange,.navbar-green,.navbar-yellow,.navbar-dark-red,.navbar-red,.navbar-dark-blue-2,.navbar-dark-blue,.navbar-blue,.navbar-light-blue,.navbar-info,.navbar-error,.navbar-secondary,.navbar-primary {
+    box-shadow: none
+}
+
+.navbar .site-title,.navbar-white .site-title,.navbar-black .site-title,.navbar-gray-2 .site-title,.navbar-gray-1 .site-title,.navbar-dark-purple .site-title,.navbar-purple .site-title,.navbar-orange .site-title,.navbar-green .site-title,.navbar-yellow .site-title,.navbar-dark-red .site-title,.navbar-red .site-title,.navbar-dark-blue-2 .site-title,.navbar-dark-blue .site-title,.navbar-blue .site-title,.navbar-light-blue .site-title,.navbar-info .site-title,.navbar-error .site-title,.navbar-secondary .site-title,.navbar-primary .site-title {
+    font-size: 21px
+}
+
+.navbar-primary {
+    background-color: #f2f5fa
+}
+
+.navbar-secondary {
+    background-color: #1ac886
+}
+
+.navbar-error {
+    background-color: #b80808
+}
+
+.navbar-info {
+    background-color: #f6c31c
+}
+
+.navbar-light-blue {
+    background-color: #1da1f2
+}
+
+.navbar-blue {
+    background-color: #177fbf
+}
+
+.navbar-dark-blue {
+    background-color: #4267b2
+}
+
+.navbar-dark-blue-2 {
+    background-color: #2f4a80
+}
+
+.navbar-red {
+    background-color: red
+}
+
+.navbar-dark-red {
+    background-color: #c00
+}
+
+.navbar-yellow {
+    background-color: #e6e619
+}
+
+.navbar-green {
+    background-color: #19e635
+}
+
+.navbar-orange {
+    background-color: #ffa600
+}
+
+.navbar-purple {
+    background-color: #c13584
+}
+
+.navbar-dark-purple {
+    background-color: #8f2762
+}
+
+.navbar-gray-1 {
+    background-color: gray
+}
+
+.navbar-gray-2 {
+    background-color: #6a707b
+}
+
+.navbar-black {
+    background-color: #131821
+}
+
+.navbar-white {
+    background-color: #fff
 }
 
 .p-0 {

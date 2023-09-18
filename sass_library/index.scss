@@ -14,12 +14,13 @@
 @import "colors";
 
 // components (button, card, navbar etc)
-@import "components/card";
-@import "components/button";
-@import "components/navbar";
+@import "components/background";
 @import "components/badge";
+@import "components/button";
+@import "components/card";
 @import "components/icons";
 @import "components/input";
+@import "components/navbar";
 
 // utilities (margin, padding, opacity, etc)
 @import "utilities";

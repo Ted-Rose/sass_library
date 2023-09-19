@@ -6,7 +6,7 @@
   border-radius: 50%;
   width: 46px;
   height: 46px;
-  border: 2px solid $light-gray;
+  border: 2px solid $border-color;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -47,7 +47,7 @@ $icons: (
     border-radius: 50%;
     width: 46px;
     height: 46px;
-    border: 2px solid $light-gray;
+    border: 2px solid $border-color;
     display: flex;
     align-items: center;
     justify-content: center;

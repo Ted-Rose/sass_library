@@ -1,5 +1,5 @@
 const Icons = () => (
-  <div className="navbar bt-1 pt-4 mb-3 pl-4 pr-4">
+  <div className="navbar bt-1 pt-2 mb-3 pl-4 pr-4">
     <div className="base-fb">
       <svg
         className="ic fb"

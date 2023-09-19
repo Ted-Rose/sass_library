@@ -3,7 +3,7 @@ import Content from "../components/Content";
 
 export const SubscribeToNewsletter = () => {
   return (
-    <div className="mobile">
+    <div className="container-form">
       <div className="overlap">
         <div className="top-bar">
           <div className="top-bar-2">

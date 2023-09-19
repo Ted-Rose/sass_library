@@ -7070,20 +7070,20 @@ input,input[type=text i],button,textarea,select {
     padding-inline: 0
 }
 
-.mobile {
+.container-form {
     background-color: #fff;
     height: 812px;
     width: 375px
 }
 
-.mobile .overlap {
+.container-form .overlap {
     background-image: url(https://c.animaapp.com/YWiHxtUl/img/image.png);
     background-size: 100% 100%;
     height: 812px;
     position: relative
 }
 
-.mobile .content {
+.container-form .content {
     align-items: flex-start;
     background: linear-gradient(180deg, rgb(255, 255, 255) 0%, rgb(242, 245, 250) 100%);
     display: inline-flex;
@@ -7096,14 +7096,14 @@ input,input[type=text i],button,textarea,select {
     top: 255px
 }
 
-.mobile .text {
+.container-form .text {
     height: 96px;
     margin-right: -4px;
     position: relative;
     width: 299px
 }
 
-.mobile .subheading {
+.container-form .subheading {
     color: #6a707b;
     font-family: "Arial-Regular",Helvetica;
     font-size: 14px;
@@ -7116,7 +7116,7 @@ input,input[type=text i],button,textarea,select {
     width: 295px
 }
 
-.mobile .heading {
+.container-form .heading {
     color: #131821;
     font-family: "Georgia-Regular",Helvetica;
     font-size: 24px;
@@ -7129,7 +7129,7 @@ input,input[type=text i],button,textarea,select {
     width: 295px
 }
 
-.mobile .input {
+.container-form .input {
     margin-right: -2px;
     position: relative;
     width: 297px;
@@ -7137,7 +7137,7 @@ input,input[type=text i],button,textarea,select {
     flex-direction: column
 }
 
-.mobile .overlap-group {
+.container-form .overlap-group {
     background-color: #fff;
     border: 1px solid;
     border-color: #e3e3e4;
@@ -7146,7 +7146,7 @@ input,input[type=text i],button,textarea,select {
     width: 295px
 }
 
-.mobile .line {
+.container-form .line {
     height: 60px;
     left: -1px;
     position: absolute;
@@ -7154,7 +7154,7 @@ input,input[type=text i],button,textarea,select {
     width: 4px
 }
 
-.mobile .div {
+.container-form .div {
     height: 54px;
     left: 19px;
     position: absolute;
@@ -7162,7 +7162,7 @@ input,input[type=text i],button,textarea,select {
     width: 276px
 }
 
-.mobile .ic-arrow {
+.container-form .ic-arrow {
     align-items: center;
     display: inline-flex;
     flex-direction: column;
@@ -7174,13 +7174,13 @@ input,input[type=text i],button,textarea,select {
     top: 0
 }
 
-.mobile .img {
+.container-form .img {
     height: 14px;
     position: relative;
     width: 24px
 }
 
-.mobile .placeholder {
+.container-form .placeholder {
     color: #6a707b;
     font-family: "Arial-Regular",Helvetica;
     font-size: 16px;
@@ -7194,14 +7194,14 @@ input,input[type=text i],button,textarea,select {
     width: 100%
 }
 
-.mobile .TOS {
+.container-form .TOS {
     height: 26px;
     margin-right: -2px;
     position: relative;
     width: 297px
 }
 
-.mobile .i-agree-to-terms-of {
+.container-form .i-agree-to-terms-of {
     color: rgba(0,0,0,0);
     font-family: "Arial-Regular",Helvetica;
     font-size: 16px;
@@ -7214,16 +7214,16 @@ input,input[type=text i],button,textarea,select {
     width: 253px
 }
 
-.mobile .text-wrapper {
+.container-form .text-wrapper {
     color: #6a707b
 }
 
-.mobile .span {
+.container-form .span {
     color: #131821;
     text-decoration: underline
 }
 
-.mobile .checkmark {
+.container-form .checkmark {
     background-color: #4066a5;
     border-radius: 3px;
     height: 26px;
@@ -7233,7 +7233,7 @@ input,input[type=text i],button,textarea,select {
     width: 26px
 }
 
-.mobile .ic-checkmark {
+.container-form .ic-checkmark {
     height: 11px;
     left: 6px;
     position: absolute;
@@ -7241,13 +7241,13 @@ input,input[type=text i],button,textarea,select {
     width: 14px
 }
 
-.mobile .social {
+.container-form .social {
     height: 66px;
     position: relative;
     width: 295px
 }
 
-.mobile .line-2 {
+.container-form .line-2 {
     height: 1px;
     left: 0;
     object-fit: cover;
@@ -7256,7 +7256,7 @@ input,input[type=text i],button,textarea,select {
     width: 295px
 }
 
-.mobile .social-icons {
+.container-form .social-icons {
     height: 43px;
     left: 40px;
     position: absolute;
@@ -7264,7 +7264,7 @@ input,input[type=text i],button,textarea,select {
     width: 214px
 }
 
-.mobile .youtube {
+.container-form .youtube {
     border: 2px solid;
     border-color: #e3e3e4;
     border-radius: 23px;
@@ -7275,7 +7275,7 @@ input,input[type=text i],button,textarea,select {
     width: 43px
 }
 
-.mobile .ic-youtube {
+.container-form .ic-youtube {
     height: 11px;
     left: 13px;
     position: absolute;
@@ -7283,7 +7283,7 @@ input,input[type=text i],button,textarea,select {
     width: 16px
 }
 
-.mobile .twitter {
+.container-form .twitter {
     border: 2px solid;
     border-color: #e3e3e4;
     border-radius: 23px;
@@ -7294,7 +7294,7 @@ input,input[type=text i],button,textarea,select {
     width: 43px
 }
 
-.mobile .ic-twitter {
+.container-form .ic-twitter {
     height: 13px;
     left: 13px;
     position: absolute;
@@ -7302,7 +7302,7 @@ input,input[type=text i],button,textarea,select {
     width: 16px
 }
 
-.mobile .instagram {
+.container-form .instagram {
     border: 2px solid;
     border-color: #e3e3e4;
     border-radius: 23px;
@@ -7313,7 +7313,7 @@ input,input[type=text i],button,textarea,select {
     width: 43px
 }
 
-.mobile .ic-instagram {
+.container-form .ic-instagram {
     height: 16px;
     left: 13px;
     position: absolute;
@@ -7321,7 +7321,7 @@ input,input[type=text i],button,textarea,select {
     width: 16px
 }
 
-.mobile .facebook {
+.container-form .facebook {
     border: 2px solid;
     border-color: #e3e3e4;
     border-radius: 23px;
@@ -7332,7 +7332,7 @@ input,input[type=text i],button,textarea,select {
     width: 43px
 }
 
-.mobile .ic-facebook {
+.container-form .ic-facebook {
     height: 16px;
     left: 17px;
     position: absolute;
@@ -7340,7 +7340,7 @@ input,input[type=text i],button,textarea,select {
     width: 8px
 }
 
-.mobile .top-bar {
+.container-form .top-bar {
     align-items: flex-start;
     background-color: #fff;
     display: flex;
@@ -7354,7 +7354,7 @@ input,input[type=text i],button,textarea,select {
     width: 335px
 }
 
-.mobile .top-bar-2 {
+.container-form .top-bar-2 {
     align-items: flex-start;
     align-self: stretch;
     display: flex;
@@ -7365,13 +7365,13 @@ input,input[type=text i],button,textarea,select {
     width: 100%
 }
 
-.mobile .logo-pineapple {
+.container-form .logo-pineapple {
     height: 40px;
     position: relative;
     width: 24px
 }
 
-.mobile .menu {
+.container-form .menu {
     align-items: flex-end;
     display: inline-flex;
     flex: 0 0 auto;
@@ -7381,7 +7381,7 @@ input,input[type=text i],button,textarea,select {
     position: relative
 }
 
-.mobile .links {
+.container-form .links {
     color: #6a707b;
     font-family: "Arial-Regular",Helvetica;
     font-size: 14px;

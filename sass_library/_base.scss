@@ -1,6 +1,7 @@
 // import google font
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
+/* Reset default styles for form elements */
 html,
 body,
 div,
@@ -72,7 +73,6 @@ td {
   margin-block-end: 0;
 }
 
-/* Reset default styles for form elements */
 input,
 input[type="text" i],
 button,
@@ -91,6 +91,31 @@ select {
   padding-inline: 0;
 }
 
+.container-form .top-bar {
+  align-items: flex-start;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  height: 56px;
+  left: 0;
+  padding: 10px 20px 0px;
+  position: relative;
+  top: 0;
+  width: calc(100% - 40px);
+  z-index: 1;
+}
+
+.container-form .top-bar-2 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 1;
+  flex-grow: 1;
+  justify-content: space-between;
+  position: relative;
+  width: 100%;
+}
 // Styles for screens smaller than the small breakpoint
 @include xs-to-md {
   .container-form .content {
@@ -115,11 +140,9 @@ select {
     min-width: 375px;
   }
 
-  .container-form .overlap {
-    background-image: url(https://c.animaapp.com/YWiHxtUl/img/image.png);
-    background-size: 100% 100%;
-    height: 812px;
-    position: relative;
+    .container-form {
+      height: 100vh;
+      width: auto;
   }
 
   .container-form .text {
@@ -129,33 +152,20 @@ select {
     width: 299px;
   }
 
-  .container-form .background-image {
-    display: hide;
-    width: 0px;
-    height: 0px;
-  }
 }
 
 @include md-to-lg {
-  .container-form {
-    background-color: #ffffff;
-    height: 1194px;
-    position: relative;
-    width: 834px;
-  }
-
-  .container-form .overlap {
+  .content {
     background: linear-gradient(180deg, rgb(255, 255, 255) 0%, rgb(242.4, 245.22, 249.9) 100%);
     height: 1194px;
-    left: 0;
-    position: absolute;
-    top: 0;
+    position: relative;
     width: 680px;
   }
 
   .container-form .top-bar {
     align-items: flex-end;
     display: inline-flex;
+    width: 520px;
     gap: 113px;
     left: 80px;
     padding: 10px 20px 16px;
@@ -430,13 +440,14 @@ select {
     width: 479px;
   }
 
-  .container-form .background-image {
+    .container-form .image {
     height: 1194px;
     left: 680px;
     position: absolute;
     top: 0;
     width: 154px;
   }
+
 }
 
 .container-form .subheading {
@@ -677,31 +688,6 @@ select {
   width: 8px;
 }
 
-.container-form .top-bar {
-  align-items: flex-start;
-  background-color: #ffffff;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  height: 56px;
-  left: 0;
-  padding: 10px 20px 0px;
-  position: absolute;
-  top: 0;
-  width: calc(100% - 40px);
-}
-
-.container-form .top-bar-2 {
-  align-items: flex-start;
-  align-self: stretch;
-  display: flex;
-  flex: 1;
-  flex-grow: 1;
-  justify-content: space-between;
-  position: relative;
-  width: 100%;
-}
-
 .container-form .logo-pineapple {
   height: 40px;
   position: relative;
@@ -730,8 +716,6 @@ select {
   white-space: nowrap;
   width: fit-content;
 }
-
-
 
 
 

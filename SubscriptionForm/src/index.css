@@ -4662,17 +4662,6 @@ img {
     background-color: #fff
 }
 
-.background-image {
-    background-size: auto 100%;
-    width: 100%;
-    height: 100vh;
-    position: absolute;
-    background-image: url("./components/Images/image_summer.png");
-    background-repeat: no-repeat;
-    z-index: -1;
-    background-position: calc(100% - 170px) left
-}
-
 .badge {
     border-radius: 80px;
     background-color: #f6c31c;
@@ -7070,6 +7059,32 @@ input,input[type=text i],button,textarea,select {
     padding-inline: 0
 }
 
+.container-form .top-bar {
+    align-items: flex-start;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 56px;
+    left: 0;
+    padding: 10px 20px 0px;
+    position: relative;
+    top: 0;
+    width: calc(100% - 40px);
+    z-index: 1
+}
+
+.container-form .top-bar-2 {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex: 1;
+    flex-grow: 1;
+    justify-content: space-between;
+    position: relative;
+    width: 100%
+}
+
 @media(min-width: 0)and (max-width: 833px) {
     .container-form .content {
         align-items: flex-start;
@@ -7091,11 +7106,9 @@ input,input[type=text i],button,textarea,select {
         min-width: 375px
     }
 
-    .container-form .overlap {
-        background-image: url(https://c.animaapp.com/YWiHxtUl/img/image.png);
-        background-size: 100% 100%;
-        height: 812px;
-        position: relative
+    .container-form {
+        height: 100vh;
+        width: auto
     }
 
     .container-form .text {
@@ -7104,34 +7117,20 @@ input,input[type=text i],button,textarea,select {
         position: relative;
         width: 299px
     }
-
-    .container-form .background-image {
-        display: hide;
-        width: 0px;
-        height: 0px
-    }
 }
 
 @media(min-width: 833px)and (max-width: 1200px) {
-    .container-form {
-        background-color: #fff;
-        height: 1194px;
-        position: relative;
-        width: 834px
-    }
-
-    .container-form .overlap {
+    .content {
         background: linear-gradient(180deg, rgb(255, 255, 255) 0%, rgb(242, 245, 250) 100%);
         height: 1194px;
-        left: 0;
-        position: absolute;
-        top: 0;
+        position: relative;
         width: 680px
     }
 
     .container-form .top-bar {
         align-items: flex-end;
         display: inline-flex;
+        width: 520px;
         gap: 113px;
         left: 80px;
         padding: 10px 20px 16px;
@@ -7406,7 +7405,7 @@ input,input[type=text i],button,textarea,select {
         width: 479px
     }
 
-    .container-form .background-image {
+    .container-form .image {
         height: 1194px;
         left: 680px;
         position: absolute;
@@ -7650,31 +7649,6 @@ input,input[type=text i],button,textarea,select {
     position: absolute;
     top: 13px;
     width: 8px
-}
-
-.container-form .top-bar {
-    align-items: flex-start;
-    background-color: #fff;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    height: 56px;
-    left: 0;
-    padding: 10px 20px 0px;
-    position: absolute;
-    top: 0;
-    width: calc(100% - 40px)
-}
-
-.container-form .top-bar-2 {
-    align-items: flex-start;
-    align-self: stretch;
-    display: flex;
-    flex: 1;
-    flex-grow: 1;
-    justify-content: space-between;
-    position: relative;
-    width: 100%
 }
 
 .container-form .logo-pineapple {
@@ -12296,15 +12270,23 @@ img {
     background-color: #fff
 }
 
-.background-image {
-    background-size: auto 100%;
-    width: 100%;
-    height: 100vh;
-    position: absolute;
-    background-image: url("./components/Images/image_summer.png");
-    background-repeat: no-repeat;
-    z-index: -1;
-    background-position: calc(100% - 170px) left
+@media(min-width: 833px)and (max-width: 1200px) {
+    .container-form {
+        background-image: url(./components/Images/image_summer.png);
+        height: 100vh;
+        background-size: auto 100%;
+        background-repeat: no-repeat;
+        background-position: 440px top
+    }
+}
+
+@media(min-width: 0)and (max-width: 833px) {
+    .container-form {
+        background-image: url(./components/Images/image_summer.png);
+        height: 100vh;
+        background-size: auto 100%;
+        background-position: -221px
+    }
 }
 
 .badge {

@@ -1,10 +1,18 @@
-.background-image {
-    background-size: auto 100%;
-    width: 100%;
-    height: 100vh;
-    position: absolute;
-    background-image: url("./components/Images/image_summer.png");
-    background-repeat: no-repeat;
-    z-index: -1;
-    background-position: calc(100% - 170px) left;
+@include md-to-lg {
+    .container-form {
+        background-image: url(./components/Images/image_summer.png);
+        height: 100vh;
+        background-size: auto 100%;
+        background-repeat: no-repeat;
+        background-position: 440px top;
+    }
+}
+
+@include xs-to-md {
+    .container-form {
+        background-image: url(./components/Images/image_summer.png);
+        height: 100vh;
+        background-size: auto 100%;
+        background-position: -221px;
+    }
 }

@@ -1,4 +1,4 @@
-.input-container {
+.input {
     position: relative;
 
     .subscribe-form-box__form__vl {
@@ -53,19 +53,23 @@
       }
 
       &.approved {
+        color: $green;
+      }
+
+      &.error {
+        color: $error;
+      }
+
+      &.show {
+        padding-top: 10px;
+        padding-bottom: 5px;
+        flex: auto;
         display: unset;
-        padding-top: 6px;
         font-family: "Arial";
         font-style: normal;
         font-weight: 700;
         font-size: 12px;
         line-height: 18px;
-        color: rgb(33, 172, 51);
-      }
-
-      &.error {
-        display: unset;
-        color: $error;
       }
     }
   }

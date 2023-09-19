@@ -1,8 +1,7 @@
 import React from "react";
-
 import AddEmailToDatabase from "./AddEmailToDatabase";
 
-const EmailForm = () => {
+const EmailInput = () => {
   const [message, setMessage] = React.useState("");
   const [emailInput, setEmailInput] = React.useState("");
   const [inputHasError, setInputHasError] = React.useState(false);
@@ -72,23 +71,19 @@ const EmailForm = () => {
             value={emailInput}
             onChange={inputChangeHandler}
             name="email_input"
+            placeholder="Type your email address here…"
           />
-          <p className="placeholder">Type your email address here…</p>
-
           <div className="ic-arrow">
-            <img
-              className="img"
-              alt="Ic arrow"
-              src="https://c.animaapp.com/YWiHxtUl/img/ic-arrow.svg"
-            />
+            <button className="subscribe-submit-button" onClick={onSubmit}></button>
+
           </div>
         </div>
       </form>
-      <div className={`${"message"} ${messageClass} ${showMessage}`}>
+      <div className={`input ${"message"} ${messageClass} ${showMessage}`}>
         {message}
       </div>
     </div>
   );
 };
 
-export default EmailForm;
+export default EmailInput;

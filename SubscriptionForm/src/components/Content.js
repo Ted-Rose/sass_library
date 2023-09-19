@@ -1,4 +1,4 @@
-import EmailForm from "./EmailForm";
+import EmailInput from "./EmailInput";
 import Icons from "./Icons";
 import Terms from "./Terms";
 
@@ -10,7 +10,7 @@ const Content = () => (
       </p>
       <div className="heading">Subscribe to newsletter</div>
     </div>
-    <EmailForm />
+    <EmailInput />
     <Terms />
     <Icons />
   </div>

@@ -1,6 +1,431 @@
 // import google font
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+/* Reset default styles for form elements */
+input,
+input[type="text" i],
+button,
+textarea,
+select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  outline: none;
+  border: none;
+  background: none;
+  padding: 0;
+  margin: 0;
+  font-family: inherit;
+  padding-block: 0;
+  padding-inline: 0;
+}
+
+
+.mobile {
+  background-color: #ffffff;
+  height: 812px;
+  width: 375px;
+}
+
+.mobile .overlap {
+  background-image: url(https://c.animaapp.com/YWiHxtUl/img/image.png);
+  background-size: 100% 100%;
+  height: 812px;
+  position: relative;
+}
+
+.mobile .content {
+  align-items: flex-start;
+  background: linear-gradient(
+    180deg,
+    rgb(255, 255, 255) 0%,
+    rgb(242.4, 245.22, 249.9) 100%
+  );
+  display: inline-flex;
+  flex-direction: column;
+  height: 308px;
+  justify-content: space-between;
+  left: 20px;
+  padding: 30px 20px;
+  position: absolute;
+  top: 255px;
+}
+
+.mobile .text {
+  height: 96px;
+  margin-right: -4px;
+  position: relative;
+  width: 299px;
+}
+
+.mobile .subheading {
+  color: #6a707b;
+  font-family: "Arial-Regular", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 26px;
+  position: absolute;
+  top: 44px;
+  width: 295px;
+}
+
+.mobile .heading {
+  color: #131821;
+  font-family: "Georgia-Regular", Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 34px;
+  position: absolute;
+  top: 0;
+  width: 295px;
+}
+
+.mobile .input {
+  // height: 60px;
+  margin-right: -2px;
+  position: relative;
+  width: 297px;
+  display: inline-flex;
+  flex-direction: column;
+}
+
+.mobile .overlap-group {
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #e3e3e4;
+  height: 60px;
+  position: relative;
+  width: 295px;
+}
+
+.mobile .line {
+  height: 60px;
+  left: -1px;
+  position: absolute;
+  top: -1px;
+  width: 4px;
+}
+
+.mobile .div {
+  height: 54px;
+  left: 19px;
+  position: absolute;
+  top: 3px;
+  width: 276px;
+}
+
+.mobile .ic-arrow {
+  align-items: center;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  left: 222px;
+  padding: 20px 15px;
+  position: absolute;
+  top: 0;
+}
+
+.mobile .img {
+  height: 14px;
+  position: relative;
+  width: 24px;
+}
+
+.mobile .placeholder {
+  color: #6a707b;
+  font-family: "Arial-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 24px;
+  position: absolute;
+  top: 15px;
+  white-space: nowrap;
+  width: 100%;
+}
+
+.mobile .TOS {
+  height: 26px;
+  margin-right: -2px;
+  position: relative;
+  width: 297px;
+}
+
+.mobile .i-agree-to-terms-of {
+  color: transparent;
+  font-family: "Arial-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 42px;
+  letter-spacing: 0;
+  line-height: 26px;
+  position: absolute;
+  top: 0;
+  width: 253px;
+}
+
+.mobile .text-wrapper {
+  color: #6a707b;
+}
+
+.mobile .span {
+  color: #131821;
+  text-decoration: underline;
+}
+
+.mobile .checkmark {
+  background-color: #4066a5;
+  border-radius: 3px;
+  height: 26px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 26px;
+}
+
+.mobile .ic-checkmark {
+  height: 11px;
+  left: 6px;
+  position: absolute;
+  top: 8px;
+  width: 14px;
+}
+
+.mobile .social {
+  height: 66px;
+  position: relative;
+  width: 295px;
+}
+
+.mobile .line-2 {
+  height: 1px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: -1px;
+  width: 295px;
+}
+
+.mobile .social-icons {
+  height: 43px;
+  left: 40px;
+  position: absolute;
+  top: 20px;
+  width: 214px;
+}
+
+.mobile .youtube {
+  border: 2px solid;
+  border-color: #e3e3e4;
+  border-radius: 23px;
+  height: 43px;
+  left: 168px;
+  position: absolute;
+  top: 0;
+  width: 43px;
+}
+
+.mobile .ic-youtube {
+  height: 11px;
+  left: 13px;
+  position: absolute;
+  top: 15px;
+  width: 16px;
+}
+
+.mobile .twitter {
+  border: 2px solid;
+  border-color: #e3e3e4;
+  border-radius: 23px;
+  height: 43px;
+  left: 112px;
+  position: absolute;
+  top: 0;
+  width: 43px;
+}
+
+.mobile .ic-twitter {
+  height: 13px;
+  left: 13px;
+  position: absolute;
+  top: 15px;
+  width: 16px;
+}
+
+.mobile .instagram {
+  border: 2px solid;
+  border-color: #e3e3e4;
+  border-radius: 23px;
+  height: 43px;
+  left: 56px;
+  position: absolute;
+  top: 0;
+  width: 43px;
+}
+
+.mobile .ic-instagram {
+  height: 16px;
+  left: 13px;
+  position: absolute;
+  top: 13px;
+  width: 16px;
+}
+
+.mobile .facebook {
+  border: 2px solid;
+  border-color: #e3e3e4;
+  border-radius: 23px;
+  height: 43px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 43px;
+}
+
+.mobile .ic-facebook {
+  height: 16px;
+  left: 17px;
+  position: absolute;
+  top: 13px;
+  width: 8px;
+}
+
+.mobile .top-bar {
+  align-items: flex-start;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  height: 56px;
+  left: 0;
+  padding: 10px 20px 0px;
+  position: absolute;
+  top: 0;
+  width: 335px;
+}
+
+.mobile .top-bar-2 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 1;
+  flex-grow: 1;
+  justify-content: space-between;
+  position: relative;
+  width: 100%;
+}
+
+.mobile .logo-pineapple {
+  height: 40px;
+  position: relative;
+  width: 24px;
+}
+
+.mobile .menu {
+  align-items: flex-end;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 20px;
+  justify-content: flex-end;
+  padding: 11px 0px 5px;
+  position: relative;
+}
+
+.mobile .links {
+  color: #6a707b;
+  font-family: "Arial-Regular", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+
+
+// Old CSS starts here
+
+
+
 /* reset styles */
 * {
   color: inherit;

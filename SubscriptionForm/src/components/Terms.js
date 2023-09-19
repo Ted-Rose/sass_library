@@ -1,6 +1,5 @@
 import React from "react";
 import Checkbox from "./Checkbox";
-import "./../index.css";
 
 const Terms = () => {
   const [checked, setChecked] = React.useState(false);

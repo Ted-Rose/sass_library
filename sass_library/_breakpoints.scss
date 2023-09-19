@@ -33,3 +33,34 @@
     @content;
   }
 }
+
+// Define styles for specific min-max-width combinations
+@mixin xs-to-sm {
+  @media (min-width: map-get($breakpoints, "xs")) and (max-width: map-get($breakpoints, "sm")) {
+    @content;
+  }
+}
+
+@mixin xs-to-md {
+  @media (min-width: map-get($breakpoints, "xs")) and (max-width: map-get($breakpoints, "md")) {
+    @content;
+  }
+}
+
+@mixin sm-to-md {
+  @media (min-width: map-get($breakpoints, "sm")) and (max-width: map-get($breakpoints, "md")) {
+    @content;
+  }
+}
+
+@mixin md-to-lg {
+  @media (min-width: map-get($breakpoints, "md")) and (max-width: map-get($breakpoints, "lg")) {
+    @content;
+  }
+}
+
+@mixin lg-to-xl {
+  @media (min-width: map-get($breakpoints, "lg")) and (max-width: map-get($breakpoints, "xl")) {
+    @content;
+  }
+}

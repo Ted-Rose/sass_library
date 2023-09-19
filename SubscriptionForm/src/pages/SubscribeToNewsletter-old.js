@@ -12,3 +12,5 @@ export default function SubscribeToNewsletter() {
         </div>
     );
 }
+git config --global user.name "Ted-Rose"
+git config --global user.email "Tedis.Rozenfelds@gmail.com"

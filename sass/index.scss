@@ -22,6 +22,29 @@ $black: #131821;
   justify-content: space-between;
 }
 
+.menu {
+  align-items: flex-end;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 20px;
+  justify-content: flex-end;
+  padding: 13px 0px 5px;
+  position: relative;
+}
+
+.links {
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.logo-pineapple {
+  height: 40px;
+  position: relative;
+  width: 24px;
+}
+
 .content {
   align-items: flex-start;
   background: linear-gradient(180deg,
@@ -39,21 +62,12 @@ $black: #131821;
   width: 295px;
 }
 
-.menu {
-  align-items: flex-end;
-  display: inline-flex;
-  flex: 0 0 auto;
-  gap: 20px;
-  justify-content: flex-end;
-  padding: 13px 0px 5px;
+.text {
+  height: 96px;
+  margin-right: -40px;
+  padding-right: 5px;
+  width: 299px;
   position: relative;
-}
-
-.links {
-  margin-top: -1px;
-  position: relative;
-  white-space: nowrap;
-  width: fit-content;
 }
 
 .heading {
@@ -192,36 +206,6 @@ $black: #131821;
   justify-content: space-between;
 }
 
-.logo-pineapple {
-  height: 40px;
-  position: relative;
-  width: 24px;
-}
-
-// Styles for screens smaller than the medium breakpoint
-@include xs-to-md {
-
-  .container-form {
-    background-color: #ffffff;
-    height: 100vh;
-    width: 100%;
-    min-width: 335px;
-    position: relative;
-  }
-
-  .text {
-    height: 96px;
-    margin-right: -40px;
-    padding-right: 5px;
-    position: relative;
-    width: 299px;
-  }
-
-  .hide-sm-to-md {
-    display: none;
-  }
-}
-
 // Styles for screens from the medium breakpoint
 @include min-md {
   .top-bar {
@@ -268,10 +252,87 @@ $black: #131821;
     top: 0px;
   }
 
-  .logo-pineapple {
-    height: 40px;
+  .text {
+    height: 115px;
+    left: 100px;
+    top: 374px;
+    width: 484px;
+  }
+
+  .heading {
+    font-size: 32px;
+    font-weight: 400;
+    left: 0;
+    letter-spacing: 0;
+    line-height: 44px;
+    position: absolute;
+    top: 2px;
+    width: 479px;
+  }
+
+  .subheading {
+    color: #6a707b;
+    font-family: "Arial-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    left: 2px;
+    letter-spacing: 0;
+    line-height: 28px;
+    position: absolute;
+    top: 62px;
+    width: 480px;
+  }
+
+  .input-container {
+    height: 72px;
+    left: 100px;
+    position: absolute;
+    top: 539px;
+    width: 478px;
+    margin-top: 0px;
+  }
+
+  .overlap-group {
+    height: 70px;
     position: relative;
-    width: 118px;
+    width: 100%;
+  }
+
+  .img {
+    height: 70px;
+    left: -1px;
+    position: absolute;
+    top: -1px;
+    width: 4px;
+  }
+
+  .placeholder {
+    color: #6a707b;
+    font-family: "Arial-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    left: 21px;
+    letter-spacing: 0;
+    line-height: 24px;
+    position: absolute;
+    top: 22px;
+    white-space: nowrap;
+  }
+
+  .ic-arrow {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    left: 395px;
+    position: absolute;
+    width: 54px;
+  }
+
+  .input-container .subscribe-submit-button {
+    position: absolute;
+    bottom: -6px;
+    left: -5px;
   }
 
   .social {
@@ -327,95 +388,6 @@ $black: #131821;
   .span {
     color: #131821;
     text-decoration: underline;
-  }
 
-  .input-container {
-    height: 72px;
-    left: 100px;
-    position: absolute;
-    top: 539px;
-    width: 478px;
-    margin-top: 0px;
-  }
-
-  .overlap-group {
-    height: 70px;
-    position: relative;
-    width: 100%;
-  }
-
-  .img {
-    height: 70px;
-    left: -1px;
-    position: absolute;
-    top: -1px;
-    width: 4px;
-  }
-
-  .placeholder {
-    color: #6a707b;
-    font-family: "Arial-Regular", Helvetica;
-    font-size: 16px;
-    font-weight: 400;
-    left: 21px;
-    letter-spacing: 0;
-    line-height: 24px;
-    position: absolute;
-    top: 22px;
-    white-space: nowrap;
-  }
-
-  .ic-arrow {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    left: 395px;
-    position: absolute;
-    width: 54px;
-  }
-
-  .input-container .subscribe-submit-button {
-    position: absolute;
-    bottom: -6px;
-    left: -5px;
-  }
-
-
-  .text {
-    height: 115px;
-    left: 100px;
-    position: absolute;
-    top: 374px;
-    width: 484px;
-  }
-
-  .heading {
-    font-size: 32px;
-    font-weight: 400;
-    left: 0;
-    letter-spacing: 0;
-    line-height: 44px;
-    position: absolute;
-    top: 2px;
-    width: 479px;
-  }
-
-  .subheading {
-    color: #6a707b;
-    font-family: "Arial-Regular", Helvetica;
-    font-size: 16px;
-    font-weight: 400;
-    left: 2px;
-    letter-spacing: 0;
-    line-height: 28px;
-    position: absolute;
-    top: 62px;
-    width: 480px;
-  }
-
-
-  .hide-md-to-lg {
-    display: none;
   }
 }

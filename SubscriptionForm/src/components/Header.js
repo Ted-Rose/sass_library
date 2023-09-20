@@ -1,5 +1,5 @@
 import React from "react";
-import PineappleText from "./Images/pineapple-text.svg";
+import PineappleText from "./Images/logo_pineapple_text.svg";
 import LogoPineapple from "./Images/logo_pineapple.svg";
 
 const Header = () => {
@@ -9,12 +9,12 @@ const Header = () => {
                 <img
                     src={LogoPineapple}
                     alt="SVG pineapple logo"
-                    className="logo-pineapple"
-                />
+                    className="hide-md-to-lg"
+                    />
                 <img
                     src={PineappleText}
                     alt="SVG pineapple text"
-                    className="sm-hide"
+                    className="hide-sm-to-md"
                 />
                 <ul className="menu">
                     <li className="links">

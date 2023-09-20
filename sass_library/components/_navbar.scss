@@ -27,13 +27,13 @@
     }
 }
 
-@include md {
+@include min-md {
     .navbar-md {
         box-sizing: border-box;
         flex-grow: 0;
     }
 }
-@include xl {
+@include min-xl {
     .navbar-xl {
         box-sizing: border-box;
         flex-grow: 0;

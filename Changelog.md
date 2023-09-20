@@ -3,6 +3,7 @@
 2. Update submit buttons SVG
 3. Prevent form submission if the terms are not accepted
 4. Fix background image at 711 px breaking point
+5. Fix background at 1920 px
 
 # Done list
 Simple log - place cursor over the change you are interested in to get information about contributor and commits time (works in VS Code if GitLens extension is used)

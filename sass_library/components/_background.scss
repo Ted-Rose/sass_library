@@ -1,4 +1,4 @@
-@include md-to-lg {
+@include min-md {
     .container-form {
         background-image: url(./components/Images/image_summer.png);
         height: 100vh;
@@ -8,7 +8,7 @@
     }
 }
 
-@include xs-to-md {
+@include max-md {
     .container-form {
         background-image: url(./components/Images/image_summer.png);
         height: 100vh;

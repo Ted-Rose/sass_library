@@ -253,8 +253,8 @@ $black: #131821;
   }
 }
 
-// Styles for screens from the medium to large breakpoint
-@include md-to-lg {
+// Styles for screens from the medium breakpoint
+@include min-md {
   .container-form .top-bar {
     align-items: flex-end;
     display: inline-flex;

@@ -58,12 +58,7 @@ const EmailInput = () => {
         action="#"
         id="subscriptionForm"
       >
-        <img
-          className="line"
-          alt="Line"
-          src="https://c.animaapp.com/YWiHxtUl/img/line.svg"
-        />
-        <div className="div">
+        <div className="email-input-container">
           <input
             id="emailInput"
             type="text"

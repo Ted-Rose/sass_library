@@ -6996,47 +6996,46 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
     margin-block-end: 0
 }
 
-.container-form .subheading {
-    color: #6a707b;
-    font-family: "Arial-Regular",Helvetica;
-    font-size: 14px;
-    font-weight: 400;
-    left: 0;
-    letter-spacing: 0;
-    line-height: 26px;
-    position: absolute;
-    top: 44px;
-    width: 295px
-}
-
 .container-form .heading {
     color: #131821;
-    font-family: "Georgia-Regular",Helvetica;
+    font-family: "Georgia",Helvetica;
     font-size: 24px;
     font-weight: 400;
-    left: 0;
     letter-spacing: 0;
     line-height: 34px;
     position: absolute;
-    top: 0;
+    top: 2px;
+    width: 295px
+}
+
+.container-form .subheading {
+    color: #6a707b;
+    font-family: "Arial",Helvetica;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    position: absolute;
+    top: 45px;
     width: 295px
 }
 
 .container-form .input {
     margin-right: -2px;
+    margin-top: 2px;
     position: relative;
-    width: 297px;
+    width: 288px;
     display: inline-flex;
-    flex-direction: column
+    flex-direction: column;
+    border-left: 4px solid #4066a5
 }
 
 .container-form .overlap-group {
     background-color: #fff;
     border: 1px solid;
     border-color: #e3e3e4;
-    height: 60px;
+    height: 58px;
     position: relative;
-    width: 295px
+    width: 100%
 }
 
 .container-form .line {
@@ -7047,9 +7046,9 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
     width: 4px
 }
 
-.container-form .div {
+.container-form .email-input-container {
     height: 54px;
-    left: 19px;
+    left: 14px;
     position: absolute;
     top: 3px;
     width: 276px
@@ -7084,21 +7083,20 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 
 .container-form .TOS {
     height: 26px;
-    margin-right: -2px;
     position: relative;
     width: 297px
 }
 
 .container-form .i-agree-to-terms-of {
     color: rgba(0,0,0,0);
-    font-family: "Arial-Regular",Helvetica;
+    font-family: "Arial",Helvetica;
     font-size: 16px;
     font-weight: 400;
     left: 42px;
     letter-spacing: 0;
     line-height: 26px;
     position: absolute;
-    top: 0;
+    top: 2px;
     width: 253px
 }
 
@@ -7171,7 +7169,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
     flex: 0 0 auto;
     gap: 20px;
     justify-content: flex-end;
-    padding: 11px 0px 5px;
+    padding: 13px 0px 5px;
     position: relative
 }
 
@@ -7240,7 +7238,8 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 
     .container-form .text {
         height: 96px;
-        margin-right: -4px;
+        margin-right: -40px;
+        padding-right: 5px;
         position: relative;
         width: 299px
     }
@@ -7396,7 +7395,8 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
         left: 100px;
         position: absolute;
         top: 539px;
-        width: 482px
+        width: 482px;
+        border-left: 4px solid #4066a5
     }
 
     .container-form .overlap-group {
@@ -7421,7 +7421,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
         font-family: "Arial-Regular",Helvetica;
         font-size: 16px;
         font-weight: 400;
-        left: 39px;
+        left: 30px;
         letter-spacing: 0;
         line-height: 24px;
         position: absolute;
@@ -13599,7 +13599,8 @@ img {
 .input .subscribe-submit-button {
     height: 60px;
     width: 62px;
-    bottom: 2px;
+    bottom: 4px;
+    left: 2px;
     background: center no-repeat url("./components/Images/ic_arrow.svg")
 }
 

@@ -75,7 +75,6 @@ const EmailInput = () => {
           />
           <div className="ic-arrow">
             <button className="subscribe-submit-button" onClick={onSubmit}></button>
-
           </div>
         </div>
       </form>

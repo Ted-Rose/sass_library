@@ -6127,33 +6127,7 @@ img {
     opacity: .4
 }
 
-@media only screen and (min-width: 768px) {
-    .subscribe-icons {
-        width: 244px;
-        height: 46px;
-        margin-right: 91px;
-        margin-top: 50px
-    }
-}
-
-.input {
-    position: relative
-}
-
-.input .subscribe-form-box__form__vl {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 60px;
-    width: 4px;
-    background: #4066a5
-}
-
-.input .subscribe-form-box__form__vl.error {
-    background: #b80808
-}
-
-.input .email-input {
+.input-container .email-input {
     padding-left: 20px;
     width: calc(100% - 24px);
     height: 56px;
@@ -6168,15 +6142,15 @@ img {
     text-indent: -2px
 }
 
-.input .email-input:focus,.input .email-input:hover {
+.input-container .email-input:focus,.input-container .email-input:hover {
     box-shadow: 0px 30px 40px rgba(19,24,33,.06)
 }
 
-.input .email-input.error {
+.input-container .email-input.error {
     border: 1px solid #b80808
 }
 
-.input .subscribe-submit-button {
+.input-container .subscribe-submit-button {
     height: 60px;
     width: 62px;
     bottom: 4px;
@@ -6184,28 +6158,26 @@ img {
     background: center no-repeat url("./components/Images/ic_arrow.svg")
 }
 
-.input .message.hide {
+.message.hide {
     display: none
 }
 
-.input .message.approved {
+.message.approved {
     color: #19e635
 }
 
-.input .message.error {
+.message.error {
     color: #b80808
 }
 
-.input .message.show {
-    padding-top: 10px;
-    padding-bottom: 5px;
-    flex: auto;
+.message.show {
     display: unset;
     font-family: "Arial";
     font-style: normal;
     font-weight: 700;
     font-size: 12px;
-    line-height: 18px
+    line-height: 18px;
+    padding-top: 5px
 }
 
 .navbar .container,.navbar-white .container,.navbar-black .container,.navbar-gray-2 .container,.navbar-gray-1 .container,.navbar-dark-purple .container,.navbar-purple .container,.navbar-orange .container,.navbar-green .container,.navbar-yellow .container,.navbar-dark-red .container,.navbar-red .container,.navbar-dark-blue-2 .container,.navbar-dark-blue .container,.navbar-blue .container,.navbar-light-blue .container,.navbar-info .container,.navbar-error .container,.navbar-secondary .container,.navbar-primary .container,.navbar,.navbar-white,.navbar-black,.navbar-gray-2,.navbar-gray-1,.navbar-dark-purple,.navbar-purple,.navbar-orange,.navbar-green,.navbar-yellow,.navbar-dark-red,.navbar-red,.navbar-dark-blue-2,.navbar-dark-blue,.navbar-blue,.navbar-light-blue,.navbar-info,.navbar-error,.navbar-secondary,.navbar-primary {
@@ -7018,13 +6990,16 @@ img {
     width: 295px
 }
 
-.container-form .input {
+.container-form .input-container {
     margin-right: -2px;
     margin-top: 2px;
     position: relative;
-    width: 288px;
+    width: 293px;
     display: inline-flex;
-    flex-direction: column;
+    flex-direction: column
+}
+
+.input-box {
     border-left: 4px solid #4066a5
 }
 
@@ -7054,7 +7029,8 @@ img {
 }
 
 .container-form .ic-arrow {
-    left: 215px;
+    left: 217px;
+    bottom: -2px;
     position: absolute;
     height: 60px;
     width: 62px
@@ -7319,7 +7295,7 @@ img {
         letter-spacing: 0;
         line-height: 26px;
         position: absolute;
-        top: 3px;
+        top: 2px;
         width: 438px
     }
 
@@ -7332,19 +7308,16 @@ img {
         text-decoration: underline
     }
 
-    .container-form .input {
-        height: 70px;
+    .container-form .input-container {
+        height: 72px;
         left: 100px;
         position: absolute;
         top: 539px;
-        width: 476px;
-        border-left: 4px solid #4066a5
+        width: 478px;
+        margin-top: 0px
     }
 
     .container-form .overlap-group {
-        background-color: #fff;
-        border: 1px solid;
-        border-color: #e2e3e4;
         height: 70px;
         position: relative;
         width: 100%
@@ -7367,7 +7340,7 @@ img {
         letter-spacing: 0;
         line-height: 24px;
         position: absolute;
-        top: 20px;
+        top: 22px;
         white-space: nowrap
     }
 
@@ -7375,17 +7348,16 @@ img {
         align-items: center;
         display: flex;
         flex-direction: column;
-        gap: 10px;
         justify-content: center;
         left: 395px;
         position: absolute;
         width: 54px
     }
 
-    .container-form .ic-arrow-2 {
-        height: 14px;
-        position: relative;
-        width: 24px
+    .input-container .subscribe-submit-button {
+        position: absolute;
+        bottom: -6px;
+        left: -5px
     }
 
     .container-form .text {

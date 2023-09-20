@@ -34,13 +34,16 @@ $black: #131821;
   width: 295px;
 }
 
-.container-form .input {
+.container-form .input-container {
   margin-right: -2px;
   margin-top: 2px;
   position: relative;
-  width: 288px;
+  width: 293px;
   display: inline-flex;
   flex-direction: column;
+}
+
+.input-box{
   border-left: 4px solid #4066A5;
 }
 
@@ -70,7 +73,8 @@ $black: #131821;
 }
 
 .container-form .ic-arrow {
-  left: 215px;
+  left: 217px;
+  bottom: -2px;
   position: absolute;
   height: 60px;
   width: 62px;
@@ -339,7 +343,7 @@ $black: #131821;
     letter-spacing: 0;
     line-height: 26px;
     position: absolute;
-    top: 3px;
+    top: 2px;
     width: 438px;
   }
 
@@ -352,19 +356,16 @@ $black: #131821;
     text-decoration: underline;
   }
 
-  .container-form .input {
-    height: 70px;
+  .container-form .input-container {
+    height: 72px;
     left: 100px;
     position: absolute;
     top: 539px;
-    width: 476px;
-    border-left: 4px solid #4066A5;
+    width: 478px;
+    margin-top: 0px;
   }
 
   .container-form .overlap-group {
-    background-color: #ffffff;
-    border: 1px solid;
-    border-color: #e2e3e4;
     height: 70px;
     position: relative;
     width: 100%;
@@ -387,7 +388,7 @@ $black: #131821;
     letter-spacing: 0;
     line-height: 24px;
     position: absolute;
-    top: 20px;
+    top: 22px;
     white-space: nowrap;
   }
 
@@ -395,18 +396,18 @@ $black: #131821;
     align-items: center;
     display: flex;
     flex-direction: column;
-    gap: 10px;
     justify-content: center;
     left: 395px;
     position: absolute;
     width: 54px;
   }
 
-  .container-form .ic-arrow-2 {
-    height: 14px;
-    position: relative;
-    width: 24px;
-  }
+  .input-container .subscribe-submit-button {
+    position: absolute;
+    bottom: -6px;
+    left: -5px;
+   }
+
 
   .container-form .text {
     height: 115px;

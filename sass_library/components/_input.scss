@@ -1,19 +1,4 @@
-.input {
-    position: relative;
-
-    .subscribe-form-box__form__vl {
-      position: absolute;
-      top: 0;
-      left: 0;
-      height: 60px;
-      width: 4px;
-      background: $hover;
-
-      &.error {
-        background: $error;
-      }
-    }
-
+.input-container {
     .email-input {
       padding-left: 20px;
       width: calc(100% - 24px);
@@ -45,30 +30,28 @@
       left: 2px;
       background: center no-repeat url("./components/Images/ic_arrow.svg");
     }
+  }
 
-    .message {
-      &.hide {
-        display: none;
-      }
+  .message {
+    &.hide {
+      display: none;
+    }
 
-      &.approved {
-        color: $green;
-      }
+    &.approved {
+      color: $green;
+    }
 
-      &.error {
-        color: $error;
-      }
+    &.error {
+      color: $error;
+    }
 
-      &.show {
-        padding-top: 10px;
-        padding-bottom: 5px;
-        flex: auto;
-        display: unset;
-        font-family: "Arial";
-        font-style: normal;
-        font-weight: 700;
-        font-size: 12px;
-        line-height: 18px;
-      }
+    &.show {
+      display: unset;
+      font-family: "Arial";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 12px;
+      line-height: 18px;
+      padding-top: 5px;
     }
   }

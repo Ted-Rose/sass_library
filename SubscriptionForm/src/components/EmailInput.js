@@ -51,29 +51,31 @@ const EmailInput = () => {
   const showMessage = hideErrorMessage ? "hide" : "show";
 
   return (
-    <div className="input">
-      <form
-        className="overlap-group"
-        onSubmit={preventDefault}
-        action="#"
-        id="subscriptionForm"
-      >
-        <div className="email-input-container">
-          <input
-            id="emailInput"
-            type="text"
-            className={`${"placeholder"} ${messageClass}`}
-            value={emailInput}
-            onChange={inputChangeHandler}
-            name="email_input"
-            placeholder="Type your email address here…"
-          />
-          <div className="ic-arrow">
-            <button className="subscribe-submit-button" onClick={onSubmit}></button>
+    <div className="input-container">
+      <div className="input-box">
+        <form
+          className="overlap-group"
+          onSubmit={preventDefault}
+          action="#"
+          id="subscriptionForm"
+        >
+          <div className="email-input-container">
+            <input
+              id="emailInput"
+              type="text"
+              className={`${"placeholder"} ${messageClass}`}
+              value={emailInput}
+              onChange={inputChangeHandler}
+              name="email_input"
+              placeholder="Type your email address here…"
+            />
+            <div className="ic-arrow">
+              <button className="subscribe-submit-button" onClick={onSubmit}></button>
+            </div>
           </div>
-        </div>
-      </form>
-      <div className={`input ${"message"} ${messageClass} ${showMessage}`}>
+        </form>
+      </div>
+      <div className={`${"message"} ${messageClass} ${showMessage}`}>
         {message}
       </div>
     </div>

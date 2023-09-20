@@ -7,8 +7,8 @@ function buildStyles() {
     return (
         src("sass/**/*.scss", "sass_library/**/*.scss")
             .pipe(sass({ outputStyle: "compressed" }))
-            .pipe(purgecss({ content: ['*.html'] }))
-            .pipe(cssbeautify()) // Add this line to format the CSS
+            .pipe(purgecss({ content: ['*.html', "SubscriptionForm/src/**/*.js"] }))
+            .pipe(cssbeautify())
             .pipe(dest("SubscriptionForm/src"))
     );
 }

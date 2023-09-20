@@ -2,7 +2,7 @@
 
 @import"https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap";
 
-html,body,div,span,h1,h2,h3,p,a,font,img,small,ul,li {
+html,body,div,span,h1,h2,h3,p,a,address,font,img,s,small,ul,li,form {
     margin: 0;
     padding: 0;
     border: 0;
@@ -25,7 +25,7 @@ body {
     font-family: Arial
 }
 
-h1 {
+h1,.heading {
     font-family: Georgia;
     color: #131821;
     font-size: 24px;
@@ -34,7 +34,7 @@ h1 {
     line-height: 34px
 }
 
-h2 {
+h2,.subheading,input {
     font-family: Arial;
     color: #6a707b;
     font-size: 14px;
@@ -43,14 +43,46 @@ h2 {
     letter-spacing: 0
 }
 
+.message {
+    font-family: Arial;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 18px
+}
+
+.links {
+    color: #6a707b;
+    font-family: "Arial-Regular",Helvetica;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 24px
+}
+
+@media(max-width: 833px) {
+    .hide-sm-to-md {
+        display: none
+    }
+}
+
 @media(min-width: 833px) {
-    h1 {
+    .hide-md-to-lg {
+        display: none
+    }
+
+    .links {
+        font-size: 16px;
+        line-height: 26px
+    }
+
+    h1,.heading {
         font-size: 32px;
         line-height: 44px;
         font-weight: 400
     }
 
-    h2 {
+    h2,.subheading,input {
         font-size: 16px;
         font-weight: 400;
         line-height: 28px
@@ -97,7 +129,11 @@ img {
     max-width: 100%
 }
 
-html,body,div,span,h1,h2,h3,p,a,font,img,small,ul,li {
+.test {
+    color: #f2f5fa
+}
+
+html,body,div,span,h1,h2,h3,p,a,address,font,img,s,small,ul,li,form {
     margin: 0;
     padding: 0;
     border: 0;
@@ -111,7 +147,7 @@ html,body,div,span,h1,h2,h3,p,a,font,img,small,ul,li {
     margin-block-end: 0
 }
 
-button {
+input,input[type=text i],button {
     appearance: none;
     -webkit-appearance: none;
     -moz-appearance: none;
@@ -341,6 +377,25 @@ img {
     color: #fff
 }
 
+@media(min-width: 833px) {
+    .container-form {
+        background-image: url(./components/Images/image_summer.png);
+        height: 100vh;
+        background-size: auto 100%;
+        background-repeat: no-repeat;
+        background-position: 440px top
+    }
+}
+
+@media(max-width: 833px) {
+    .container-form {
+        background-image: url(./components/Images/image_summer.png);
+        height: 100vh;
+        background-size: auto 100%;
+        background-position: -221px
+    }
+}
+
 .badge {
     border-radius: 80px;
     background-color: #f6c31c;
@@ -435,6 +490,198 @@ img {
 
 .card .card-body a {
     text-decoration: underline
+}
+
+.ic-checkmark {
+    width: 26px;
+    height: 26px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    float: left;
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    border: 1px solid #e3e3e4;
+    border-radius: 3px
+}
+
+.ic-checkmark:checked {
+    background-image: url("./components/Images/ic_checkmark.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 14px 11px;
+    background-color: #4066a5;
+    border-color: #4066a5
+}
+
+.facebook {
+    box-sizing: border-box;
+    border-radius: 50%;
+    width: 46px;
+    height: 46px;
+    border: 2px solid #e3e3e4;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.facebook:hover {
+    background: #4267b2
+}
+
+.facebook:hover svg {
+    opacity: 1;
+    fill: #fff
+}
+
+.facebook:active {
+    background: #2f4a80
+}
+
+.facebook:active svg {
+    opacity: 1;
+    fill: #fff
+}
+
+.ic-facebook {
+    height: 16px;
+    width: 8px;
+    opacity: .4
+}
+
+.instagram {
+    box-sizing: border-box;
+    border-radius: 50%;
+    width: 46px;
+    height: 46px;
+    border: 2px solid #e3e3e4;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.instagram:hover {
+    background: #c13584
+}
+
+.instagram:hover svg {
+    opacity: 1;
+    fill: #fff
+}
+
+.instagram:active {
+    background: #8f2762
+}
+
+.instagram:active svg {
+    opacity: 1;
+    fill: #fff
+}
+
+.ic-instagram {
+    height: 16px;
+    width: 16px;
+    opacity: .4
+}
+
+.twitter {
+    box-sizing: border-box;
+    border-radius: 50%;
+    width: 46px;
+    height: 46px;
+    border: 2px solid #e3e3e4;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.twitter:hover {
+    background: #1da1f2
+}
+
+.twitter:hover svg {
+    opacity: 1;
+    fill: #fff
+}
+
+.twitter:active {
+    background: #177fbf
+}
+
+.twitter:active svg {
+    opacity: 1;
+    fill: #fff
+}
+
+.ic-twitter {
+    height: 13px;
+    width: 16px;
+    opacity: .4
+}
+
+.youtube {
+    box-sizing: border-box;
+    border-radius: 50%;
+    width: 46px;
+    height: 46px;
+    border: 2px solid #e3e3e4;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.youtube:hover {
+    background: red
+}
+
+.youtube:hover svg {
+    opacity: 1;
+    fill: #fff
+}
+
+.youtube:active {
+    background: #c00
+}
+
+.youtube:active svg {
+    opacity: 1;
+    fill: #fff
+}
+
+.ic-youtube {
+    height: 11px;
+    width: 16px;
+    opacity: .4
+}
+
+.input-container .subscribe-submit-button {
+    height: 54px;
+    width: 54px;
+    opacity: .3;
+    background: center no-repeat url("./components/Images/ic_arrow.svg")
+}
+
+.message.hide {
+    display: none
+}
+
+.message.approved {
+    color: #19e635
+}
+
+.message.error {
+    color: #b80808
+}
+
+.message.show {
+    display: unset;
+    font-family: "Arial";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 18px;
+    padding-top: 5px
 }
 
 .navbar .container,.navbar-primary .container,.navbar,.navbar-primary {
@@ -586,6 +833,34 @@ img {
     font-size: 42px
 }
 
+.top-bar {
+    background-color: #fff;
+    height: 56px;
+    padding: 10px 20px 0px
+}
+
+.top-bar-2 {
+    display: flex;
+    justify-content: space-between
+}
+
+.menu {
+    align-items: flex-end;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 20px;
+    justify-content: flex-end;
+    padding: 13px 0px 5px;
+    position: relative
+}
+
+.links {
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content
+}
+
 .content {
     align-items: flex-start;
     background: linear-gradient(180deg, rgb(255, 255, 255) 0%, rgb(242, 245, 250) 100%);
@@ -609,12 +884,151 @@ img {
     position: relative
 }
 
+.heading {
+    position: absolute;
+    top: 2px;
+    width: 295px
+}
+
+.subheading {
+    position: absolute;
+    top: 45px;
+    width: 295px
+}
+
+.input-container {
+    margin-right: -2px;
+    margin-top: 2px;
+    position: relative;
+    width: 293px;
+    display: inline-flex;
+    flex-direction: column
+}
+
+.input-box {
+    border-left: 4px solid #4066a5
+}
+
+.overlap-group {
+    background-color: #fff;
+    border: 1px solid;
+    border-color: #e3e3e4;
+    height: 58px;
+    position: relative;
+    width: 100%
+}
+
+.email-input-container {
+    height: 54px;
+    left: 14px;
+    position: absolute;
+    top: 3px;
+    width: calc(100% - 60px)
+}
+
+.placeholder {
+    font-size: 16px;
+    line-height: 24px;
+    position: absolute;
+    top: 15px;
+    width: 100%
+}
+
+.ic-arrow {
+    left: 217px;
+    bottom: -3px;
+    left: 221px;
+    position: absolute
+}
+
+.TOS {
+    height: 26px;
+    width: 297px;
+    position: relative
+}
+
+.i-agree-to-terms-of {
+    font-size: 16px;
+    left: 42px;
+    line-height: 26px;
+    top: 2px;
+    width: 253px;
+    position: absolute
+}
+
+.text-wrapper {
+    color: #6a707b
+}
+
 .span {
     color: #131821;
     text-decoration: underline
 }
 
+.social {
+    height: 66px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 295px
+}
+
+.line {
+    height: 1px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: -1px;
+    width: 295px
+}
+
+.social-icons {
+    height: 46px;
+    left: 40px;
+    position: absolute;
+    top: 20px;
+    width: 214px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: space-between
+}
+
 @media(min-width: 833px) {
+    .top-bar {
+        align-items: flex-end;
+        display: inline-flex;
+        gap: 113px;
+        left: 80px;
+        padding: 10px 20px 16px;
+        position: absolute;
+        top: 89px;
+        width: 480px;
+        z-index: 1
+    }
+
+    .top-bar-2 {
+        padding-bottom: 9px;
+        width: 100%
+    }
+
+    .menu {
+        align-items: flex-start;
+        display: inline-flex;
+        flex: 0 0 auto;
+        gap: 30px;
+        position: relative;
+        margin-top: 4px
+    }
+
+    .links {
+        margin-top: -1px;
+        position: relative;
+        white-space: nowrap;
+        width: fit-content
+    }
+
     .content {
         background: linear-gradient(180deg, rgb(255, 255, 255) 0%, rgb(242, 245, 250) 100%);
         height: 1194px;
@@ -631,5 +1045,77 @@ img {
         left: 100px;
         top: 374px;
         width: 484px
+    }
+
+    .heading {
+        left: 0;
+        position: absolute;
+        top: 2px;
+        width: 479px
+    }
+
+    .subheading {
+        top: 62px;
+        width: 480px
+    }
+
+    .input-container {
+        height: 72px;
+        left: 100px;
+        position: absolute;
+        top: 539px;
+        width: 478px;
+        margin-top: 0px
+    }
+
+    .overlap-group {
+        height: 70px
+    }
+
+    .email-input-container {
+        width: calc(100% - 90px)
+    }
+
+    .placeholder {
+        left: 21px;
+        position: absolute;
+        top: 22px
+    }
+
+    .ic-arrow {
+        left: 395px;
+        bottom: -9px
+    }
+
+    .TOS {
+        left: 100px;
+        top: 659px;
+        width: 482px;
+        position: absolute
+    }
+
+    .i-agree-to-terms-of {
+        left: 42px;
+        top: 3px;
+        width: 438px;
+        position: absolute
+    }
+
+    .social {
+        height: 96px;
+        left: 100px;
+        position: absolute;
+        top: 735px;
+        width: 480px
+    }
+
+    .line {
+        width: 480px
+    }
+
+    .social-icons {
+        left: 118px;
+        top: 50px;
+        width: 244px
     }
 }

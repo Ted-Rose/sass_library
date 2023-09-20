@@ -1,53 +1,29 @@
 import React from "react";
 import AddEmailToDatabase from "./AddEmailToDatabase";
-import FormValidator from "./../Hooks/FormValidator";
+import EmailValidator from "./../Hooks/EmailValidator";
 
 const EmailInput = () => {
   const [message, setMessage] = React.useState("");
-  const [emailInput, setEmailInput] = React.useState("");
-  const [inputHasError, setInputHasError] = React.useState(false);
   const [hideErrorMessage, setHideErrorMessage] = React.useState(true);
   const {
     value,
     isEmpty,
-    notNumber,
     valueChangeHandler,
     inputBlurHandler,
     emailValid,
     countryValid,
-    reset,
-    requiredError,
-    dataError,
-    inputClasses,
-  } = FormValidator();
-
-  console.log(countryValid);
-
-
-  const emailValidation = () => {
-    const emailRegex =
-      /^(([^<>()[\]\.,;:\s@\"]+(\.[^<>()[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i;
-    return !(!emailInput || emailRegex.test(emailInput) === false);
-  };
-
-  const countryValidation = () => {
-    const countryRegex = /.co$/;
-    return !emailInput || countryRegex.test(emailInput) === false;
-  };
+  } = EmailValidator();
 
   const onSubmit = () => {
+
     if (isEmpty) {
-      setInputHasError(true);
       setMessage("Email adress is required!");
     } else if (!countryValid) {
-      setInputHasError(true);
       setMessage("We are not accepting subscriptions from Colombia emails!");
     } else if (!emailValid) {
-      setInputHasError(true);
       setMessage("Email Address not valid!");
     } else {
-      setInputHasError(false);
-      setMessage("Thanks for subscribing!");
+      setMessage("");
       AddEmailToDatabase(value);
     }
     setHideErrorMessage(false);
@@ -57,7 +33,7 @@ const EmailInput = () => {
     e.preventDefault();
   };
 
-  const messageClass = inputHasError ? "error" : "approved";
+  const messageClass = !isEmpty & emailValid & countryValid ? "" : "error";
   const showMessage = hideErrorMessage ? "hide" : "show";
 
   return (
@@ -86,7 +62,7 @@ const EmailInput = () => {
           </div>
         </form>
       </div>
-      <div className={`${"message"} ${messageClass} ${showMessage}`}>
+      <div className={`${"message"} error ${showMessage}`}>
         {message}
       </div>
     </div>

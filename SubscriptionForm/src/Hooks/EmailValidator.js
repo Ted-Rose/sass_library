@@ -1,51 +1,44 @@
 import { useState } from "react";
 
 const EmailValidator = () => {
+  /**
+ * Email validation hook.
+ *
+ * @return {Object} An object containing the following properties:
+ *   - value: The entered value
+ *   - isEmpty: A boolean indicating if the value is empty
+ *   - valueChangeHandler: A function to handle the change event of the value
+ *   - inputBlurHandler: A function to handle the blur event of the input
+ *   - emailValid: A boolean indicating if the email is valid
+ *   - countryValid: A boolean indicating if the country is valid
+ */
+
   const [enteredValue, setEnteredValue] = useState("");
   const [isTouched, setIsTouched] = useState(false);
-  const valueIsEmpty = isTouched && enteredValue.trim() == "";
-  const emailValid = emailValidation();
-  const countryValid = countryValidation(enteredValue);
-  const inputClasses =
-    !valueIsEmpty && !emailIsValid && countryIsValid
-      ? "form-control"
-      : "form-control invalid";
-
-const [debug, setDebug] = useState("Debug empy");
+  const valueIsEmpty = isTouched && enteredValue.trim() === "";
 
   const valueChangeHandler = (event) => {
     setEnteredValue(event.target.value);
   };
 
-
   const inputBlurHandler = () => {
     setIsTouched(true);
   };
 
-  const reset = () => {
-    setEnteredValue("");
-    setIsTouched(false);
-  };
-
-
-  const emailValidation = (enteredValue) => {
+  const emailValidation = () => {
     const emailRegex =
       /^(([^<>()[\]\.,;:\s@\"]+(\.[^<>()[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i;
     return !(!enteredValue || emailRegex.test(enteredValue) === false);
   };
 
-  const countryValidation = (enteredValue) => {
+  const emailValid = emailValidation();
+
+  const countryValidation = () => {
     const countryRegex = /.co$/;
-    setDebug("in here");
     return !enteredValue || countryRegex.test(enteredValue) === false;
   };
 
-  const requiredError = (
-    <p className="error-text">Please, submit required data</p>
-  );
-  const dataError = (
-    <p className="error-text">Please, provide the data of indicated type</p>
-  );
+  const countryValid = countryValidation();
 
   return {
     value: enteredValue,
@@ -53,11 +46,7 @@ const [debug, setDebug] = useState("Debug empy");
     valueChangeHandler,
     inputBlurHandler,
     emailValid,
-    countryValid: countryValid,
-    reset,
-    requiredError,
-    dataError,
-    inputClasses,
+    countryValid,
   };
 };
 

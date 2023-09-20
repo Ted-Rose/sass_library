@@ -25,13 +25,42 @@ body {
     font-family: Arial
 }
 
-h1 {
-    font-family: Georgia
+h1,.heading {
+    font-family: Georgia;
+    color: #131821;
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 34px
+}
+
+h2,.subheading {
+    font-family: Arial;
+    color: #6a707b;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px
+}
+
+.links {
+    color: #6a707b;
+    font-family: "Arial-Regular",Helvetica;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 24px
 }
 
 .underline {
     border-bottom: 1.5px solid #131821;
     padding-bottom: .3x
+}
+
+@media(min-width: 833px) {
+    .links {
+        font-size: 16px;
+        line-height: 26px
+    }
 }
 
 @media(max-width: 375px) {
@@ -6967,30 +6996,62 @@ img {
     font-size: 42px
 }
 
-.container-form .heading {
-    color: #131821;
-    font-family: "Georgia",Helvetica;
-    font-size: 24px;
-    font-weight: 400;
-    letter-spacing: 0;
-    line-height: 34px;
+.top-bar {
+    background-color: #fff;
+    height: 56px;
+    padding: 10px 20px 0px
+}
+
+.top-bar-2 {
+    display: flex;
+    justify-content: space-between
+}
+
+.content {
+    align-items: flex-start;
+    background: linear-gradient(180deg, rgb(255, 255, 255) 0%, rgb(242, 245, 250) 100%);
+    display: inline-flex;
+    flex-direction: column;
+    height: 308px;
+    justify-content: space-between;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 30px 20px;
+    top: 255px;
+    width: 295px
+}
+
+.menu {
+    align-items: flex-end;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 20px;
+    justify-content: flex-end;
+    padding: 13px 0px 5px;
+    position: relative
+}
+
+.links {
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content
+}
+
+.heading {
     position: absolute;
     top: 2px;
     width: 295px
 }
 
-.container-form .subheading {
-    color: #6a707b;
-    font-family: "Arial",Helvetica;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 26px;
+.subheading {
     position: absolute;
     top: 45px;
     width: 295px
 }
 
-.container-form .input-container {
+.input-container {
     margin-right: -2px;
     margin-top: 2px;
     position: relative;
@@ -7003,7 +7064,7 @@ img {
     border-left: 4px solid #4066a5
 }
 
-.container-form .overlap-group {
+.overlap-group {
     background-color: #fff;
     border: 1px solid;
     border-color: #e3e3e4;
@@ -7012,7 +7073,7 @@ img {
     width: 100%
 }
 
-.container-form .line {
+.line {
     height: 60px;
     left: -1px;
     position: absolute;
@@ -7020,7 +7081,7 @@ img {
     width: 4px
 }
 
-.container-form .email-input-container {
+.email-input-container {
     height: 54px;
     left: 14px;
     position: absolute;
@@ -7028,7 +7089,7 @@ img {
     width: 276px
 }
 
-.container-form .ic-arrow {
+.ic-arrow {
     left: 217px;
     bottom: -2px;
     position: absolute;
@@ -7036,13 +7097,13 @@ img {
     width: 62px
 }
 
-.container-form .img {
+.img {
     height: 14px;
     position: relative;
     width: 24px
 }
 
-.container-form .placeholder {
+.placeholder {
     color: #6a707b;
     font-family: "Arial-Regular",Helvetica;
     font-size: 16px;
@@ -7056,13 +7117,13 @@ img {
     width: 100%
 }
 
-.container-form .TOS {
+.TOS {
     height: 26px;
     position: relative;
     width: 297px
 }
 
-.container-form .i-agree-to-terms-of {
+.i-agree-to-terms-of {
     color: rgba(0,0,0,0);
     font-family: "Arial",Helvetica;
     font-size: 16px;
@@ -7075,16 +7136,16 @@ img {
     width: 253px
 }
 
-.container-form .text-wrapper {
+.text-wrapper {
     color: #6a707b
 }
 
-.container-form .span {
+.span {
     color: #131821;
     text-decoration: underline
 }
 
-.container-form .social {
+.social {
     height: 66px;
     position: relative;
     display: flex;
@@ -7093,7 +7154,7 @@ img {
     width: 295px
 }
 
-.container-form .line-2 {
+.line-2 {
     height: 1px;
     left: 0;
     object-fit: cover;
@@ -7102,7 +7163,7 @@ img {
     width: 295px
 }
 
-.container-form .social-icons {
+.social-icons {
     height: 46px;
     left: 40px;
     position: absolute;
@@ -7114,77 +7175,13 @@ img {
     justify-content: space-between
 }
 
-.container-form .logo-pineapple {
+.logo-pineapple {
     height: 40px;
     position: relative;
     width: 24px
 }
 
-.container-form .menu {
-    align-items: flex-end;
-    display: inline-flex;
-    flex: 0 0 auto;
-    gap: 20px;
-    justify-content: flex-end;
-    padding: 13px 0px 5px;
-    position: relative
-}
-
-.container-form .links {
-    color: #6a707b;
-    font-family: "Arial-Regular",Helvetica;
-    font-size: 14px;
-    font-weight: 400;
-    letter-spacing: 0;
-    line-height: 24px;
-    margin-top: -1px;
-    position: relative;
-    white-space: nowrap;
-    width: fit-content
-}
-
-.container-form .top-bar {
-    align-items: flex-start;
-    background-color: #fff;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    height: 56px;
-    left: 0;
-    padding: 10px 20px 0px;
-    position: relative;
-    top: 0;
-    width: calc(100% - 40px);
-    z-index: 1
-}
-
-.container-form .top-bar-2 {
-    align-items: flex-start;
-    align-self: stretch;
-    display: flex;
-    flex: 1;
-    flex-grow: 1;
-    justify-content: space-between;
-    position: relative;
-    width: 100%
-}
-
 @media(min-width: 0)and (max-width: 833px) {
-    .container-form .content {
-        align-items: flex-start;
-        background: linear-gradient(180deg, rgb(255, 255, 255) 0%, rgb(242, 245, 250) 100%);
-        display: inline-flex;
-        flex-direction: column;
-        height: 308px;
-        justify-content: space-between;
-        position: absolute;
-        left: 50%;
-        transform: translateX(-50%);
-        padding: 30px 20px;
-        top: 255px;
-        width: 295px
-    }
-
     .container-form {
         background-color: #fff;
         height: 100vh;
@@ -7193,7 +7190,7 @@ img {
         position: relative
     }
 
-    .container-form .text {
+    .text {
         height: 96px;
         margin-right: -40px;
         padding-right: 5px;
@@ -7207,31 +7204,24 @@ img {
 }
 
 @media(min-width: 833px) {
-    .container-form .top-bar {
+    .top-bar {
         align-items: flex-end;
         display: inline-flex;
         gap: 113px;
         left: 80px;
         padding: 10px 20px 16px;
         position: absolute;
-        top: 90px;
-        width: 480px
+        top: 89px;
+        width: 480px;
+        z-index: 1
     }
 
-    .content {
-        background: linear-gradient(180deg, rgb(255, 255, 255) 0%, rgb(242, 245, 250) 100%);
-        height: 1194px;
-        position: relative;
-        width: 680px
+    .top-bar-2 {
+        padding-bottom: 9px;
+        width: 100%
     }
 
-    .container-form .logo-pineapple {
-        height: 40px;
-        position: relative;
-        width: 118px
-    }
-
-    .container-form .menu {
+    .menu {
         align-items: flex-start;
         display: inline-flex;
         flex: 0 0 auto;
@@ -7240,20 +7230,31 @@ img {
         margin-top: 4px
     }
 
-    .container-form .links {
-        color: #6a707b;
-        font-family: "Arial-Regular",Helvetica;
-        font-size: 16px;
-        font-weight: 400;
-        letter-spacing: 0;
-        line-height: 26px;
+    .links {
         margin-top: -1px;
         position: relative;
         white-space: nowrap;
         width: fit-content
     }
 
-    .container-form .social {
+    .content {
+        background: linear-gradient(180deg, rgb(255, 255, 255) 0%, rgb(242, 245, 250) 100%);
+        height: 1194px;
+        position: relative;
+        width: 680px;
+        left: 0%;
+        transform: translateX(0%);
+        padding: 0px;
+        top: 0px
+    }
+
+    .logo-pineapple {
+        height: 40px;
+        position: relative;
+        width: 118px
+    }
+
+    .social {
         height: 96px;
         left: 100px;
         position: absolute;
@@ -7261,7 +7262,7 @@ img {
         width: 480px
     }
 
-    .container-form .social-icons {
+    .social-icons {
         height: 46px;
         left: 118px;
         position: absolute;
@@ -7269,7 +7270,7 @@ img {
         width: 244px
     }
 
-    .container-form .line {
+    .line {
         height: 1px;
         left: 0;
         object-fit: cover;
@@ -7278,7 +7279,7 @@ img {
         width: 480px
     }
 
-    .container-form .TOS {
+    .TOS {
         height: 26px;
         left: 100px;
         position: absolute;
@@ -7286,7 +7287,7 @@ img {
         width: 482px
     }
 
-    .container-form .i-agree-to-terms-of {
+    .i-agree-to-terms-of {
         color: rgba(0,0,0,0);
         font-family: "Arial-Regular",Helvetica;
         font-size: 16px;
@@ -7299,16 +7300,16 @@ img {
         width: 438px
     }
 
-    .container-form .text-wrapper {
+    .text-wrapper {
         color: #6a707b
     }
 
-    .container-form .span {
+    .span {
         color: #131821;
         text-decoration: underline
     }
 
-    .container-form .input-container {
+    .input-container {
         height: 72px;
         left: 100px;
         position: absolute;
@@ -7317,13 +7318,13 @@ img {
         margin-top: 0px
     }
 
-    .container-form .overlap-group {
+    .overlap-group {
         height: 70px;
         position: relative;
         width: 100%
     }
 
-    .container-form .img {
+    .img {
         height: 70px;
         left: -1px;
         position: absolute;
@@ -7331,7 +7332,7 @@ img {
         width: 4px
     }
 
-    .container-form .placeholder {
+    .placeholder {
         color: #6a707b;
         font-family: "Arial-Regular",Helvetica;
         font-size: 16px;
@@ -7344,7 +7345,7 @@ img {
         white-space: nowrap
     }
 
-    .container-form .ic-arrow {
+    .ic-arrow {
         align-items: center;
         display: flex;
         flex-direction: column;
@@ -7360,7 +7361,7 @@ img {
         left: -5px
     }
 
-    .container-form .text {
+    .text {
         height: 115px;
         left: 100px;
         position: absolute;
@@ -7368,9 +7369,7 @@ img {
         width: 484px
     }
 
-    .container-form .heading {
-        color: #131821;
-        font-family: "Georgia",Helvetica;
+    .heading {
         font-size: 32px;
         font-weight: 400;
         left: 0;
@@ -7381,7 +7380,7 @@ img {
         width: 479px
     }
 
-    .container-form .subheading {
+    .subheading {
         color: #6a707b;
         font-family: "Arial-Regular",Helvetica;
         font-size: 16px;

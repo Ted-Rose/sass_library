@@ -10,13 +10,44 @@ body {
   font-family: $body-font-family;
 }
 
-h1 {
+h1,
+.heading {
   font-family: $heading-font-family;
+  color: #131821;
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 34px;
+}
+
+h2,
+.subheading {
+  font-family: $body-font-family;
+  color: #6a707b;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.links {
+  color: $gray-2;
+  font-family: "Arial-Regular", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 24px;
 }
 
 .underline {
   border-bottom: 1.5px solid $black;
   padding-bottom: 0.3x;
+}
+
+@include min-md {
+  .links {
+    font-size: 16px;
+    line-height: 26px;
+  }
 }
 
 @media (max-width: map-get($breakpoints, "sm")) {

@@ -1,5 +1,3 @@
-import "./Checkbox.scss";
-
 const Checkbox = ({ value, onChange }) => (
   <div className="checkmark">
     <input

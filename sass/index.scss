@@ -127,33 +127,27 @@ $black: #131821;
   position: absolute;
 }
 
-// CONTINUE HERE
-
 .TOS {
   height: 26px;
-  position: relative;
   width: 297px;
+  position: relative;
 }
 
 .i-agree-to-terms-of {
-  color: transparent;
-  font-family: "Arial", Helvetica;
   font-size: 16px;
-  font-weight: 400;
   left: 42px;
-  letter-spacing: 0;
   line-height: 26px;
-  position: absolute;
   top: 2px;
   width: 253px;
+  position: absolute;
 }
 
 .text-wrapper {
-  color: #6a707b;
+  color: $gray-2;
 }
 
 .span {
-  color: #131821;
+  color: $black-2;
   text-decoration: underline;
 }
 
@@ -280,7 +274,19 @@ $black: #131821;
     bottom: -9px;
   }
 
-  // CONTINUE HERE IN SPLITTED EDITOR
+  .TOS {
+    left: 100px;
+    top: 659px;
+    width: 482px;
+    position: absolute;
+  }
+
+  .i-agree-to-terms-of {
+    left: 42px;
+    top: 3px;
+    width: 438px;
+    position: absolute;
+  }
 
   .social {
     height: 96px;
@@ -305,36 +311,5 @@ $black: #131821;
     position: absolute;
     top: -1px;
     width: 480px;
-  }
-
-  .TOS {
-    height: 26px;
-    left: 100px;
-    position: absolute;
-    top: 659px;
-    width: 482px;
-  }
-
-  .i-agree-to-terms-of {
-    color: transparent;
-    font-family: "Arial-Regular", Helvetica;
-    font-size: 16px;
-    font-weight: 400;
-    left: 42px;
-    letter-spacing: 0;
-    line-height: 26px;
-    position: absolute;
-    top: 2px;
-    width: 438px;
-  }
-
-  .text-wrapper {
-    color: #6a707b;
-  }
-
-  .span {
-    color: #131821;
-    text-decoration: underline;
-
   }
 }

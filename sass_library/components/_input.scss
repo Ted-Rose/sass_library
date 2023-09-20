@@ -46,6 +46,11 @@
 
     &.show {
       display: unset;
-      padding-top: 5px;
+      font-family: "Arial";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 12px;
+      line-height: 18px;
+      padding-top: 5px
     }
   }

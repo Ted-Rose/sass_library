@@ -6230,6 +6230,11 @@ img {
 
 .message.show {
     display: unset;
+    font-family: "Arial";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 18px;
     padding-top: 5px
 }
 
@@ -7136,21 +7141,17 @@ img {
 
 .TOS {
     height: 26px;
-    position: relative;
-    width: 297px
+    width: 297px;
+    position: relative
 }
 
 .i-agree-to-terms-of {
-    color: rgba(0,0,0,0);
-    font-family: "Arial",Helvetica;
     font-size: 16px;
-    font-weight: 400;
     left: 42px;
-    letter-spacing: 0;
     line-height: 26px;
-    position: absolute;
     top: 2px;
-    width: 253px
+    width: 253px;
+    position: absolute
 }
 
 .text-wrapper {
@@ -7284,6 +7285,20 @@ img {
         bottom: -9px
     }
 
+    .TOS {
+        left: 100px;
+        top: 659px;
+        width: 482px;
+        position: absolute
+    }
+
+    .i-agree-to-terms-of {
+        left: 42px;
+        top: 3px;
+        width: 438px;
+        position: absolute
+    }
+
     .social {
         height: 96px;
         left: 100px;
@@ -7307,35 +7322,5 @@ img {
         position: absolute;
         top: -1px;
         width: 480px
-    }
-
-    .TOS {
-        height: 26px;
-        left: 100px;
-        position: absolute;
-        top: 659px;
-        width: 482px
-    }
-
-    .i-agree-to-terms-of {
-        color: rgba(0,0,0,0);
-        font-family: "Arial-Regular",Helvetica;
-        font-size: 16px;
-        font-weight: 400;
-        left: 42px;
-        letter-spacing: 0;
-        line-height: 26px;
-        position: absolute;
-        top: 2px;
-        width: 438px
-    }
-
-    .text-wrapper {
-        color: #6a707b
-    }
-
-    .span {
-        color: #131821;
-        text-decoration: underline
     }
 }

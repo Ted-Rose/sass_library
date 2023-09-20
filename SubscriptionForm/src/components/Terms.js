@@ -11,7 +11,7 @@ const Terms = () => {
   return (
     <div className="TOS">
       <Checkbox value={checked} onChange={handleChange} />
-      <p className="i-agree-to-terms-of">
+      <p className="subheading i-agree-to-terms-of">
         <span className="text-wrapper">I agree to </span>
         <span className="span">terms of service</span>
       </p>

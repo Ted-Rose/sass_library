@@ -1,7 +1,6 @@
 import React from "react";
 import Content from "../components/Content";
 import Header from "../components/Header";
-import image_summer from './../components/Images/image_summer.png';
 
 export const SubscribeToNewsletter = () => {
   return (
@@ -10,6 +9,8 @@ export const SubscribeToNewsletter = () => {
         <Header />
         <Content />
       </div>
+      <svg className="ic-facebook"> <use xlinkHref="./Images/ic_facebook.svg" /> </svg>
+
     </div>
   );
 };

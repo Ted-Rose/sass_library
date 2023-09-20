@@ -18,31 +18,27 @@
 
 // list of icon background colors when hover
 $icons: (
-  "fb": (
-    "default": $dark-blue,
-    "active": $dark-blue-2,
-  ),
-  "ig": (
-    "default": $purple,
-    "active": $dark-purple,
-  ),
-  "twt": (
-    "default": $light-blue,
-    "active": $blue,
-  ),
-  "yt": (
-    "default": $red,
-    "active": $dark-red,
-  ),
+  "facebook": ("height": 16px,
+    "width": 8px,
+    "color": $dark-blue,
+    "active-color": $dark-blue-2 ),
+  "instagram": ("height": 16px,
+    "width": 16px,
+    "color": $purple,
+    "active-color": $dark-purple ),
+  "twitter": ("height": 13px,
+    "width": 16px,
+    "color": $light-blue,
+    "active-color": $blue ),
+  "youtube": ("height": 11px,
+    "width": 16px,
+    "color": $red,
+    "active-color": $dark-red )
 );
 
 // icon classes
-@each $key, $val in $icons {
-  .#{$key} {
-    fill: $black;
-    opacity: 0.4;
-}
-  .base-#{$key} {
+@each $icon, $styles in $icons {
+  .#{$icon} {
     box-sizing: border-box;
     border-radius: 50%;
     width: 46px;
@@ -53,20 +49,28 @@ $icons: (
     justify-content: center;
 
     &:hover {
-      background: map-get($val, "default");
-      svg {
-        opacity: 1;
-        fill: $white;
-      }
-    }
-    &:active {
-      background: map-get($val, "active");
+      background: map-get($styles, "color");
+
       svg {
         opacity: 1;
         fill: $white;
       }
     }
 
+    &:active {
+      background: map-get($styles, "active-color");
+
+      svg {
+        opacity: 1;
+        fill: $white;
+      }
+    }
+  }
+
+  .ic-#{$icon} {
+    height: map-get($styles, "height");
+    width: map-get($styles, "width");
+    opacity: 0.4;
   }
 }
 

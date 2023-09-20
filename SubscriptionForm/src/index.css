@@ -7172,6 +7172,9 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 .container-form .social {
     height: 66px;
     position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 295px
 }
 
@@ -7185,87 +7188,15 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 }
 
 .container-form .social-icons {
-    height: 43px;
+    height: 46px;
     left: 40px;
     position: absolute;
     top: 20px;
-    width: 214px
-}
-
-.container-form .youtube {
-    border: 2px solid;
-    border-color: #e3e3e4;
-    border-radius: 23px;
-    height: 43px;
-    left: 168px;
-    position: absolute;
-    top: 0;
-    width: 43px
-}
-
-.container-form .ic-youtube {
-    height: 11px;
-    left: 13px;
-    position: absolute;
-    top: 15px;
-    width: 16px
-}
-
-.container-form .twitter {
-    border: 2px solid;
-    border-color: #e3e3e4;
-    border-radius: 23px;
-    height: 43px;
-    left: 112px;
-    position: absolute;
-    top: 0;
-    width: 43px
-}
-
-.container-form .ic-twitter {
-    height: 13px;
-    left: 13px;
-    position: absolute;
-    top: 15px;
-    width: 16px
-}
-
-.container-form .instagram {
-    border: 2px solid;
-    border-color: #e3e3e4;
-    border-radius: 23px;
-    height: 43px;
-    left: 56px;
-    position: absolute;
-    top: 0;
-    width: 43px
-}
-
-.container-form .ic-instagram {
-    height: 16px;
-    left: 13px;
-    position: absolute;
-    top: 13px;
-    width: 16px
-}
-
-.container-form .facebook {
-    border: 2px solid;
-    border-color: #e3e3e4;
-    border-radius: 23px;
-    height: 43px;
-    left: 0;
-    position: absolute;
-    top: 0;
-    width: 43px
-}
-
-.container-form .ic-facebook {
-    height: 16px;
-    left: 17px;
-    position: absolute;
-    top: 13px;
-    width: 8px
+    width: 214px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: space-between
 }
 
 .container-form .logo-pineapple {
@@ -7441,82 +7372,6 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
         position: absolute;
         top: 50px;
         width: 244px
-    }
-
-    .container-form .youtube {
-        border: 2px solid;
-        border-color: #e2e3e4;
-        border-radius: 23px;
-        height: 46px;
-        left: 198px;
-        position: absolute;
-        top: 0;
-        width: 46px
-    }
-
-    .container-form .ic-youtube {
-        height: 11px;
-        left: 13px;
-        position: absolute;
-        top: 15px;
-        width: 16px
-    }
-
-    .container-form .twitter {
-        border: 2px solid;
-        border-color: #e3e3e4;
-        border-radius: 23px;
-        height: 46px;
-        left: 132px;
-        position: absolute;
-        top: 0;
-        width: 46px
-    }
-
-    .container-form .ic-twitter {
-        height: 13px;
-        left: 13px;
-        position: absolute;
-        top: 15px;
-        width: 16px
-    }
-
-    .container-form .instagram {
-        border: 2px solid;
-        border-color: #e3e3e4;
-        border-radius: 23px;
-        height: 46px;
-        left: 66px;
-        position: absolute;
-        top: 0;
-        width: 46px
-    }
-
-    .container-form .ic-instagram {
-        height: 16px;
-        left: 13px;
-        position: absolute;
-        top: 13px;
-        width: 16px
-    }
-
-    .container-form .facebook {
-        border: 2px solid;
-        border-color: #e3e3e4;
-        border-radius: 23px;
-        height: 46px;
-        left: 0;
-        position: absolute;
-        top: 0;
-        width: 46px
-    }
-
-    .container-form .ic-facebook {
-        height: 16px;
-        left: 17px;
-        position: absolute;
-        top: 13px;
-        width: 8px
     }
 
     .container-form .line {
@@ -13592,12 +13447,7 @@ img {
     box-shadow: 0px 20px 40px rgba(19,24,33,.3)
 }
 
-.fb {
-    fill: #131821;
-    opacity: .4
-}
-
-.base-fb {
+.facebook {
     box-sizing: border-box;
     border-radius: 50%;
     width: 46px;
@@ -13608,30 +13458,31 @@ img {
     justify-content: center
 }
 
-.base-fb:hover {
+.facebook:hover {
     background: #4267b2
 }
 
-.base-fb:hover svg {
+.facebook:hover svg {
     opacity: 1;
     fill: #fff
 }
 
-.base-fb:active {
+.facebook:active {
     background: #2f4a80
 }
 
-.base-fb:active svg {
+.facebook:active svg {
     opacity: 1;
     fill: #fff
 }
 
-.ig {
-    fill: #131821;
+.ic-facebook {
+    height: 16px;
+    width: 8px;
     opacity: .4
 }
 
-.base-ig {
+.instagram {
     box-sizing: border-box;
     border-radius: 50%;
     width: 46px;
@@ -13642,30 +13493,31 @@ img {
     justify-content: center
 }
 
-.base-ig:hover {
+.instagram:hover {
     background: #c13584
 }
 
-.base-ig:hover svg {
+.instagram:hover svg {
     opacity: 1;
     fill: #fff
 }
 
-.base-ig:active {
+.instagram:active {
     background: #8f2762
 }
 
-.base-ig:active svg {
+.instagram:active svg {
     opacity: 1;
     fill: #fff
 }
 
-.twt {
-    fill: #131821;
+.ic-instagram {
+    height: 16px;
+    width: 16px;
     opacity: .4
 }
 
-.base-twt {
+.twitter {
     box-sizing: border-box;
     border-radius: 50%;
     width: 46px;
@@ -13676,30 +13528,31 @@ img {
     justify-content: center
 }
 
-.base-twt:hover {
+.twitter:hover {
     background: #1da1f2
 }
 
-.base-twt:hover svg {
+.twitter:hover svg {
     opacity: 1;
     fill: #fff
 }
 
-.base-twt:active {
+.twitter:active {
     background: #177fbf
 }
 
-.base-twt:active svg {
+.twitter:active svg {
     opacity: 1;
     fill: #fff
 }
 
-.yt {
-    fill: #131821;
+.ic-twitter {
+    height: 13px;
+    width: 16px;
     opacity: .4
 }
 
-.base-yt {
+.youtube {
     box-sizing: border-box;
     border-radius: 50%;
     width: 46px;
@@ -13710,22 +13563,28 @@ img {
     justify-content: center
 }
 
-.base-yt:hover {
+.youtube:hover {
     background: red
 }
 
-.base-yt:hover svg {
+.youtube:hover svg {
     opacity: 1;
     fill: #fff
 }
 
-.base-yt:active {
+.youtube:active {
     background: #c00
 }
 
-.base-yt:active svg {
+.youtube:active svg {
     opacity: 1;
     fill: #fff
+}
+
+.ic-youtube {
+    height: 11px;
+    width: 16px;
+    opacity: .4
 }
 
 @media only screen and (min-width: 768px) {
@@ -13943,6 +13802,10 @@ input,input[type=text i],button,textarea,select {
     font-family: inherit;
     padding-block: 0;
     padding-inline: 0
+}
+
+img {
+    overflow: hidden
 }
 
 .p-0 {

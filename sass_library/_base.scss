@@ -143,6 +143,9 @@
 .container-form .social {
   height: 66px;
   position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 295px;
 }
 
@@ -156,87 +159,15 @@
 }
 
 .container-form .social-icons {
-  height: 43px;
+  height: 46px;
   left: 40px;
   position: absolute;
   top: 20px;
   width: 214px;
-}
-
-.container-form .youtube {
-  border: 2px solid;
-  border-color: #e3e3e4;
-  border-radius: 23px;
-  height: 43px;
-  left: 168px;
-  position: absolute;
-  top: 0;
-  width: 43px;
-}
-
-.container-form .ic-youtube {
-  height: 11px;
-  left: 13px;
-  position: absolute;
-  top: 15px;
-  width: 16px;
-}
-
-.container-form .twitter {
-  border: 2px solid;
-  border-color: #e3e3e4;
-  border-radius: 23px;
-  height: 43px;
-  left: 112px;
-  position: absolute;
-  top: 0;
-  width: 43px;
-}
-
-.container-form .ic-twitter {
-  height: 13px;
-  left: 13px;
-  position: absolute;
-  top: 15px;
-  width: 16px;
-}
-
-.container-form .instagram {
-  border: 2px solid;
-  border-color: #e3e3e4;
-  border-radius: 23px;
-  height: 43px;
-  left: 56px;
-  position: absolute;
-  top: 0;
-  width: 43px;
-}
-
-.container-form .ic-instagram {
-  height: 16px;
-  left: 13px;
-  position: absolute;
-  top: 13px;
-  width: 16px;
-}
-
-.container-form .facebook {
-  border: 2px solid;
-  border-color: #e3e3e4;
-  border-radius: 23px;
-  height: 43px;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 43px;
-}
-
-.container-form .ic-facebook {
-  height: 16px;
-  left: 17px;
-  position: absolute;
-  top: 13px;
-  width: 8px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: space-between;
 }
 
 .container-form .logo-pineapple {
@@ -415,82 +346,6 @@
     position: absolute;
     top: 50px;
     width: 244px;
-  }
-
-  .container-form .youtube {
-    border: 2px solid;
-    border-color: #e2e3e4;
-    border-radius: 23px;
-    height: 46px;
-    left: 198px;
-    position: absolute;
-    top: 0;
-    width: 46px;
-  }
-
-  .container-form .ic-youtube {
-    height: 11px;
-    left: 13px;
-    position: absolute;
-    top: 15px;
-    width: 16px;
-  }
-
-  .container-form .twitter {
-    border: 2px solid;
-    border-color: #e3e3e4;
-    border-radius: 23px;
-    height: 46px;
-    left: 132px;
-    position: absolute;
-    top: 0;
-    width: 46px;
-  }
-
-  .container-form .ic-twitter {
-    height: 13px;
-    left: 13px;
-    position: absolute;
-    top: 15px;
-    width: 16px;
-  }
-
-  .container-form .instagram {
-    border: 2px solid;
-    border-color: #e3e3e4;
-    border-radius: 23px;
-    height: 46px;
-    left: 66px;
-    position: absolute;
-    top: 0;
-    width: 46px;
-  }
-
-  .container-form .ic-instagram {
-    height: 16px;
-    left: 13px;
-    position: absolute;
-    top: 13px;
-    width: 16px;
-  }
-
-  .container-form .facebook {
-    border: 2px solid;
-    border-color: #e3e3e4;
-    border-radius: 23px;
-    height: 46px;
-    left: 0;
-    position: absolute;
-    top: 0;
-    width: 46px;
-  }
-
-  .container-form .ic-facebook {
-    height: 16px;
-    left: 17px;
-    position: absolute;
-    top: 13px;
-    width: 8px;
   }
 
   .container-form .line {

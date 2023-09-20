@@ -1,7 +1,7 @@
 const Icons = () => (
   <div className="social">
     <img
-      className="line-2"
+      className="line"
       alt="Line"
       src="https://c.animaapp.com/YWiHxtUl/img/line-1.svg"
     />

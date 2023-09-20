@@ -7172,7 +7172,7 @@ img {
     width: 295px
 }
 
-.line-2 {
+.line {
     height: 1px;
     left: 0;
     object-fit: cover;
@@ -7307,20 +7307,13 @@ img {
         width: 480px
     }
 
-    .social-icons {
-        height: 46px;
-        left: 118px;
-        position: absolute;
-        top: 50px;
-        width: 244px
+    .line {
+        width: 480px
     }
 
-    .line {
-        height: 1px;
-        left: 0;
-        object-fit: cover;
-        position: absolute;
-        top: -1px;
-        width: 480px
+    .social-icons {
+        left: 118px;
+        top: 50px;
+        width: 244px
     }
 }

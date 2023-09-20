@@ -16,14 +16,14 @@ const Header = () => {
                     alt="SVG pineapple text"
                     className="sm-hide"
                 />
-                <ul class="menu">
-                    <li class="links">
+                <ul className="menu">
+                    <li className="links">
                         <a href="#">About</a>
                     </li>
-                    <li class="links">
+                    <li className="links">
                         <a href="#">How it works</a>
                     </li>
-                    <li class="links">
+                    <li className="links">
                         <a href="#">Contact</a>
                     </li>
                 </ul>

@@ -7109,24 +7109,6 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
     text-decoration: underline
 }
 
-.container-form .checkmark {
-    background-color: #4066a5;
-    border-radius: 3px;
-    height: 26px;
-    left: 0;
-    position: absolute;
-    top: 0;
-    width: 26px
-}
-
-.container-form .ic-checkmark {
-    height: 11px;
-    left: 6px;
-    position: absolute;
-    top: 8px;
-    width: 14px
-}
-
 .container-form .social {
     height: 66px;
     position: relative;
@@ -7370,24 +7352,6 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
     .container-form .span {
         color: #131821;
         text-decoration: underline
-    }
-
-    .container-form .checkmark {
-        background-color: #4066a5;
-        border-radius: 3px;
-        height: 26px;
-        left: 0;
-        position: absolute;
-        top: 0;
-        width: 26px
-    }
-
-    .container-form .ic-checkmark {
-        height: 11px;
-        left: 6px;
-        position: absolute;
-        top: 8px;
-        width: 14px
     }
 
     .container-form .input {
@@ -13390,6 +13354,29 @@ img {
 
 .card .card-body a {
     text-decoration: underline
+}
+
+.ic-checkmark {
+    width: 26px;
+    height: 26px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    float: left;
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    border: 1px solid #e3e3e4;
+    border-radius: 3px
+}
+
+.ic-checkmark:checked {
+    background-image: url("./components/Images/ic_checkmark.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 14px 11px;
+    background-color: #4066a5;
+    border-color: #4066a5
 }
 
 .base {

@@ -15,7 +15,6 @@ const EmailInput = () => {
   } = EmailValidator();
 
   const onSubmit = () => {
-
     if (isEmpty) {
       setMessage("Email adress is required!");
     } else if (!countryValid) {
@@ -24,6 +23,7 @@ const EmailInput = () => {
       setMessage("Email Address not valid!");
     } else {
       setMessage("");
+      setHideErrorMessage(true);
       AddEmailToDatabase(value);
     }
     setHideErrorMessage(false);

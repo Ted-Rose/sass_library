@@ -92,11 +92,11 @@ $black: #131821;
 }
 
 .input-box {
-  border-left: 4px solid #4066A5;
+  border-left: 4px solid $hover;
 }
 
 .overlap-group {
-  background-color: #ffffff;
+  background-color: $white;
   border: 1px solid;
   border-color: #e3e3e4;
   height: 58px;
@@ -104,49 +104,30 @@ $black: #131821;
   width: 100%;
 }
 
-.line {
-  height: 60px;
-  left: -1px;
-  position: absolute;
-  top: -1px;
-  width: 4px;
-}
-
 .email-input-container {
   height: 54px;
   left: 14px;
   position: absolute;
   top: 3px;
-  width: 276px;
+  width: calc(100% - 60px);
+}
+
+.placeholder {
+  font-size: 16px;
+  line-height: 24px;
+  position: absolute;
+  top: 15px;
+  width: 100%;
 }
 
 .ic-arrow {
   left: 217px;
-  bottom: -2px;
+  bottom: -3px;
+  left: 221px;
   position: absolute;
-  height: 60px;
-  width: 62px;
 }
 
-.img {
-  height: 14px;
-  position: relative;
-  width: 24px;
-}
-
-.placeholder {
-  color: #6a707b;
-  font-family: "Arial-Regular", Helvetica;
-  font-size: 16px;
-  font-weight: 400;
-  left: 0;
-  letter-spacing: 0;
-  line-height: 24px;
-  position: absolute;
-  top: 15px;
-  white-space: nowrap;
-  width: 100%;
-}
+// CONTINUE HERE
 
 .TOS {
   height: 26px;
@@ -260,25 +241,13 @@ $black: #131821;
   }
 
   .heading {
-    font-size: 32px;
-    font-weight: 400;
     left: 0;
-    letter-spacing: 0;
-    line-height: 44px;
     position: absolute;
     top: 2px;
     width: 479px;
   }
 
   .subheading {
-    color: #6a707b;
-    font-family: "Arial-Regular", Helvetica;
-    font-size: 16px;
-    font-weight: 400;
-    left: 2px;
-    letter-spacing: 0;
-    line-height: 28px;
-    position: absolute;
     top: 62px;
     width: 480px;
   }
@@ -294,46 +263,24 @@ $black: #131821;
 
   .overlap-group {
     height: 70px;
-    position: relative;
-    width: 100%;
   }
 
-  .img {
-    height: 70px;
-    left: -1px;
-    position: absolute;
-    top: -1px;
-    width: 4px;
+  .email-input-container {
+    width: calc(100% - 90px);
   }
 
   .placeholder {
-    color: #6a707b;
-    font-family: "Arial-Regular", Helvetica;
-    font-size: 16px;
-    font-weight: 400;
     left: 21px;
-    letter-spacing: 0;
-    line-height: 24px;
     position: absolute;
     top: 22px;
-    white-space: nowrap;
   }
 
   .ic-arrow {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     left: 395px;
-    position: absolute;
-    width: 54px;
+    bottom: -9px;
   }
 
-  .input-container .subscribe-submit-button {
-    position: absolute;
-    bottom: -6px;
-    left: -5px;
-  }
+  // CONTINUE HERE IN SPLITTED EDITOR
 
   .social {
     height: 96px;

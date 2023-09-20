@@ -24,10 +24,9 @@
     }
 
     .subscribe-submit-button {
-      height: 60px;
-      width: 62px;
-      bottom: 4px;
-      left: 2px;
+      height: 54px;
+      width: 54px;
+      opacity: 0.3;
       background: center no-repeat url("./components/Images/ic_arrow.svg");
     }
   }
@@ -47,11 +46,6 @@
 
     &.show {
       display: unset;
-      font-family: "Arial";
-      font-style: normal;
-      font-weight: 700;
-      font-size: 12px;
-      line-height: 18px;
       padding-top: 5px;
     }
   }

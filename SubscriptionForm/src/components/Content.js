@@ -1,4 +1,5 @@
 import React from "react";
+import TextSubscribe from "./TextSubscribe";
 import EmailInput from "./EmailInput";
 import Icons from "./Icons";
 import Terms from "./Terms";
@@ -17,12 +18,7 @@ const Content = () => {
 
   return (
     <div className="content">
-      <div className={`${formVisibility} text`}>
-        <p className="subheading">
-          Subscribe to our newsletter and get 10% discount on pineapple glasses.
-        </p>
-        <div className="heading">Subscribe to newsletter</div>
-      </div>
+      <TextSubscribe textVisibility={formVisibility} />
       <EmailInput
         termsAgreed={termsAgreed}
         setFormVisibility={changeFormVisibility}

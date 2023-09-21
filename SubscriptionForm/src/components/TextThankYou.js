@@ -7,12 +7,12 @@ const TextThankYou = ({ textVisibility }) => {
                 src="https://c.animaapp.com/YEFHTRZw/img/ic-success.svg"
                 alt="SVG success"
                 className="union-svg"/>
-            <p className="subheading">
+            <div className="heading thank-you">Thanks for subscribing!</div>
+            <p className="subheading thank-you">
                 You have successfully
                 subscribed to our email listing. Check your
                 email for the discount code.
             </p>
-            <div className="heading">Thanks for subscribing!</div>
         </div>
     )
 }

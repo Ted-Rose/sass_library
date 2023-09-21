@@ -68,6 +68,10 @@ $black: #131821;
   padding-right: 5px;
   width: 299px;
   position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
 }
 
 .heading {
@@ -76,9 +80,21 @@ $black: #131821;
   width: 295px;
 }
 
+// Quick positioning for TextThankYou
+.heading.thank-you {
+  margin-top: 70px;
+  width: 295px;
+}
+
 .subheading {
   position: absolute;
   top: 45px;
+  width: 295px;
+}
+
+// Quick positioning for TextThankYou
+.subheading.thank-you {
+  margin-top: 70px;
   width: 295px;
 }
 
@@ -241,9 +257,21 @@ $black: #131821;
     width: 479px;
   }
 
+  // Quick positioning for TextThankYou
+  .heading.thank-you {
+    margin-top: 100px;
+    width: 295px;
+  }
+
   .subheading {
     top: 62px;
     width: 480px;
+  }
+
+  // Quick positioning for TextThankYou
+  .subheading.thank-you {
+    margin-top: 150px;
+    width: 295px;
   }
 
   .input-container {
@@ -318,9 +346,6 @@ $black: #131821;
 .union-svg {
   height: 70px;
   width: 44px;
-  height: 70px;
   left: 0;
-  position: relative;
   top: 0;
-  width: 44px;
 }

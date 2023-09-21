@@ -1,9 +1,9 @@
-const Checkbox = ({ value, onChange }) => (
+const Checkbox = ({ checkboxChecked, onChange }) => (
   <div className="checkmark">
     <input
       className="ic-checkmark"
       type="checkbox"
-      checked={value}
+      checked={checkboxChecked}
       onChange={onChange}
     />
   </div>

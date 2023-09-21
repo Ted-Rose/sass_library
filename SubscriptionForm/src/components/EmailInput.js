@@ -2,7 +2,7 @@ import React from "react";
 import AddEmailToDatabase from "./AddEmailToDatabase";
 import EmailValidator from "./../Hooks/EmailValidator";
 
-const EmailInput = () => {
+const EmailInput = (termsAgreed) => {
   const [message, setMessage] = React.useState("");
   const [hideErrorMessage, setHideErrorMessage] = React.useState(true);
   const {
@@ -21,10 +21,13 @@ const EmailInput = () => {
       setMessage("We are not accepting subscriptions from Colombia emails!");
     } else if (!emailValid) {
       setMessage("Email Address not valid!");
+    } else if (!termsAgreed) {
+      setMessage("You must first agree the Terms and Conditions!");
     } else {
       setMessage("");
       setHideErrorMessage(true);
       AddEmailToDatabase(value);
+      return;
     }
     setHideErrorMessage(false);
   };

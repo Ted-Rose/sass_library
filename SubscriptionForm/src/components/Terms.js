@@ -1,13 +1,13 @@
 import React from "react";
 import Checkbox from "./Checkbox";
 
-const Terms = ({ checkboxChecked, changeAgreed}) => {
+const Terms = ({ checkboxChecked, changeAgreed, termsVisibility}) => {
   const changeChecked = () => {
     changeAgreed();
   };
 
   return (
-    <div className="TOS">
+    <div className={`TOS ${termsVisibility}`}>
       <Checkbox value={checkboxChecked} onChange={changeChecked} />
       <p className="subheading i-agree-to-terms-of">
         <span className="text-wrapper">I agree to </span>

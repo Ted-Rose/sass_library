@@ -2,7 +2,7 @@ import React from "react";
 import AddEmailToDatabase from "./AddEmailToDatabase";
 import EmailValidator from "./../Hooks/EmailValidator";
 
-const EmailInput = ({termsAgreed}) => {
+const EmailInput = ({termsAgreed, setFormVisibility, inputVisibility}) => {
   const [message, setMessage] = React.useState("");
   const [hideErrorMessage, setHideErrorMessage] = React.useState(true);
   const {
@@ -27,7 +27,7 @@ const EmailInput = ({termsAgreed}) => {
       setMessage("");
       setHideErrorMessage(true);
       AddEmailToDatabase(value);
-      return;
+      setFormVisibility("hide");
     }
     setHideErrorMessage(false);
   };
@@ -40,7 +40,7 @@ const EmailInput = ({termsAgreed}) => {
   const showMessage = hideErrorMessage ? "hide" : "show";
 
   return (
-    <div className="input-container">
+    <div className={`input-container ${inputVisibility}`}>
       <div className="input-box">
         <form
           className="overlap-group"

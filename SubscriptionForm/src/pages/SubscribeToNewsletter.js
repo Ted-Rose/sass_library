@@ -5,7 +5,6 @@ import Header from "../components/Header";
 export const SubscribeToNewsletter = () => {
   return (
     <div className="container-form">
-      <Header />
       <Content />
     </div>
   );
